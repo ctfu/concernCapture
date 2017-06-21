@@ -154,7 +154,38 @@ genFileChooser_button.pack()
 # Frequency analysis frame
 def calFrequency(event):
     files = tkFileDialog.askopenfilenames()
-    print(files)
+    fileList = list(files)
+    print(fileList)
+    freqCommand = []
+    freqCommand.append("python")
+    freqCommand.append("./scripts/frequency.py")
+    for f in fileList:
+        freqCommand.append(f)
+    outFile = open("analysis_output.txt", "w")
+    result = subprocess.call(freqCommand, stdout=outFile)
+    outFile.close()
+
+def genFreqCallGraph(event):
+    absoluteFileName = tkFileDialog.askopenfilename()
+    print(absoluteFileName)
+    fileNameTokens = absoluteFileName.split("/")
+    relFileName = fileNameTokens[len(fileNameTokens)-1]
+    outFileName = "tracerFreq_" + relFileName[relFileName.index('_')+1:relFileName.index('.')] + ".dot"
+    tracerCommand = []
+    tracerCommand.append("python")
+    tracerCommand.append("./scripts/tracerFreq.py")
+    tracerCommand.append(absoluteFileName)
+    outFile = open(outFileName, "w")
+    result = subprocess.call(tracerCommand, stdout=outFile)
+    outFile.close()
+    graphCommand = []
+    graphCommand.append("dot")
+    graphCommand.append("-Tpdf")
+    graphCommand.append("-O")
+    graphCommand.append(outFileName)
+    result = subprocess.call(graphCommand)
+    print(result)
+    subprocess.call("open " + outFileName + ".pdf", shell=True)
 
 Label(freqFrame, text="Frequency Analysis").pack()
 genFreqInfo = "Select multiple files (in class1;class2;method format), generate a class frequency output based on the selected files."
@@ -170,6 +201,7 @@ calFreq_label.grid(row=0, sticky=E)
 calFreq_button.bind("<Button-1>", calFrequency)
 calFreq_button.grid(row=0, column=1)
 freqGraph_label.grid(row=1, sticky=E)
+freqGraph_button.bind("<Button-1>", genFreqCallGraph)
 freqGraph_button.grid(row=1, column=1)
 
 # LDA/LSI frame
