@@ -96,7 +96,7 @@ def convertFile(event):
     commandLine = 'sed "s/\\\\$/_/g" | sed "s/->/;/g" | sed "s/\[/;/g" | sed "s/\]//g" | grep -v digraph | grep -v "^[}]$"'
     fileNameTokens = absoluteFileName.split("/")
     relFileName = fileNameTokens[len(fileNameTokens)-1]
-    outFileName = relFileName[relFileName.index(']')+1:relFileName.index('.')]
+    outFileName = "converted_" + relFileName[relFileName.index('_')+1:relFileName.index('.')]
     print(outFileName)
     dir_path = "convert/"
     if not os.path.isdir("./" + dir_path):
@@ -116,7 +116,33 @@ convertFileChooser_button.bind("<Button-1>", convertFile)
 convertFileChooser_button.pack()
 
 # combine file frame
-Label(fileCombineFrame, text="This is file combine frame").pack()
+def combineFiles(event):
+    fileNames = tkFileDialog.askopenfilenames()
+    fileNameTokens = fileNames[0].split("/")
+    relFileName = fileNameTokens[len(fileNameTokens)-1]
+    outFileName = "combined_" + relFileName[relFileName.index('_')+1:relFileName.index('.')]
+    print(outFileName)
+    combineCommand = []
+    combineCommand.append("cat")
+    fileNameList = list(fileNames)
+    for f in fileNameList:
+        combineCommand.append(f)
+    dir_path = "combine/"
+    if not os.path.isdir("./" + dir_path):
+        os.makedirs("combine/")
+    outFile = open(os.path.join(dir_path, outFileName + ".txt"), "w")
+    result = subprocess.call(combineCommand, stdout=outFile)
+    print(result)
+    outFile.close()
+
+Label(fileCombineFrame, text="Concatenate Multiple Files ").pack()
+combineFileInfo = "Select multiple files and combine them into a single file."
+Label(fileCombineFrame, text=combineFileInfo, justify=LEFT, wraplength=450).pack()
+
+combineFileChooser_label = Label(fileCombineFrame, text="Concatenate Files:", padx=50, pady=10).pack(side=LEFT)
+combineFileChooser_button = Button(fileCombineFrame, text="Choose Files")
+combineFileChooser_button.bind("<Button-1>", combineFiles)
+combineFileChooser_button.pack(side=LEFT)
 
 # call graph frame
 def genDynamicCallGraph(event):
@@ -152,6 +178,8 @@ genFileChooser_button.bind("<Button-1>", genDynamicCallGraph)
 genFileChooser_button.pack()
 
 # Frequency analysis frame
+# 1. combine all files in one execution senerio into one single file
+# 2. calculate the frequency distrubution over mutilple execution scenarios
 def calFrequency(event):
     files = tkFileDialog.askopenfilenames()
     fileList = list(files)
@@ -165,6 +193,7 @@ def calFrequency(event):
     result = subprocess.call(freqCommand, stdout=outFile)
     outFile.close()
 
+# generate frequency colored graph based on the frequency analysis output for one execution scenario
 def genFreqCallGraph(event):
     absoluteFileName = tkFileDialog.askopenfilename()
     print(absoluteFileName)
