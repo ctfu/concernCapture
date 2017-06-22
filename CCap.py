@@ -120,7 +120,7 @@ def combineFiles(event):
     fileNames = tkFileDialog.askopenfilenames()
     fileNameTokens = fileNames[0].split("/")
     relFileName = fileNameTokens[len(fileNameTokens)-1]
-    outFileName = "combined_" + relFileName[relFileName.index('_')+1:relFileName.index('.')]
+    outFileName = "combined_" + "combine" + str(len(fileNames))
     print(outFileName)
     combineCommand = []
     combineCommand.append("cat")
@@ -193,6 +193,19 @@ def calFrequency(event):
     result = subprocess.call(freqCommand, stdout=outFile)
     outFile.close()
 
+# open a new window to view the frequency output
+def viewFreqOutput(event):
+    top = Toplevel()
+    analysis = {}
+    f = open("analysis_output.txt")
+    for line in f:
+        tokens = line.rstrip('\n').split(' ')
+        if tokens[0] not in analysis:
+            analysis[tokens[0]] = tokens[1]
+
+    print(analysis)
+    top.mainloop()
+
 # generate frequency colored graph based on the frequency analysis output for one execution scenario
 def genFreqCallGraph(event):
     absoluteFileName = tkFileDialog.askopenfilename()
@@ -224,14 +237,19 @@ subFrame = Frame(freqFrame)
 subFrame.pack(side=BOTTOM)
 calFreq_label = Label(subFrame, text="Calculate Frequency:")
 calFreq_button = Button(subFrame, text="Choose Files")
+freqOutput_label = Label(subFrame, text="View Frequency Output:")
+freqOutput_button = Button(subFrame, text="View Output")
 freqGraph_label = Label(subFrame, text="Frequency Graph:")
 freqGraph_button = Button(subFrame, text="Choose File")
-calFreq_label.grid(row=0, sticky=E)
+calFreq_label.grid(row=0, sticky=E, pady=(30, 0))
 calFreq_button.bind("<Button-1>", calFrequency)
-calFreq_button.grid(row=0, column=1)
-freqGraph_label.grid(row=1, sticky=E)
+calFreq_button.grid(row=0, column=1, pady=(30, 0))
+freqOutput_label.grid(row=1, sticky=E)
+freqOutput_button.bind("<Button-1>", viewFreqOutput)
+freqOutput_button.grid(row=1, column=1)
+freqGraph_label.grid(row=2, sticky=E)
 freqGraph_button.bind("<Button-1>", genFreqCallGraph)
-freqGraph_button.grid(row=1, column=1)
+freqGraph_button.grid(row=2, column=1)
 
 # LDA/LSI frame
 ir = Label(irFrame, text="This is information retrieval frame").pack()
