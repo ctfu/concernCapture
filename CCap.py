@@ -10,7 +10,7 @@ def raise_frame(frame):
 
 root = Tk()
 root.title("Concern Capture")
-root.geometry("450x250")
+root.geometry("450x300")
 
 # stack fram stack up
 frames = []
@@ -140,10 +140,10 @@ Label(fileCombineFrame, text="Concatenate Multiple Files ").pack()
 combineFileInfo = "Select multiple files and combine them into a single file."
 Label(fileCombineFrame, text=combineFileInfo, justify=LEFT, wraplength=450).pack()
 
-combineFileChooser_label = Label(fileCombineFrame, text="Concatenate Files:", padx=50, pady=10).pack(side=LEFT)
+combineFileChooser_label = Label(fileCombineFrame, text="Concatenate Files:", padx=20, pady=30).pack()
 combineFileChooser_button = Button(fileCombineFrame, text="Choose Files")
 combineFileChooser_button.bind("<Button-1>", combineFiles)
-combineFileChooser_button.pack(side=LEFT)
+combineFileChooser_button.pack()
 
 # call graph frame
 def genDynamicCallGraph(event):
@@ -206,7 +206,7 @@ def viewFreqOutput(event):
             record["Label"] = tokens[0]
             record["Frequency"] = tokens[1]
             analysis[tokens[0]] = record
-    print(analysis)
+    # print(analysis)
     model = TableModel()
     model.importDict(analysis)
     table = TableCanvas(top, model=model)
@@ -241,7 +241,7 @@ genFreqInfo = "Select multiple files (in class1;class2;method format), generate 
 Label(freqFrame, text = genFreqInfo, justify=LEFT, wraplength=450).pack()
 
 subFrame = Frame(freqFrame)
-subFrame.pack(side=BOTTOM)
+subFrame.pack()
 calFreq_label = Label(subFrame, text="Calculate Frequency:")
 calFreq_button = Button(subFrame, text="Choose Files")
 freqOutput_label = Label(subFrame, text="View Frequency Output:")
@@ -259,7 +259,39 @@ freqGraph_button.bind("<Button-1>", genFreqCallGraph)
 freqGraph_button.grid(row=2, column=1)
 
 # LDA/LSI frame
-ir = Label(irFrame, text="This is information retrieval frame").pack()
+Label(irFrame, text="LDA / LSI Analysis").pack()
+irType_label = Label(irFrame, text="Type of analysis:")
+irType_label.pack()
+irType_radio1 = Radiobutton(irFrame, text="LDA", value=1)
+irType_radio1.pack()
+irType_radio2 = Radiobutton(irFrame, text="LSI", value=2)
+irType_radio2.pack()
+
+irSubframe = Frame(irFrame)
+irSubframe.pack()
+ldaType_label = Label(irSubframe, text="For LDA:")
+ldaTopic_label = Label(irSubframe, text="Number of Topics:")
+ldaTopic_entry = Entry(irSubframe, bd=2)
+ldaTopicWord_label = Label(irSubframe, text="Topic Words:")
+ldaTopicWord_entry = Entry(irSubframe, bd=2)
+ldaType_label.grid(row=0, column=0)
+ldaTopic_label.grid(row=1, column=1)
+ldaTopic_entry.grid(row=1, column=2)
+ldaTopicWord_label.grid(row=2, column=1)
+ldaTopicWord_entry.grid(row=2, column=2)
+lsiType_label = Label(irSubframe, text="For LSI:")
+lsiTopic_label = Label(irSubframe, text="Number of Topics:")
+lsiTopic_entry = Entry(irSubframe, bd=2)
+lsiQuery_label = Label(irSubframe, text="Search Query:")
+lsiQuery_Entry = Entry(irSubframe, bd=2)
+lsiType_label.grid(row=3, column=0)
+lsiTopic_label.grid(row=4, column=1)
+lsiTopic_entry.grid(row=4, column=2)
+lsiQuery_label.grid(row=5, column=1)
+lsiQuery_Entry.grid(row=5, column=2)
+irAnalysis_button =Button(irSubframe, text="Start Analysis")
+irAnalysis_button.grid(row=6, column=2)
+
 
 raise_frame(mainFrame)
 root.mainloop()

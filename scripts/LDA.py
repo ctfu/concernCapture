@@ -1,6 +1,6 @@
-# Name: Chuntao Fu          Date: 06/8/2017  
+# Name: Chuntao Fu          Date: 06/8/2017
 # parse a document with format class1;class2;label="method" into multiple documents
-# having the format: class2, method 
+# having the format: class2, method
 
 import fileinput
 import regex as re
@@ -37,7 +37,7 @@ for line in fileinput.input():
 for key, value in documents.items():
     if key.lower() not in documents[key]:
         documents[key].append(key)
-    
+
 # split each work in the class document
 for key, value in documents.items():
     for word in value:
@@ -55,11 +55,11 @@ stoplist = set("get set a an is enabled".split())
 for key, value in process_documents.items():
     stopped_tokens = [w for w in value if not w in stoplist]
     texts.append(stopped_tokens)
- 
+
 
 index = 0
 for text in texts:
-    pprint(index) 
+    pprint(index)
     pprint(text)
     index = index + 1
 
@@ -89,11 +89,3 @@ index = similarities.MatrixSimilarity(lsi[corpus])
 sims = index[query_lsi]
 sims = sorted(enumerate(sims), key=lambda item: -item[1])
 pprint(sims)
-
-
-
-
-
-
-
-
