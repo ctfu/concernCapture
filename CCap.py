@@ -1,6 +1,7 @@
 from Tkinter import *
 import tkFileDialog
 import subprocess
+from tkintertable import TableCanvas, TableModel
 import os
 
 
@@ -92,7 +93,7 @@ doc = Label(docFrame, text="This is documentation frame").pack()
 # covert file frame
 def convertFile(event):
     absoluteFileName = tkFileDialog.askopenfilename()
-    print absoluteFileName;
+    print(absoluteFileName)
     commandLine = 'sed "s/\\\\$/_/g" | sed "s/->/;/g" | sed "s/\[/;/g" | sed "s/\]//g" | grep -v digraph | grep -v "^[}]$"'
     fileNameTokens = absoluteFileName.split("/")
     relFileName = fileNameTokens[len(fileNameTokens)-1]
@@ -199,11 +200,17 @@ def viewFreqOutput(event):
     analysis = {}
     f = open("analysis_output.txt")
     for line in f:
+        record = {}
         tokens = line.rstrip('\n').split(' ')
         if tokens[0] not in analysis:
-            analysis[tokens[0]] = tokens[1]
-
+            record["Label"] = tokens[0]
+            record["Frequency"] = tokens[1]
+            analysis[tokens[0]] = record
     print(analysis)
+    model = TableModel()
+    model.importDict(analysis)
+    table = TableCanvas(top, model=model)
+    table.createTableFrame()
     top.mainloop()
 
 # generate frequency colored graph based on the frequency analysis output for one execution scenario
