@@ -259,6 +259,9 @@ freqGraph_button.bind("<Button-1>", genFreqCallGraph)
 freqGraph_button.grid(row=2, column=1)
 
 # LDA/LSI frame
+# def irAnalysis(evnet):
+#     absoluteFileName = tkFileDialog.askopenfilename()
+
 Label(irFrame, text="LDA / LSI Analysis").pack()
 irType_label = Label(irFrame, text="Type of analysis:")
 irType_label.pack()
