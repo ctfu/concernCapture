@@ -9,6 +9,17 @@ from stop_words import get_stop_words
 from nltk.stem.porter import PorterStemmer
 from gensim import corpora, models, similarities
 import gensim
+import sys
+
+fileName = sys.argv[1]
+analysis_type = sys.argv[2]
+topic_number = sys.argv[3]
+topic_words = 3
+lsi_query = ""
+if analysis_type == "LDA":
+    topic_words = sys.argv[4]
+else:
+    lsi_query = sys.argv[4]
 
 documents = {}
 process_documents = {}
@@ -22,7 +33,7 @@ def splitWord(str):
     return words
 
 
-for line in fileinput.input():
+for line in fileinput.input(fileName):
     tokens = line.rstrip('\n').split(';')
     if "dashed" not in tokens[2]:
         methodTokens = tokens[2].rstrip('"').split(':')
@@ -57,11 +68,11 @@ for key, value in process_documents.items():
     texts.append(stopped_tokens)
 
 
-index = 0
-for text in texts:
-    pprint(index)
-    pprint(text)
-    index = index + 1
+# index = 0
+# for text in texts:
+#     pprint(index)
+#     pprint(text)
+#     index = index + 1
 
 #Creating the term dictionary out of corpus, where every unique term is assigned an index
 dictionary = corpora.Dictionary(texts)
@@ -72,20 +83,18 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 #print(corpus)
 
 #Create a lda transformation model
-lda = models.LdaModel(corpus, num_topics=10, id2word=dictionary)
-
-#print(lda.print_topics(num_topics=10, num_words=3))
-#print(corpus[0])
-#print(lda.get_document_topics(corpus[11]))
-
-#Creat a lsi trnasformation model
-lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=10)
-
-query = "get my file persister"
-query_bow = dictionary.doc2bow(query.lower().split())
-query_lsi = lsi[query_bow]
-
-index = similarities.MatrixSimilarity(lsi[corpus])
-sims = index[query_lsi]
-sims = sorted(enumerate(sims), key=lambda item: -item[1])
-pprint(sims)
+if analysis_type == "LDA":
+    lda = models.LdaModel(corpus, num_topics=topic_number, id2word=dictionary)
+    print(lda.print_topics(num_topics=topic_number, num_words=topic_words))
+    #print(corpus[0])
+    #print(lda.get_document_topics(corpus[11]))
+else:
+    #Creat a lsi trnasformation model
+    lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=topic_number)
+    query = lsi_query
+    query_bow = dictionary.doc2bow(query.lower().split())
+    query_lsi = lsi[query_bow]
+    index = similarities.MatrixSimilarity(lsi[corpus])
+    sims = index[query_lsi]
+    sims = sorted(enumerate(sims), key=lambda item: -item[1])
+    pprint(sims)
