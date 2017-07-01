@@ -11,13 +11,15 @@ from gensim import corpora, models, similarities
 import gensim
 import sys
 
+
 fileName = sys.argv[1]
 analysis_type = sys.argv[2]
-topic_number = sys.argv[3]
+topic_number = int(sys.argv[3])
+print(topic_number)
 topic_words = 3
 lsi_query = ""
 if analysis_type == "LDA":
-    topic_words = sys.argv[4]
+    topic_words = int(sys.argv[4])
 else:
     lsi_query = sys.argv[4]
 

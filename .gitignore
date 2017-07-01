@@ -1,5 +1,6 @@
 .DS_Store
 convert/
 combine/
+analysis/
 cars.dat
-analysis_output.txt
+frequency_output.txt

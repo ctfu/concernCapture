@@ -198,7 +198,7 @@ def calFrequency(event):
 def viewFreqOutput(event):
     top = Toplevel()
     analysis = {}
-    f = open("analysis_output.txt")
+    f = open("frequency_output.txt")
     for line in f:
         record = {}
         tokens = line.rstrip('\n').split(' ')
@@ -259,15 +259,59 @@ freqGraph_button.bind("<Button-1>", genFreqCallGraph)
 freqGraph_button.grid(row=2, column=1)
 
 # LDA/LSI frame
-# def irAnalysis(evnet):
-#     absoluteFileName = tkFileDialog.askopenfilename()
+def getAnalysisType():
+    global analysisType
+    print(str(var.get()))
+    if str(var.get()) == "1":
+        analysisType = "LDA"
+    else:
+        analysisType = "LSI"
+    print(analysisType)
 
+def clearField():
+    ldaTopic_entry.delete(0, END)
+    ldaTopicWord_entry.delete(0, END)
+    lsiTopic_entry.delete(0, END)
+    lsiQuery_Entry.delete(0, END)
+
+def irAnalysis(evnet):
+    absoluteFileName = tkFileDialog.askopenfilename()
+    print(absoluteFileName)
+    analysisCommand = []
+    analysisCommand.append("python3")
+    analysisCommand.append("./scripts/ir.py")
+    analysisCommand.append(absoluteFileName)
+    analysisCommand.append(analysisType)
+    topicNumber = "0"
+    if analysisType == "LDA":
+        topicNumber = ldaTopic_entry.get()
+        topicWords = ldaTopicWord_entry.get()
+        analysisCommand.append(topicNumber)
+        analysisCommand.append(topicWords)
+    else:
+        topicNumber = lsiTopic_entry.get()
+        lsiQuery = lsiQuery_Entry.get()
+        analysisCommand.append(topicNumber)
+        analysisCommand.append(lsiQuery)
+    dir_path = "analysis/"
+    if not os.path.isdir("./" + dir_path):
+        os.makedirs("analysis/")
+    print(analysisCommand)
+    outFile = open(os.path.join(dir_path, analysisType + "_output" + ".txt"), "w")
+    result = subprocess.call(analysisCommand, stdout=outFile)
+    print(result)
+    clearField()
+    outFile.close()
+
+
+var = IntVar()
+analysisType = "LDA"
 Label(irFrame, text="LDA / LSI Analysis").pack()
 irType_label = Label(irFrame, text="Type of analysis:")
 irType_label.pack()
-irType_radio1 = Radiobutton(irFrame, text="LDA", value=1)
+irType_radio1 = Radiobutton(irFrame, text="LDA", variable=var, value=1, command=getAnalysisType)
 irType_radio1.pack()
-irType_radio2 = Radiobutton(irFrame, text="LSI", value=2)
+irType_radio2 = Radiobutton(irFrame, text="LSI", variable=var, value=2, command=getAnalysisType)
 irType_radio2.pack()
 
 irSubframe = Frame(irFrame)
@@ -293,6 +337,7 @@ lsiTopic_entry.grid(row=4, column=2)
 lsiQuery_label.grid(row=5, column=1)
 lsiQuery_Entry.grid(row=5, column=2)
 irAnalysis_button =Button(irSubframe, text="Start Analysis")
+irAnalysis_button.bind("<Button-1>", irAnalysis)
 irAnalysis_button.grid(row=6, column=2)
 
 
