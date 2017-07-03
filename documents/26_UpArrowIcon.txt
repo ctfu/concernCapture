@@ -1,4 +1,0 @@
-getIconHeight
-getIconWidth
-paintIcon
-UpArrowIcon

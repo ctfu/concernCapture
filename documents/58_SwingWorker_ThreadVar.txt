@@ -1,3 +1,0 @@
-SwingWorker_ThreadVar
-get
-SwingWorker_ThreadVar

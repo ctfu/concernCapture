@@ -1,4 +1,0 @@
-isSaveEnabled
-getExtension
-hasAnIcon
-ZipFilePersister

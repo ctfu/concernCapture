@@ -1,5 +1,0 @@
-isSaveEnabled
-getDesc
-getExtension
-hasAnIcon
-UmlFilePersister

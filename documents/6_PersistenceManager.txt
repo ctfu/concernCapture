@@ -1,7 +1,0 @@
-getInstance
-setSaveFileChooserFilters
-getPersisterFromFileName
-getBaseName
-setSavePersister
-confirmOverwrite
-PersistenceManager

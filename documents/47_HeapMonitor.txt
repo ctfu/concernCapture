@@ -1,4 +1,0 @@
-actionPerformed
-updateStats
-paint
-HeapMonitor

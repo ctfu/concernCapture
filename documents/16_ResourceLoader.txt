@@ -1,4 +1,0 @@
-lookupIconResource
-toJavaIdentifier
-isInCache
-ResourceLoader

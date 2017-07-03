@@ -1,4 +1,0 @@
-getURI
-getName
-getUndoManager
-ProjectImpl

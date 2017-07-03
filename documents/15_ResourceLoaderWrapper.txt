@@ -1,4 +1,0 @@
-lookupIconResource
-getInstance
-lookupIcon
-ResourceLoaderWrapper

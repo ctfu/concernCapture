@@ -1,4 +1,0 @@
-getGoRuleList
-toString
-getName
-PerspectiveSupport

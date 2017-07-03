@@ -1,3 +1,0 @@
-getActiveDiagram
-getActiveLayer
-DiagramUtils

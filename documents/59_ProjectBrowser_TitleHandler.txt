@@ -1,3 +1,0 @@
-buildTitle
-setTitleInternal
-ProjectBrowser_TitleHandler

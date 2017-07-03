@@ -1,4 +1,0 @@
-<clinit>
-SwingWorker
-start
-SwingWorker

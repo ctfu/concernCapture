@@ -1,5 +1,0 @@
-localize
-getName
-loadBundle
-messageFormat
-Translator

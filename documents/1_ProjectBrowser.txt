@@ -1,9 +1,0 @@
-getInstance
-trySave
-getNewFile
-trySaveWithProgressMonitor
-isFileReadonly
-showSaveIndicator
-access_100
-getAppName
-ProjectBrowser
