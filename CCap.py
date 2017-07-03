@@ -284,33 +284,33 @@ def clearField():
         lsiTopic_entry.delete(0, END)
         lsiQuery_Entry.delete(0, END)
 
-def populateLDAOutput():
+def populateData(type):
     top = Toplevel()
     analysis = {}
-    with open("./analysis/LDA_output.txt") as f:
-        next(f)
-        index = 0
-        for line in f:
-            tokens = line.rstrip('\n').split(':')
-            topicWords = tokens[1].split('+')
-            print(topicWords)
-            for w in topicWords:
-                record = {}
-                tw = w.split('*')
-                record["Topic ID"] = tokens[0]
-                record["Probability"] = tw[0]
-                print(tw[1])
-                word = tw[1].replace('"', '').replace('"', '')
-                print(word)
-                record["Word"] = word
-                analysis[index] = record
-                index = index + 1
+    if type == "LDA":
+        with open("./analysis/LDA_output.txt") as f:
+            next(f)
+            index = 0
+            for line in f:
+                tokens = line.rstrip('\n').split(':')
+                topicWords = tokens[1].split('+')
+                print(topicWords)
+                for w in topicWords:
+                    record = {}
+                    tw = w.split('*')
+                    record["Topic ID"] = tokens[0]
+                    record["Probability"] = tw[0]
+                    print(tw[1])
+                    word = tw[1].replace('"', '').replace('"', '')
+                    print(word)
+                    record["Word"] = word
+                    analysis[index] = record
+                    index = index + 1
         model = TableModel()
         model.importDict(analysis)
         table = TableCanvas(top, model=model)
         table.createTableFrame()
         top.mainloop()
-
 
 def irAnalysis(evnet):
     absoluteFileName = tkFileDialog.askopenfilename()
@@ -337,7 +337,7 @@ def irAnalysis(evnet):
     outFile = open(os.path.join(dir_path, analysisType + "_output" + ".txt"), "w")
     result = subprocess.call(analysisCommand, stdout=outFile)
     print(result)
-    populateLDAOutput()
+    populateData(analysisType)
     # clearField()
     outFile.close()
 
