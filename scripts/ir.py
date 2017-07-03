@@ -87,7 +87,9 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 #Create a lda transformation model
 if analysis_type == "LDA":
     lda = models.LdaModel(corpus, num_topics=topic_number, id2word=dictionary)
-    print(lda.print_topics(num_topics=topic_number, num_words=topic_words))
+    topics = lda.print_topics(num_topics=topic_number, num_words=topic_words)
+    for topic in topics:
+        print(str(topic[0]) + ":" + topic[1])
     #print(corpus[0])
     #print(lda.get_document_topics(corpus[11]))
 else:
@@ -99,4 +101,5 @@ else:
     index = similarities.MatrixSimilarity(lsi[corpus])
     sims = index[query_lsi]
     sims = sorted(enumerate(sims), key=lambda item: -item[1])
-    pprint(sims)
+    for sim in sims:
+        print(str(sim[0]) + ":" + str(sim[1]))

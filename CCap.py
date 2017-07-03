@@ -264,15 +264,53 @@ def getAnalysisType():
     print(str(var.get()))
     if str(var.get()) == "1":
         analysisType = "LDA"
+        ldaTopic_entry.config(state="normal")
+        ldaTopicWord_entry.config(state="normal")
+        lsiTopic_entry.config(state="disabled")
+        lsiQuery_Entry.config(state="disabled")
     else:
         analysisType = "LSI"
+        ldaTopic_entry.config(state="disabled")
+        ldaTopicWord_entry.config(state="disabled")
+        lsiTopic_entry.config(state="normal")
+        lsiQuery_Entry.config(state="normal")
     print(analysisType)
 
 def clearField():
-    ldaTopic_entry.delete(0, END)
-    ldaTopicWord_entry.delete(0, END)
-    lsiTopic_entry.delete(0, END)
-    lsiQuery_Entry.delete(0, END)
+    if analysisType == "LDA":
+        ldaTopic_entry.delete(0, END)
+        ldaTopicWord_entry.delete(0, END)
+    else:
+        lsiTopic_entry.delete(0, END)
+        lsiQuery_Entry.delete(0, END)
+
+def populateLDAOutput():
+    top = Toplevel()
+    analysis = {}
+    with open("./analysis/LDA_output.txt") as f:
+        next(f)
+        index = 0
+        for line in f:
+            tokens = line.rstrip('\n').split(':')
+            topicWords = tokens[1].split('+')
+            print(topicWords)
+            for w in topicWords:
+                record = {}
+                tw = w.split('*')
+                record["Topic ID"] = tokens[0]
+                record["Probability"] = tw[0]
+                print(tw[1])
+                word = tw[1].replace('"', '').replace('"', '')
+                print(word)
+                record["Word"] = word
+                analysis[index] = record
+                index = index + 1
+        model = TableModel()
+        model.importDict(analysis)
+        table = TableCanvas(top, model=model)
+        table.createTableFrame()
+        top.mainloop()
+
 
 def irAnalysis(evnet):
     absoluteFileName = tkFileDialog.askopenfilename()
@@ -296,11 +334,11 @@ def irAnalysis(evnet):
     dir_path = "analysis/"
     if not os.path.isdir("./" + dir_path):
         os.makedirs("analysis/")
-    print(analysisCommand)
     outFile = open(os.path.join(dir_path, analysisType + "_output" + ".txt"), "w")
     result = subprocess.call(analysisCommand, stdout=outFile)
     print(result)
-    clearField()
+    populateLDAOutput()
+    # clearField()
     outFile.close()
 
 
@@ -318,9 +356,9 @@ irSubframe = Frame(irFrame)
 irSubframe.pack()
 ldaType_label = Label(irSubframe, text="For LDA:")
 ldaTopic_label = Label(irSubframe, text="Number of Topics:")
-ldaTopic_entry = Entry(irSubframe, bd=2)
+ldaTopic_entry = Entry(irSubframe, bd=3)
 ldaTopicWord_label = Label(irSubframe, text="Topic Words:")
-ldaTopicWord_entry = Entry(irSubframe, bd=2)
+ldaTopicWord_entry = Entry(irSubframe, bd=3)
 ldaType_label.grid(row=0, column=0)
 ldaTopic_label.grid(row=1, column=1)
 ldaTopic_entry.grid(row=1, column=2)
@@ -328,9 +366,9 @@ ldaTopicWord_label.grid(row=2, column=1)
 ldaTopicWord_entry.grid(row=2, column=2)
 lsiType_label = Label(irSubframe, text="For LSI:")
 lsiTopic_label = Label(irSubframe, text="Number of Topics:")
-lsiTopic_entry = Entry(irSubframe, bd=2)
+lsiTopic_entry = Entry(irSubframe, bd=3)
 lsiQuery_label = Label(irSubframe, text="Search Query:")
-lsiQuery_Entry = Entry(irSubframe, bd=2)
+lsiQuery_Entry = Entry(irSubframe, bd=3)
 lsiType_label.grid(row=3, column=0)
 lsiTopic_label.grid(row=4, column=1)
 lsiTopic_entry.grid(row=4, column=2)
