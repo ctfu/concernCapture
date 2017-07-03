@@ -1,0 +1,4 @@
+getIconHeight
+getIconWidth
+paintIcon
+UpArrowIcon

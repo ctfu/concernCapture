@@ -1,0 +1,4 @@
+actionPerformed
+updateStats
+paint
+HeapMonitor

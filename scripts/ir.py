@@ -10,6 +10,7 @@ from nltk.stem.porter import PorterStemmer
 from gensim import corpora, models, similarities
 import gensim
 import sys
+import os
 
 
 fileName = sys.argv[1]
@@ -70,12 +71,6 @@ for key, value in process_documents.items():
     texts.append(stopped_tokens)
 
 
-# index = 0
-# for text in texts:
-#     pprint(index)
-#     pprint(text)
-#     index = index + 1
-
 #Creating the term dictionary out of corpus, where every unique term is assigned an index
 dictionary = corpora.Dictionary(texts)
 #print(dictionary.token2id)
@@ -93,6 +88,18 @@ if analysis_type == "LDA":
     #print(corpus[0])
     #print(lda.get_document_topics(corpus[11]))
 else:
+    # produce class-based doucments
+    dir_path = "documents/"
+    if not os.path.isdir("./" + dir_path):
+        os.makedirs("documents/")
+
+    count = 0
+    for key, value in documents.items():
+        with open("./documents/{}_{}.txt".format(count, key), "w") as f:
+            for v in value:
+                f.write(v + "\n")
+            count = count + 1
+
     #Creat a lsi trnasformation model
     lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=topic_number)
     query = lsi_query

@@ -1,0 +1,4 @@
+getURI
+getName
+getUndoManager
+ProjectImpl

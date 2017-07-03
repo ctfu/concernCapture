@@ -1,0 +1,4 @@
+lookupIconResource
+toJavaIdentifier
+isInCache
+ResourceLoader

@@ -1,0 +1,5 @@
+getDescription
+isFileExtensionApplicable
+accept
+getExtension
+AbstractFilePersister

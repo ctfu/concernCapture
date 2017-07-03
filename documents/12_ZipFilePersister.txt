@@ -1,0 +1,4 @@
+isSaveEnabled
+getExtension
+hasAnIcon
+ZipFilePersister

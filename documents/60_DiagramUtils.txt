@@ -1,0 +1,3 @@
+getActiveDiagram
+getActiveLayer
+DiagramUtils

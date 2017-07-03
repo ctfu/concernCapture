@@ -1,0 +1,4 @@
+<clinit>
+getInstance
+getIcon
+ProjectFileView
