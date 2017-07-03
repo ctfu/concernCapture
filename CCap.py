@@ -266,23 +266,19 @@ def getAnalysisType():
         analysisType = "LDA"
         ldaTopic_entry.config(state="normal")
         ldaTopicWord_entry.config(state="normal")
+        lsiTopic_entry.delete(0, END)
+        lsiQuery_Entry.delete(0, END)
         lsiTopic_entry.config(state="disabled")
         lsiQuery_Entry.config(state="disabled")
     else:
         analysisType = "LSI"
+        ldaTopic_entry.delete(0, END)
+        ldaTopicWord_entry.delete(0, END)
         ldaTopic_entry.config(state="disabled")
         ldaTopicWord_entry.config(state="disabled")
         lsiTopic_entry.config(state="normal")
         lsiQuery_Entry.config(state="normal")
     print(analysisType)
-
-def clearField():
-    if analysisType == "LDA":
-        ldaTopic_entry.delete(0, END)
-        ldaTopicWord_entry.delete(0, END)
-    else:
-        lsiTopic_entry.delete(0, END)
-        lsiQuery_Entry.delete(0, END)
 
 def populateData(type):
     top = Toplevel()
@@ -300,17 +296,26 @@ def populateData(type):
                     tw = w.split('*')
                     record["Topic ID"] = tokens[0]
                     record["Probability"] = tw[0]
-                    print(tw[1])
                     word = tw[1].replace('"', '').replace('"', '')
-                    print(word)
                     record["Word"] = word
                     analysis[index] = record
                     index = index + 1
-        model = TableModel()
-        model.importDict(analysis)
-        table = TableCanvas(top, model=model)
-        table.createTableFrame()
-        top.mainloop()
+    else:
+        with open("./analysis/LSI_output.txt") as f:
+            next(f)
+            index = 0
+            for line in f:
+                record = {}
+                tokens = line.rstrip('\n').split(':')
+                record["Document ID"] = tokens[0]
+                record["Probability"] = tokens[1]
+                analysis[index] = record
+                index = index + 1
+    model = TableModel()
+    model.importDict(analysis)
+    table = TableCanvas(top, model=model)
+    table.createTableFrame()
+    top.mainloop()
 
 def irAnalysis(evnet):
     absoluteFileName = tkFileDialog.askopenfilename()
@@ -338,7 +343,6 @@ def irAnalysis(evnet):
     result = subprocess.call(analysisCommand, stdout=outFile)
     print(result)
     populateData(analysisType)
-    # clearField()
     outFile.close()
 
 
