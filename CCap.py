@@ -307,8 +307,9 @@ def populateData(type):
             for line in f:
                 record = {}
                 tokens = line.rstrip('\n').split(':')
-                record["Document ID"] = tokens[0]
-                record["Probability"] = tokens[1]
+                record["Document Name"] = tokens[0]
+                record["Document ID"] = tokens[1]
+                record["Probability"] = tokens[2]
                 analysis[index] = record
                 index = index + 1
     model = TableModel()
