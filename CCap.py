@@ -190,7 +190,7 @@ def calFrequency(event):
     freqCommand.append("./scripts/frequency.py")
     for f in fileList:
         freqCommand.append(f)
-    outFile = open("analysis_output.txt", "w")
+    outFile = open("frequency_output.txt", "w")
     result = subprocess.call(freqCommand, stdout=outFile)
     outFile.close()
 
