@@ -44,7 +44,7 @@ for line in fileinput.input():
 
 
 # Reading analysis file
-f = open("analysis_output.txt")
+f = open("frequency_output.txt")
 for line in f:
     tokens = line.rstrip('\n').split(' ')
     if tokens[0] not in analysis:
@@ -66,7 +66,7 @@ def dfs_visite(adjList, visited, source):
         print w[0], "[style=\"filled\", fillcolor=\"cyan\"]"
       else:
         print w[0], "[style=\"filled\", fillcolor=\"gold\"]"
-       
+
       # operation on markers
       if(w[0] in markers):
         return
