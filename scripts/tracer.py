@@ -10,7 +10,7 @@ visited = {}
 parent = {}
 #edges dict to count the frequency of edges
 edges = {}
-target = 'CarSalesSystem'
+target = '_START_'
 #mark the cutting point
 markers = []
 
