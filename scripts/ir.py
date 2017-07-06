@@ -26,6 +26,7 @@ else:
 
 documents = {}
 process_documents = {}
+id_document_map = {}
 texts = []
 en_stop = get_stop_words("en")
 p_stemmer = PorterStemmer()
@@ -95,6 +96,7 @@ else:
 
     count = 0
     for key, value in documents.items():
+        id_document_map[count] = key
         with open("./documents/{}_{}.txt".format(count, key), "w") as f:
             for v in value:
                 f.write(v + "\n")
@@ -109,4 +111,5 @@ else:
     sims = index[query_lsi]
     sims = sorted(enumerate(sims), key=lambda item: -item[1])
     for sim in sims:
-        print(str(sim[0]) + ":" + str(sim[1]))
+        if sim[0] in id_document_map:
+            print(id_document_map[sim[0]] + ":" + str(sim[0]) + ":" + str(sim[1]))
