@@ -271,17 +271,35 @@ def getAnalysisType():
         analysisType = "LDA"
         ldaTopic_entry.config(state="normal")
         ldaTopicWord_entry.config(state="normal")
+        ldaDecay_entry.config(state="normal")
+        ldaPasses_entry.config(state="normal")
+        ldaIteration_entry.config(state="normal")
         lsiTopic_entry.delete(0, END)
+        lsiDecay_entry.delete(0, END)
+        lsiIteration_entry.delete(0, END)
         lsiQuery_Entry.delete(0, END)
         lsiTopic_entry.config(state="disabled")
+        lsiOnePass_checkbox.config(state="disabled")
+        lsiDecay_entry.config(state="disabled")
+        lsiIteration_entry.config(state="disabled")
         lsiQuery_Entry.config(state="disabled")
+
     else:
         analysisType = "LSI"
         ldaTopic_entry.delete(0, END)
         ldaTopicWord_entry.delete(0, END)
+        ldaDecay_entry.delete(0, END)
+        ldaPasses_entry.delete(0, END)
+        ldaIteration_entry.delete(0, END)
         ldaTopic_entry.config(state="disabled")
         ldaTopicWord_entry.config(state="disabled")
+        ldaDecay_entry.config(state="disabled")
+        ldaPasses_entry.config(state="disabled")
+        ldaIteration_entry.config(state="disabled")
         lsiTopic_entry.config(state="normal")
+        lsiOnePass_checkbox.config(state="normal")
+        lsiDecay_entry.config(state="normal")
+        lsiIteration_entry.config(state="normal")
         lsiQuery_Entry.config(state="normal")
     print(analysisType)
 
@@ -365,7 +383,8 @@ def irAnalysis(evnet):
         if len(lsiDecay_entry.get()) != 0:
             lsiDecay = lsiDecay_entry.get()
         if lsiOnePass == "False":
-            lsiIteration = lsiIteration_entry.get()
+            if len(lsiIteration_entry.get()) != 0:
+                lsiIteration = lsiIteration_entry.get()
         lsiQuery = lsiQuery_Entry.get()
         analysisCommand.append(topicNumber)
         analysisCommand.append(lsiOnePass)
