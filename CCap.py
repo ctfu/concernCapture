@@ -10,7 +10,7 @@ def raise_frame(frame):
 
 root = Tk()
 root.title("Concern Capture")
-root.geometry("450x300")
+root.geometry("450x380")
 
 # stack fram stack up
 frames = []
