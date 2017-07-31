@@ -81,9 +81,14 @@ genTrace_buttion.bind("<Button-1>", genCallTrace)
 genTrace_buttion.grid(row=2, column=1)
 
 # about frame
-information = ("Author: Chuntao Fu" + "\n"
-            "Supervisor: Dr. Harvey Siy" + "\n\n" +
-            "This tool is created to support capturing the essence of concern in source code.")
+information ="Author: Chuntao Fu\n"\
+            "Supervisor: Dr. Harvey Siy\n\n"\
+            'I am a graduate student in Computer Science at University of Nebraska at Omaha.'\
+            'This tool is created for the support of my thesis "Tool Support in Capturing the Essense of Concern in Source Code".'\
+            'The tool allows you either works on dynamic program analysis with Javashot from scratch or perform the analysis with prepared files'\
+            'in the right format. It provides functionalities including structural analysis that based on dynamic call graph genertion and'\
+            'textual analysis that based on Information Retrieval techniques. It achieves the purpose of providing automatic support for'\
+            'minimized related code subset capturing from an given software concern.'
 Label(aboutFrame, text=information, justify=LEFT, wraplength=450).pack()
 
 
