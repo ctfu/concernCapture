@@ -285,6 +285,15 @@ def getAnalysisType():
         lsiQuery_Entry.config(state="normal")
     print(analysisType)
 
+def getLSIPassStatus():
+    global lsiOnePass
+    if str(var1.get()) == "1":
+        lsiOnePass = "False"
+        lsiIteration_entry.config(state="normal")
+    else:
+        lsiOnePass = "True"
+        lsiIteration_entry.config(state="disabled")
+
 def populateData(type):
     top = Toplevel()
     analysis = {}
@@ -335,12 +344,33 @@ def irAnalysis(evnet):
     if analysisType == "LDA":
         topicNumber = ldaTopic_entry.get()
         topicWords = ldaTopicWord_entry.get()
+        ldaDecay = "0.5"
+        ldaPass = "1"
+        ldaIteration = "50"
+        if len(ldaDecay_entry.get()) != 0:
+            ldaDecay = ldaDecay_entry.get()
+        if len(ldaPasses_entry.get()) != 0:
+            ldaPass = ldaPasses_entry.get()
+        if len(ldaIteration_entry.get()) != 0:
+            ldaIteration = ldaIteration_entry.get()
         analysisCommand.append(topicNumber)
         analysisCommand.append(topicWords)
+        analysisCommand.append(ldaDecay)
+        analysisCommand.append(ldaPass)
+        analysisCommand.append(ldaIteration)
     else:
         topicNumber = lsiTopic_entry.get()
+        lsiDecay = "1.0"
+        lsiIteration = "2"
+        if len(lsiDecay_entry.get()) != 0:
+            lsiDecay = lsiDecay_entry.get()
+        if lsiOnePass == "False":
+            lsiIteration = lsiIteration_entry.get()
         lsiQuery = lsiQuery_Entry.get()
         analysisCommand.append(topicNumber)
+        analysisCommand.append(lsiOnePass)
+        analysisCommand.append(lsiDecay)
+        analysisCommand.append(lsiIteration)
         analysisCommand.append(lsiQuery)
     dir_path = "analysis/"
     if not os.path.isdir("./" + dir_path):
@@ -353,7 +383,9 @@ def irAnalysis(evnet):
 
 
 var = IntVar()
+var1 = IntVar()
 analysisType = "LDA"
+lsiOnePass = "True"
 irTypeFrame = Frame(irFrame)
 irTypeFrame.pack()
 Label(irTypeFrame, text="LDA / LSI Analysis").pack()
@@ -389,17 +421,18 @@ ldaPasses_entry.grid(row=4, column=1)
 ldaIteration_label.grid(row=5, sticky=E)
 ldaIteration_entry.grid(row=5, column=1)
 lsiType_label = Label(irSubframe, text="For LSI:")
+lsiOnePass_checkbox = Checkbutton(irSubframe, text="Multi-Pass", variable=var1, onvalue=1, offvalue = 0, command=getLSIPassStatus)
 lsiTopic_label = Label(irSubframe, text="Topic Numbers:")
-lsiOnePass_radio = Radiobutton(irSubframe, text="One Pass")
 lsiTopic_entry = Entry(irSubframe, bd=2)
 lsiDecay_label = Label(irSubframe, text="Decay(0-1)")
 lsiDecay_entry = Entry(irSubframe, bd = 2)
-lsiIteration_label = Label(irSubframe, text="Iteration Numbers")
+lsiIteration_label = Label(irSubframe, text="Power Iteration")
 lsiIteration_entry = Entry(irSubframe, bd = 2)
+lsiIteration_entry.config(state="disabled")
 lsiQuery_label = Label(irSubframe, text="Search Query:")
 lsiQuery_Entry = Entry(irSubframe, bd=2)
 lsiType_label.grid(row=6, column=0)
-lsiOnePass_radio.grid(row=6, column=1)
+lsiOnePass_checkbox.grid(row=6, column=1)
 lsiTopic_label.grid(row=7, sticky=E)
 lsiTopic_entry.grid(row=7, column=1)
 lsiDecay_label.grid(row=8, sticky=E)
