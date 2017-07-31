@@ -19,10 +19,20 @@ topic_number = int(sys.argv[3])
 print(topic_number)
 topic_words = 3
 lsi_query = ""
+
+def str2bool(v):
+    return v == 'True'
+
 if analysis_type == "LDA":
     topic_words = int(sys.argv[4])
+    ldaDecay = float(sys.argv[5])
+    ldaPass = int(sys.argv[6])
+    ldaIteration = int(sys.argv[7])
 else:
-    lsi_query = sys.argv[4]
+    lsiOnePass = str2bool(sys.argv[4])
+    lsiDecay = float(sys.argv[5])
+    lsiIteration = int(sys.argv[6])
+    lsi_query = sys.argv[7]
 
 documents = {}
 process_documents = {}
@@ -82,7 +92,7 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 
 #Create a lda transformation model
 if analysis_type == "LDA":
-    lda = models.LdaModel(corpus, num_topics=topic_number, id2word=dictionary)
+    lda = models.LdaModel(corpus, num_topics=topic_number, id2word=dictionary, decay=ldaDecay, passes=ldaPass, iterations=ldaIteration)
     topics = lda.print_topics(num_topics=topic_number, num_words=topic_words)
     for topic in topics:
         print(str(topic[0]) + ":" + topic[1])
@@ -103,7 +113,7 @@ else:
             count = count + 1
 
     #Creat a lsi trnasformation model
-    lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=topic_number)
+    lsi = models.LsiModel(corpus, id2word=dictionary, num_topics=topic_number, decay=lsiDecay, onepass=lsiOnePass, power_iters=lsiIteration)
     query = lsi_query
     query_bow = dictionary.doc2bow(query.lower().split())
     query_lsi = lsi[query_bow]
