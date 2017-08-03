@@ -45,8 +45,11 @@ for line in fileinput.input():
 
 # Reading analysis file
 f = open("frequency_output.txt")
+maxFreq = 0
 for line in f:
     tokens = line.rstrip('\n').split(' ')
+    if tokens[1] > maxFreq:
+        maxFreq = tokens[1]
     if tokens[0] not in analysis:
         analysis[tokens[0]] = tokens[1]
 
@@ -60,9 +63,9 @@ def dfs_visite(adjList, visited, source):
       #add the edge frequency and add back the quatation mark before print
       print source, "->", w[0], "[", w[1], str(edges[edge]) + '"', "penwidth=", math.log(edges[edge]+1), "]"
       # coloring based on analysis output file
-      if w[0] in analysis and analysis[w[0]] == '5':
+      if w[0] in analysis and analysis[w[0]] == str(maxFreq):
         print w[0], "[style=\"filled\", fillcolor=\"red\"]"
-      elif w[0] in analysis and analysis[w[0]] == '4':
+      elif w[0] in analysis and analysis[w[0]] == "1":
         print w[0], "[style=\"filled\", fillcolor=\"cyan\"]"
       else:
         print w[0], "[style=\"filled\", fillcolor=\"gold\"]"
