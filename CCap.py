@@ -150,7 +150,7 @@ combineFileChooser_button = Button(fileCombineFrame, text="Choose Files")
 combineFileChooser_button.bind("<Button-1>", combineFiles)
 combineFileChooser_button.pack()
 
-# call graph frame
+# call graph & dominator tree frame
 def genDynamicCallGraph(event):
     absoluteFileName = tkFileDialog.askopenfilename()
     print(absoluteFileName)
@@ -173,6 +173,26 @@ def genDynamicCallGraph(event):
     print(result)
     subprocess.call("open " + outFileName + ".pdf", shell=True)
 
+def genDomTree(event):
+    absoluteFileName = tkFileDialog.askopenfilename()
+    fileNameTokens = absoluteFileName.split("/")
+    relFileName = fileNameTokens[len(fileNameTokens)-1]
+    outFileName = "tracerDom_" + relFileName[relFileName.index('_')+1:relFileName.index('.')] + ".dot"
+    tracerDomCommand = []
+    tracerDomCommand.append("python")
+    tracerDomCommand.append("./scripts/tracerDom.py")
+    tracerDomCommand.append(absoluteFileName)
+    outFile = open(outFileName, "w")
+    result = subprocess.call(tracerDomCommand, stdout=outFile)
+    outFile.close()
+    graphCommand = []
+    graphCommand.append("dot")
+    graphCommand.append("-Tpdf")
+    graphCommand.append("-O")
+    graphCommand.append(outFileName)
+    result = subprocess.call(graphCommand)
+    print(result)
+    subprocess.call("open " + outFileName + ".pdf", shell=True)
 
 Label(callGraphFrame, text="Call Graph Generation").pack()
 genCallGraphInfo = "Select a graget file (in class1;class2;method format), generate a adjusted directed graph based on the input file. "
@@ -182,6 +202,10 @@ genFileChooser_label = Label(callGraphFrame, text="Target File:", pady=10).pack(
 genFileChooser_button = Button(callGraphFrame, text="Gen Call Graph")
 genFileChooser_button.bind("<Button-1>", genDynamicCallGraph)
 genFileChooser_button.pack()
+
+domTreeFileChooser_button = Button(callGraphFrame, text="Gen Dominator Tree")
+domTreeFileChooser_button.bind("<Button-1>", genDomTree)
+domTreeFileChooser_button.pack();
 
 # Frequency analysis frame
 # 1. combine all files in one execution senerio into one single file
