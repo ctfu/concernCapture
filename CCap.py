@@ -265,6 +265,27 @@ def genFreqCallGraph(event):
     print(result)
     subprocess.call("open " + outFileName + ".pdf", shell=True)
 
+def genFreqDomTree(event):
+    absoluteFileName = tkFileDialog.askopenfilename()
+    fileNameTokens = absoluteFileName.split("/")
+    relFileName = fileNameTokens[len(fileNameTokens)-1]
+    outFileName = "tracerDomFreq_" + relFileName[relFileName.index('_')+1:relFileName.index('.')] + ".dot"
+    tracerDomCommand = []
+    tracerDomCommand.append("python")
+    tracerDomCommand.append("./scripts/tracerDomFreq.py")
+    tracerDomCommand.append(absoluteFileName)
+    outFile = open(outFileName, "w")
+    result = subprocess.call(tracerDomCommand, stdout=outFile)
+    outFile.close()
+    graphCommand = []
+    graphCommand.append("dot")
+    graphCommand.append("-Tpdf")
+    graphCommand.append("-O")
+    graphCommand.append(outFileName)
+    result = subprocess.call(graphCommand)
+    print(result)
+    subprocess.call("open " + outFileName + ".pdf", shell=True)
+
 Label(freqFrame, text="Frequency Analysis").pack()
 genFreqInfo = "Select multiple files (in class1;class2;method format), generate a class frequency output based on the selected files."
 Label(freqFrame, text = genFreqInfo, justify=LEFT, wraplength=450).pack()
@@ -277,6 +298,8 @@ freqOutput_label = Label(subFrame, text="View Frequency Output:")
 freqOutput_button = Button(subFrame, text="View Output")
 freqGraph_label = Label(subFrame, text="Frequency Call Graph:")
 freqGraph_button = Button(subFrame, text="Choose File")
+freqDomTree_label = Label(subFrame, text="Frequency Dome Tree:")
+freqDomTree_button = Button(subFrame, text="Choose File")
 calFreq_label.grid(row=0, sticky=E, pady=(30, 0))
 calFreq_button.bind("<Button-1>", calFrequency)
 calFreq_button.grid(row=0, column=1, pady=(30, 0))
@@ -286,6 +309,9 @@ freqOutput_button.grid(row=1, column=1)
 freqGraph_label.grid(row=2, sticky=E)
 freqGraph_button.bind("<Button-1>", genFreqCallGraph)
 freqGraph_button.grid(row=2, column=1)
+freqDomTree_label.grid(row=3, sticky=E)
+freqDomTree_button.bind("<Button-1>", genFreqDomTree)
+freqDomTree_button.grid(row=3, column=1)
 
 # LDA/LSI frame
 def getAnalysisType():
