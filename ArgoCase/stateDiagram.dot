@@ -1,0 +1,2538 @@
+_START_;ActionSaveProject;label="1:ActionSaveProject"
+ActionSaveProject;_START_;label="2", style=dashed
+_START_;ActionSaveProject;label="1:setEnabled"
+ActionSaveProject;_START_;label="2", style=dashed
+_START_;ActionSaveProject;label="1:actionPerformed"
+ActionSaveProject;ProjectBrowser;label="2:getInstance"
+ProjectBrowser;ActionSaveProject;label="3", style=dashed
+ActionSaveProject;ProjectManager;label="4:getManager"
+ProjectManager;ActionSaveProject;label="5", style=dashed
+ActionSaveProject;ProjectManager;label="6:getCurrentProject"
+ProjectManager;ActionSaveProject;label="7", style=dashed
+ActionSaveProject;ProjectManager;label="8:getManager"
+ProjectManager;ActionSaveProject;label="9", style=dashed
+ActionSaveProject;ProjectManager;label="10:getCurrentProject"
+ProjectManager;ActionSaveProject;label="11", style=dashed
+ActionSaveProject;ProjectImpl;label="12:getURI"
+ProjectImpl;ActionSaveProject;label="13", style=dashed
+ActionSaveProject;ProjectBrowser;label="14:trySave"
+ProjectBrowser;ProjectBrowser;label="15:trySave"
+ProjectBrowser;ProjectBrowser;label="16:trySave"
+ProjectBrowser;ProjectManager;label="17:getManager"
+ProjectManager;ProjectBrowser;label="18", style=dashed
+ProjectBrowser;ProjectManager;label="19:getCurrentProject"
+ProjectManager;ProjectBrowser;label="20", style=dashed
+ProjectBrowser;ProjectImpl;label="21:getURI"
+ProjectImpl;ProjectBrowser;label="22", style=dashed
+ProjectBrowser;ProjectBrowser;label="23:getNewFile"
+ProjectBrowser;ProjectBrowser;label="24:getInstance"
+ProjectBrowser;ProjectBrowser;label="25", style=dashed
+ProjectBrowser;ProjectManager;label="26:getManager"
+ProjectManager;ProjectBrowser;label="27", style=dashed
+ProjectBrowser;ProjectManager;label="28:getCurrentProject"
+ProjectManager;ProjectBrowser;label="29", style=dashed
+ProjectBrowser;ProjectImpl;label="30:getURI"
+ProjectImpl;ProjectBrowser;label="31", style=dashed
+ProjectBrowser;Translator;label="32:localize"
+Translator;Translator;label="33:getName"
+Translator;Translator;label="34", style=dashed
+Translator;Translator;label="35:loadBundle"
+Translator;Translator;label="36", style=dashed
+Translator;ProjectBrowser;label="37", style=dashed
+ProjectBrowser;ProjectImpl;label="38:getName"
+ProjectImpl;ProjectBrowser;label="39", style=dashed
+ProjectBrowser;ProjectFileView;label="40:<clinit>"
+ProjectFileView;ProjectBrowser;label="41", style=dashed
+ProjectBrowser;ProjectFileView;label="42:getInstance"
+ProjectFileView;ProjectBrowser;label="43", style=dashed
+ProjectBrowser;PersistenceManager;label="44:getInstance"
+PersistenceManager;ProjectBrowser;label="45", style=dashed
+ProjectBrowser;PersistenceManager;label="46:setSaveFileChooserFilters"
+PersistenceManager;XmiFilePersister;label="47:isSaveEnabled"
+XmiFilePersister;PersistenceManager;label="48", style=dashed
+PersistenceManager;XmiFilePersister;label="49:isSaveEnabled"
+XmiFilePersister;PersistenceManager;label="50", style=dashed
+PersistenceManager;UmlFilePersister;label="51:isSaveEnabled"
+UmlFilePersister;PersistenceManager;label="52", style=dashed
+PersistenceManager;AbstractFilePersister;label="53:getDescription"
+AbstractFilePersister;OldZargoFilePersister;label="54:getDesc"
+OldZargoFilePersister;Translator;label="55:localize"
+Translator;Translator;label="56:getName"
+Translator;Translator;label="57", style=dashed
+Translator;Translator;label="58:loadBundle"
+Translator;Translator;label="59", style=dashed
+Translator;OldZargoFilePersister;label="60", style=dashed
+OldZargoFilePersister;AbstractFilePersister;label="61", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="62:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="63", style=dashed
+AbstractFilePersister;PersistenceManager;label="64", style=dashed
+PersistenceManager;AbstractFilePersister;label="65:getDescription"
+AbstractFilePersister;UmlFilePersister;label="66:getDesc"
+UmlFilePersister;Translator;label="67:localize"
+Translator;Translator;label="68:getName"
+Translator;Translator;label="69", style=dashed
+Translator;Translator;label="70:loadBundle"
+Translator;Translator;label="71", style=dashed
+Translator;UmlFilePersister;label="72", style=dashed
+UmlFilePersister;AbstractFilePersister;label="73", style=dashed
+AbstractFilePersister;UmlFilePersister;label="74:getExtension"
+UmlFilePersister;AbstractFilePersister;label="75", style=dashed
+AbstractFilePersister;PersistenceManager;label="76", style=dashed
+PersistenceManager;ZipFilePersister;label="77:isSaveEnabled"
+ZipFilePersister;PersistenceManager;label="78", style=dashed
+PersistenceManager;ProjectBrowser;label="79", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="80:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="81", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="82:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="83", style=dashed
+ProjectBrowser;AbstractFilePersister;label="84:getDescription"
+AbstractFilePersister;OldZargoFilePersister;label="85:getDesc"
+OldZargoFilePersister;Translator;label="86:localize"
+Translator;Translator;label="87:getName"
+Translator;Translator;label="88", style=dashed
+Translator;Translator;label="89:loadBundle"
+Translator;Translator;label="90", style=dashed
+Translator;OldZargoFilePersister;label="91", style=dashed
+OldZargoFilePersister;AbstractFilePersister;label="92", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="93:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="94", style=dashed
+AbstractFilePersister;ProjectBrowser;label="95", style=dashed
+ProjectBrowser;ProjectFileView;label="96:getIcon"
+ProjectFileView;PersistenceManager;label="97:getInstance"
+PersistenceManager;ProjectFileView;label="98", style=dashed
+ProjectFileView;PersistenceManager;label="99:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="100:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="101:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="102", style=dashed
+AbstractFilePersister;PersistenceManager;label="103", style=dashed
+PersistenceManager;AbstractFilePersister;label="104:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="105:getExtension"
+XmiFilePersister;AbstractFilePersister;label="106", style=dashed
+AbstractFilePersister;PersistenceManager;label="107", style=dashed
+PersistenceManager;AbstractFilePersister;label="108:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="109:getExtension"
+XmlFilePersister;AbstractFilePersister;label="110", style=dashed
+AbstractFilePersister;PersistenceManager;label="111", style=dashed
+PersistenceManager;AbstractFilePersister;label="112:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="113:getExtension"
+UmlFilePersister;AbstractFilePersister;label="114", style=dashed
+AbstractFilePersister;PersistenceManager;label="115", style=dashed
+PersistenceManager;AbstractFilePersister;label="116:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="117:getExtension"
+ZipFilePersister;AbstractFilePersister;label="118", style=dashed
+AbstractFilePersister;PersistenceManager;label="119", style=dashed
+PersistenceManager;ProjectFileView;label="120", style=dashed
+ProjectFileView;ProjectBrowser;label="121", style=dashed
+ProjectBrowser;AbstractFilePersister;label="122:accept"
+AbstractFilePersister;ProjectBrowser;label="123", style=dashed
+ProjectBrowser;AbstractFilePersister;label="124:accept"
+AbstractFilePersister;ProjectBrowser;label="125", style=dashed
+ProjectBrowser;ProjectFileView;label="126:getIcon"
+ProjectFileView;PersistenceManager;label="127:getInstance"
+PersistenceManager;ProjectFileView;label="128", style=dashed
+ProjectFileView;PersistenceManager;label="129:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="130:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="131:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="132", style=dashed
+AbstractFilePersister;PersistenceManager;label="133", style=dashed
+PersistenceManager;AbstractFilePersister;label="134:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="135:getExtension"
+XmiFilePersister;AbstractFilePersister;label="136", style=dashed
+AbstractFilePersister;PersistenceManager;label="137", style=dashed
+PersistenceManager;AbstractFilePersister;label="138:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="139:getExtension"
+XmlFilePersister;AbstractFilePersister;label="140", style=dashed
+AbstractFilePersister;PersistenceManager;label="141", style=dashed
+PersistenceManager;AbstractFilePersister;label="142:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="143:getExtension"
+UmlFilePersister;AbstractFilePersister;label="144", style=dashed
+AbstractFilePersister;PersistenceManager;label="145", style=dashed
+PersistenceManager;AbstractFilePersister;label="146:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="147:getExtension"
+ZipFilePersister;AbstractFilePersister;label="148", style=dashed
+AbstractFilePersister;PersistenceManager;label="149", style=dashed
+PersistenceManager;ProjectFileView;label="150", style=dashed
+ProjectFileView;ProjectBrowser;label="151", style=dashed
+ProjectBrowser;AbstractFilePersister;label="152:accept"
+AbstractFilePersister;ProjectBrowser;label="153", style=dashed
+ProjectBrowser;AbstractFilePersister;label="154:accept"
+AbstractFilePersister;ProjectBrowser;label="155", style=dashed
+ProjectBrowser;ProjectFileView;label="156:getIcon"
+ProjectFileView;PersistenceManager;label="157:getInstance"
+PersistenceManager;ProjectFileView;label="158", style=dashed
+ProjectFileView;PersistenceManager;label="159:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="160:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="161:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="162", style=dashed
+AbstractFilePersister;PersistenceManager;label="163", style=dashed
+PersistenceManager;ProjectFileView;label="164", style=dashed
+ProjectFileView;UmlFilePersister;label="165:hasAnIcon"
+UmlFilePersister;ProjectFileView;label="166", style=dashed
+ProjectFileView;ResourceLoaderWrapper;label="167:lookupIconResource"
+ResourceLoaderWrapper;ResourceLoader;label="168:lookupIconResource"
+ResourceLoader;ResourceLoader;label="169:lookupIconResource"
+ResourceLoader;ResourceLoader;label="170:lookupIconResource"
+ResourceLoader;ResourceLoader;label="171:toJavaIdentifier"
+ResourceLoader;ResourceLoader;label="172", style=dashed
+ResourceLoader;ResourceLoader;label="173:isInCache"
+ResourceLoader;ResourceLoader;label="174", style=dashed
+ResourceLoader;ResourceLoader;label="175", style=dashed
+ResourceLoader;ResourceLoader;label="176", style=dashed
+ResourceLoader;ResourceLoaderWrapper;label="177", style=dashed
+ResourceLoaderWrapper;ProjectFileView;label="178", style=dashed
+ProjectFileView;ProjectBrowser;label="179", style=dashed
+ProjectBrowser;AbstractFilePersister;label="180:accept"
+AbstractFilePersister;AbstractFilePersister;label="181:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="182:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="183", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="184", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="185:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="186", style=dashed
+AbstractFilePersister;ProjectBrowser;label="187", style=dashed
+ProjectBrowser;AbstractFilePersister;label="188:accept"
+AbstractFilePersister;AbstractFilePersister;label="189:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="190:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="191", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="192", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="193:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="194", style=dashed
+AbstractFilePersister;ProjectBrowser;label="195", style=dashed
+ProjectBrowser;ProjectFileView;label="196:getIcon"
+ProjectFileView;PersistenceManager;label="197:getInstance"
+PersistenceManager;ProjectFileView;label="198", style=dashed
+ProjectFileView;PersistenceManager;label="199:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="200:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="201:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="202", style=dashed
+AbstractFilePersister;PersistenceManager;label="203", style=dashed
+PersistenceManager;AbstractFilePersister;label="204:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="205:getExtension"
+XmiFilePersister;AbstractFilePersister;label="206", style=dashed
+AbstractFilePersister;PersistenceManager;label="207", style=dashed
+PersistenceManager;AbstractFilePersister;label="208:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="209:getExtension"
+XmlFilePersister;AbstractFilePersister;label="210", style=dashed
+AbstractFilePersister;PersistenceManager;label="211", style=dashed
+PersistenceManager;AbstractFilePersister;label="212:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="213:getExtension"
+UmlFilePersister;AbstractFilePersister;label="214", style=dashed
+AbstractFilePersister;PersistenceManager;label="215", style=dashed
+PersistenceManager;AbstractFilePersister;label="216:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="217:getExtension"
+ZipFilePersister;AbstractFilePersister;label="218", style=dashed
+AbstractFilePersister;PersistenceManager;label="219", style=dashed
+PersistenceManager;ProjectFileView;label="220", style=dashed
+ProjectFileView;ProjectBrowser;label="221", style=dashed
+ProjectBrowser;AbstractFilePersister;label="222:accept"
+AbstractFilePersister;AbstractFilePersister;label="223:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="224:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="225", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="226", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="227:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="228", style=dashed
+AbstractFilePersister;ProjectBrowser;label="229", style=dashed
+ProjectBrowser;AbstractFilePersister;label="230:accept"
+AbstractFilePersister;AbstractFilePersister;label="231:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="232:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="233", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="234", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="235:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="236", style=dashed
+AbstractFilePersister;ProjectBrowser;label="237", style=dashed
+ProjectBrowser;ProjectFileView;label="238:getIcon"
+ProjectFileView;PersistenceManager;label="239:getInstance"
+PersistenceManager;ProjectFileView;label="240", style=dashed
+ProjectFileView;PersistenceManager;label="241:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="242:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="243:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="244", style=dashed
+AbstractFilePersister;PersistenceManager;label="245", style=dashed
+PersistenceManager;AbstractFilePersister;label="246:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="247:getExtension"
+XmiFilePersister;AbstractFilePersister;label="248", style=dashed
+AbstractFilePersister;PersistenceManager;label="249", style=dashed
+PersistenceManager;AbstractFilePersister;label="250:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="251:getExtension"
+XmlFilePersister;AbstractFilePersister;label="252", style=dashed
+AbstractFilePersister;PersistenceManager;label="253", style=dashed
+PersistenceManager;AbstractFilePersister;label="254:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="255:getExtension"
+UmlFilePersister;AbstractFilePersister;label="256", style=dashed
+AbstractFilePersister;PersistenceManager;label="257", style=dashed
+PersistenceManager;AbstractFilePersister;label="258:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="259:getExtension"
+ZipFilePersister;AbstractFilePersister;label="260", style=dashed
+AbstractFilePersister;PersistenceManager;label="261", style=dashed
+PersistenceManager;ProjectFileView;label="262", style=dashed
+ProjectFileView;ProjectBrowser;label="263", style=dashed
+ProjectBrowser;AbstractFilePersister;label="264:accept"
+AbstractFilePersister;ProjectBrowser;label="265", style=dashed
+ProjectBrowser;AbstractFilePersister;label="266:accept"
+AbstractFilePersister;ProjectBrowser;label="267", style=dashed
+ProjectBrowser;ProjectFileView;label="268:getIcon"
+ProjectFileView;PersistenceManager;label="269:getInstance"
+PersistenceManager;ProjectFileView;label="270", style=dashed
+ProjectFileView;PersistenceManager;label="271:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="272:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="273:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="274", style=dashed
+AbstractFilePersister;PersistenceManager;label="275", style=dashed
+PersistenceManager;AbstractFilePersister;label="276:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="277:getExtension"
+XmiFilePersister;AbstractFilePersister;label="278", style=dashed
+AbstractFilePersister;PersistenceManager;label="279", style=dashed
+PersistenceManager;AbstractFilePersister;label="280:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="281:getExtension"
+XmlFilePersister;AbstractFilePersister;label="282", style=dashed
+AbstractFilePersister;PersistenceManager;label="283", style=dashed
+PersistenceManager;AbstractFilePersister;label="284:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="285:getExtension"
+UmlFilePersister;AbstractFilePersister;label="286", style=dashed
+AbstractFilePersister;PersistenceManager;label="287", style=dashed
+PersistenceManager;AbstractFilePersister;label="288:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="289:getExtension"
+ZipFilePersister;AbstractFilePersister;label="290", style=dashed
+AbstractFilePersister;PersistenceManager;label="291", style=dashed
+PersistenceManager;ProjectFileView;label="292", style=dashed
+ProjectFileView;ProjectBrowser;label="293", style=dashed
+ProjectBrowser;AbstractFilePersister;label="294:accept"
+AbstractFilePersister;ProjectBrowser;label="295", style=dashed
+ProjectBrowser;AbstractFilePersister;label="296:accept"
+AbstractFilePersister;ProjectBrowser;label="297", style=dashed
+ProjectBrowser;ProjectFileView;label="298:getIcon"
+ProjectFileView;PersistenceManager;label="299:getInstance"
+PersistenceManager;ProjectFileView;label="300", style=dashed
+ProjectFileView;PersistenceManager;label="301:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="302:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="303:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="304", style=dashed
+AbstractFilePersister;PersistenceManager;label="305", style=dashed
+PersistenceManager;AbstractFilePersister;label="306:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="307:getExtension"
+XmiFilePersister;AbstractFilePersister;label="308", style=dashed
+AbstractFilePersister;PersistenceManager;label="309", style=dashed
+PersistenceManager;AbstractFilePersister;label="310:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="311:getExtension"
+XmlFilePersister;AbstractFilePersister;label="312", style=dashed
+AbstractFilePersister;PersistenceManager;label="313", style=dashed
+PersistenceManager;AbstractFilePersister;label="314:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="315:getExtension"
+UmlFilePersister;AbstractFilePersister;label="316", style=dashed
+AbstractFilePersister;PersistenceManager;label="317", style=dashed
+PersistenceManager;AbstractFilePersister;label="318:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="319:getExtension"
+ZipFilePersister;AbstractFilePersister;label="320", style=dashed
+AbstractFilePersister;PersistenceManager;label="321", style=dashed
+PersistenceManager;ProjectFileView;label="322", style=dashed
+ProjectFileView;ProjectBrowser;label="323", style=dashed
+ProjectBrowser;AbstractFilePersister;label="324:accept"
+AbstractFilePersister;ProjectBrowser;label="325", style=dashed
+ProjectBrowser;AbstractFilePersister;label="326:accept"
+AbstractFilePersister;ProjectBrowser;label="327", style=dashed
+ProjectBrowser;ProjectFileView;label="328:getIcon"
+ProjectFileView;PersistenceManager;label="329:getInstance"
+PersistenceManager;ProjectFileView;label="330", style=dashed
+ProjectFileView;PersistenceManager;label="331:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="332:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="333:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="334", style=dashed
+AbstractFilePersister;PersistenceManager;label="335", style=dashed
+PersistenceManager;AbstractFilePersister;label="336:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="337:getExtension"
+XmiFilePersister;AbstractFilePersister;label="338", style=dashed
+AbstractFilePersister;PersistenceManager;label="339", style=dashed
+PersistenceManager;AbstractFilePersister;label="340:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="341:getExtension"
+XmlFilePersister;AbstractFilePersister;label="342", style=dashed
+AbstractFilePersister;PersistenceManager;label="343", style=dashed
+PersistenceManager;AbstractFilePersister;label="344:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="345:getExtension"
+UmlFilePersister;AbstractFilePersister;label="346", style=dashed
+AbstractFilePersister;PersistenceManager;label="347", style=dashed
+PersistenceManager;AbstractFilePersister;label="348:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="349:getExtension"
+ZipFilePersister;AbstractFilePersister;label="350", style=dashed
+AbstractFilePersister;PersistenceManager;label="351", style=dashed
+PersistenceManager;ProjectFileView;label="352", style=dashed
+ProjectFileView;ProjectBrowser;label="353", style=dashed
+ProjectBrowser;AbstractFilePersister;label="354:accept"
+AbstractFilePersister;ProjectBrowser;label="355", style=dashed
+ProjectBrowser;AbstractFilePersister;label="356:accept"
+AbstractFilePersister;ProjectBrowser;label="357", style=dashed
+ProjectBrowser;ProjectFileView;label="358:getIcon"
+ProjectFileView;PersistenceManager;label="359:getInstance"
+PersistenceManager;ProjectFileView;label="360", style=dashed
+ProjectFileView;PersistenceManager;label="361:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="362:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="363:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="364", style=dashed
+AbstractFilePersister;PersistenceManager;label="365", style=dashed
+PersistenceManager;AbstractFilePersister;label="366:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="367:getExtension"
+XmiFilePersister;AbstractFilePersister;label="368", style=dashed
+AbstractFilePersister;PersistenceManager;label="369", style=dashed
+PersistenceManager;AbstractFilePersister;label="370:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="371:getExtension"
+XmlFilePersister;AbstractFilePersister;label="372", style=dashed
+AbstractFilePersister;PersistenceManager;label="373", style=dashed
+PersistenceManager;AbstractFilePersister;label="374:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="375:getExtension"
+UmlFilePersister;AbstractFilePersister;label="376", style=dashed
+AbstractFilePersister;PersistenceManager;label="377", style=dashed
+PersistenceManager;AbstractFilePersister;label="378:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="379:getExtension"
+ZipFilePersister;AbstractFilePersister;label="380", style=dashed
+AbstractFilePersister;PersistenceManager;label="381", style=dashed
+PersistenceManager;ProjectFileView;label="382", style=dashed
+ProjectFileView;ProjectBrowser;label="383", style=dashed
+ProjectBrowser;AbstractFilePersister;label="384:accept"
+AbstractFilePersister;ProjectBrowser;label="385", style=dashed
+ProjectBrowser;AbstractFilePersister;label="386:accept"
+AbstractFilePersister;ProjectBrowser;label="387", style=dashed
+ProjectBrowser;ProjectFileView;label="388:getIcon"
+ProjectFileView;PersistenceManager;label="389:getInstance"
+PersistenceManager;ProjectFileView;label="390", style=dashed
+ProjectFileView;PersistenceManager;label="391:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="392:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="393:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="394", style=dashed
+AbstractFilePersister;PersistenceManager;label="395", style=dashed
+PersistenceManager;AbstractFilePersister;label="396:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="397:getExtension"
+XmiFilePersister;AbstractFilePersister;label="398", style=dashed
+AbstractFilePersister;PersistenceManager;label="399", style=dashed
+PersistenceManager;AbstractFilePersister;label="400:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="401:getExtension"
+XmlFilePersister;AbstractFilePersister;label="402", style=dashed
+AbstractFilePersister;PersistenceManager;label="403", style=dashed
+PersistenceManager;AbstractFilePersister;label="404:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="405:getExtension"
+UmlFilePersister;AbstractFilePersister;label="406", style=dashed
+AbstractFilePersister;PersistenceManager;label="407", style=dashed
+PersistenceManager;AbstractFilePersister;label="408:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="409:getExtension"
+ZipFilePersister;AbstractFilePersister;label="410", style=dashed
+AbstractFilePersister;PersistenceManager;label="411", style=dashed
+PersistenceManager;ProjectFileView;label="412", style=dashed
+ProjectFileView;ProjectBrowser;label="413", style=dashed
+ProjectBrowser;AbstractFilePersister;label="414:accept"
+AbstractFilePersister;ProjectBrowser;label="415", style=dashed
+ProjectBrowser;AbstractFilePersister;label="416:accept"
+AbstractFilePersister;ProjectBrowser;label="417", style=dashed
+ProjectBrowser;ProjectFileView;label="418:getIcon"
+ProjectFileView;PersistenceManager;label="419:getInstance"
+PersistenceManager;ProjectFileView;label="420", style=dashed
+ProjectFileView;PersistenceManager;label="421:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="422:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="423:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="424", style=dashed
+AbstractFilePersister;PersistenceManager;label="425", style=dashed
+PersistenceManager;AbstractFilePersister;label="426:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="427:getExtension"
+XmiFilePersister;AbstractFilePersister;label="428", style=dashed
+AbstractFilePersister;PersistenceManager;label="429", style=dashed
+PersistenceManager;AbstractFilePersister;label="430:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="431:getExtension"
+XmlFilePersister;AbstractFilePersister;label="432", style=dashed
+AbstractFilePersister;PersistenceManager;label="433", style=dashed
+PersistenceManager;AbstractFilePersister;label="434:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="435:getExtension"
+UmlFilePersister;AbstractFilePersister;label="436", style=dashed
+AbstractFilePersister;PersistenceManager;label="437", style=dashed
+PersistenceManager;AbstractFilePersister;label="438:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="439:getExtension"
+ZipFilePersister;AbstractFilePersister;label="440", style=dashed
+AbstractFilePersister;PersistenceManager;label="441", style=dashed
+PersistenceManager;ProjectFileView;label="442", style=dashed
+ProjectFileView;ProjectBrowser;label="443", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="444:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="445", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="446:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="447", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="448:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="449", style=dashed
+ProjectBrowser;FigTransition;label="450:paint"
+FigTransition;ProjectBrowser;label="451", style=dashed
+ProjectBrowser;FigTransition;label="452:paint"
+FigTransition;ProjectBrowser;label="453", style=dashed
+ProjectBrowser;FigTransition;label="454:paint"
+FigTransition;ProjectBrowser;label="455", style=dashed
+ProjectBrowser;FigTransition;label="456:paint"
+FigTransition;ProjectBrowser;label="457", style=dashed
+ProjectBrowser;FigTransition;label="458:paint"
+FigTransition;ProjectBrowser;label="459", style=dashed
+ProjectBrowser;FigTransition;label="460:paint"
+FigTransition;ProjectBrowser;label="461", style=dashed
+ProjectBrowser;FigTransition;label="462:paint"
+FigTransition;ProjectBrowser;label="463", style=dashed
+ProjectBrowser;FigTransition;label="464:paint"
+FigTransition;ProjectBrowser;label="465", style=dashed
+ProjectBrowser;FigTransition;label="466:paint"
+FigTransition;ProjectBrowser;label="467", style=dashed
+ProjectBrowser;SelectionNodeClarifiers2;label="468:paint"
+SelectionNodeClarifiers2;FigNodeModelElement;label="469:paintClarifiers"
+FigNodeModelElement;Designer;label="470:theDesigner"
+Designer;FigNodeModelElement;label="471", style=dashed
+FigNodeModelElement;Designer;label="472:getToDoList"
+Designer;FigNodeModelElement;label="473", style=dashed
+FigNodeModelElement;ToDoList;label="474:elementListForOffender"
+ToDoList;UMLToDoItem;label="475:getOffenders"
+UMLToDoItem;ToDoItem;label="476:getOffenders"
+ToDoItem;UMLToDoItem;label="477", style=dashed
+UMLToDoItem;ToDoList;label="478", style=dashed
+ToDoList;ListSet;label="479:contains"
+ListSet;ToDoList;label="480", style=dashed
+ToDoList;FigNodeModelElement;label="481", style=dashed
+FigNodeModelElement;ToDoList;label="482:elementListForOffender"
+ToDoList;UMLToDoItem;label="483:getOffenders"
+UMLToDoItem;ToDoItem;label="484:getOffenders"
+ToDoItem;UMLToDoItem;label="485", style=dashed
+UMLToDoItem;ToDoList;label="486", style=dashed
+ToDoList;ListSet;label="487:contains"
+ListSet;ToDoList;label="488", style=dashed
+ToDoList;FigNodeModelElement;label="489", style=dashed
+FigNodeModelElement;SelectionNodeClarifiers2;label="490", style=dashed
+SelectionNodeClarifiers2;ProjectBrowser;label="491", style=dashed
+ProjectBrowser;LeftArrowIcon;label="492:getIconHeight"
+LeftArrowIcon;ProjectBrowser;label="493", style=dashed
+ProjectBrowser;LeftArrowIcon;label="494:getIconWidth"
+LeftArrowIcon;ProjectBrowser;label="495", style=dashed
+ProjectBrowser;LeftArrowIcon;label="496:getIconHeight"
+LeftArrowIcon;ProjectBrowser;label="497", style=dashed
+ProjectBrowser;LeftArrowIcon;label="498:paintIcon"
+LeftArrowIcon;LeftArrowIcon;label="499:getIconWidth"
+LeftArrowIcon;LeftArrowIcon;label="500", style=dashed
+LeftArrowIcon;LeftArrowIcon;label="501:getIconHeight"
+LeftArrowIcon;LeftArrowIcon;label="502", style=dashed
+LeftArrowIcon;ProjectBrowser;label="503", style=dashed
+ProjectBrowser;UpArrowIcon;label="504:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="505", style=dashed
+ProjectBrowser;UpArrowIcon;label="506:getIconWidth"
+UpArrowIcon;ProjectBrowser;label="507", style=dashed
+ProjectBrowser;UpArrowIcon;label="508:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="509", style=dashed
+ProjectBrowser;UpArrowIcon;label="510:paintIcon"
+UpArrowIcon;UpArrowIcon;label="511:getIconWidth"
+UpArrowIcon;UpArrowIcon;label="512", style=dashed
+UpArrowIcon;UpArrowIcon;label="513:getIconHeight"
+UpArrowIcon;UpArrowIcon;label="514", style=dashed
+UpArrowIcon;ProjectBrowser;label="515", style=dashed
+ProjectBrowser;UpArrowIcon;label="516:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="517", style=dashed
+ProjectBrowser;UpArrowIcon;label="518:getIconWidth"
+UpArrowIcon;ProjectBrowser;label="519", style=dashed
+ProjectBrowser;UpArrowIcon;label="520:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="521", style=dashed
+ProjectBrowser;UpArrowIcon;label="522:paintIcon"
+UpArrowIcon;UpArrowIcon;label="523:getIconWidth"
+UpArrowIcon;UpArrowIcon;label="524", style=dashed
+UpArrowIcon;UpArrowIcon;label="525:getIconHeight"
+UpArrowIcon;UpArrowIcon;label="526", style=dashed
+UpArrowIcon;ProjectBrowser;label="527", style=dashed
+ProjectBrowser;UpArrowIcon;label="528:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="529", style=dashed
+ProjectBrowser;UpArrowIcon;label="530:getIconWidth"
+UpArrowIcon;ProjectBrowser;label="531", style=dashed
+ProjectBrowser;UpArrowIcon;label="532:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="533", style=dashed
+ProjectBrowser;UpArrowIcon;label="534:paintIcon"
+UpArrowIcon;UpArrowIcon;label="535:getIconWidth"
+UpArrowIcon;UpArrowIcon;label="536", style=dashed
+UpArrowIcon;UpArrowIcon;label="537:getIconHeight"
+UpArrowIcon;UpArrowIcon;label="538", style=dashed
+UpArrowIcon;ProjectBrowser;label="539", style=dashed
+ProjectBrowser;UpArrowIcon;label="540:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="541", style=dashed
+ProjectBrowser;UpArrowIcon;label="542:getIconWidth"
+UpArrowIcon;ProjectBrowser;label="543", style=dashed
+ProjectBrowser;UpArrowIcon;label="544:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="545", style=dashed
+ProjectBrowser;UpArrowIcon;label="546:paintIcon"
+UpArrowIcon;UpArrowIcon;label="547:getIconWidth"
+UpArrowIcon;UpArrowIcon;label="548", style=dashed
+UpArrowIcon;UpArrowIcon;label="549:getIconHeight"
+UpArrowIcon;UpArrowIcon;label="550", style=dashed
+UpArrowIcon;ProjectBrowser;label="551", style=dashed
+ProjectBrowser;UpArrowIcon;label="552:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="553", style=dashed
+ProjectBrowser;UpArrowIcon;label="554:getIconWidth"
+UpArrowIcon;ProjectBrowser;label="555", style=dashed
+ProjectBrowser;UpArrowIcon;label="556:getIconHeight"
+UpArrowIcon;ProjectBrowser;label="557", style=dashed
+ProjectBrowser;UpArrowIcon;label="558:paintIcon"
+UpArrowIcon;UpArrowIcon;label="559:getIconWidth"
+UpArrowIcon;UpArrowIcon;label="560", style=dashed
+UpArrowIcon;UpArrowIcon;label="561:getIconHeight"
+UpArrowIcon;UpArrowIcon;label="562", style=dashed
+UpArrowIcon;ProjectBrowser;label="563", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="564:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="565:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="566:getFacade"
+Model;MDRModelImplementation;label="567:getFacade"
+MDRModelImplementation;Model;label="568", style=dashed
+Model;UMLListCellRenderer2;label="569", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="570:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="571", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="572:makeText"
+UMLListCellRenderer2;Model;label="573:getFacade"
+Model;MDRModelImplementation;label="574:getFacade"
+MDRModelImplementation;Model;label="575", style=dashed
+Model;UMLListCellRenderer2;label="576", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="577:isAParameter"
+FacadeMDRImpl;UMLListCellRenderer2;label="578", style=dashed
+UMLListCellRenderer2;Model;label="579:getFacade"
+Model;MDRModelImplementation;label="580:getFacade"
+MDRModelImplementation;Model;label="581", style=dashed
+Model;UMLListCellRenderer2;label="582", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="583:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="584", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="585:getName"
+UMLListCellRenderer2;Model;label="586:getFacade"
+Model;MDRModelImplementation;label="587:getFacade"
+MDRModelImplementation;Model;label="588", style=dashed
+Model;UMLListCellRenderer2;label="589", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="590:isANamedElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="591", style=dashed
+UMLListCellRenderer2;Model;label="592:getFacade"
+Model;MDRModelImplementation;label="593:getFacade"
+MDRModelImplementation;Model;label="594", style=dashed
+Model;UMLListCellRenderer2;label="595", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="596:getName"
+FacadeMDRImpl;UMLListCellRenderer2;label="597", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="598:makeTypeName"
+UMLListCellRenderer2;Model;label="599:getFacade"
+Model;MDRModelImplementation;label="600:getFacade"
+MDRModelImplementation;Model;label="601", style=dashed
+Model;UMLListCellRenderer2;label="602", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="603:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="604", style=dashed
+UMLListCellRenderer2;Model;label="605:getFacade"
+Model;MDRModelImplementation;label="606:getFacade"
+MDRModelImplementation;Model;label="607", style=dashed
+Model;UMLListCellRenderer2;label="608", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="609:getUMLClassName"
+FacadeMDRImpl;FacadeMDRImpl;label="610:isAUMLElement"
+FacadeMDRImpl;FacadeMDRImpl;label="611", style=dashed
+FacadeMDRImpl;MDRModelImplementation;label="612:getMetaTypes"
+MDRModelImplementation;FacadeMDRImpl;label="613", style=dashed
+FacadeMDRImpl;MetaTypesMDRImpl;label="614:getName"
+MetaTypesMDRImpl;FacadeMDRImpl;label="615", style=dashed
+FacadeMDRImpl;UMLListCellRenderer2;label="616", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="617", style=dashed
+UMLListCellRenderer2;Translator;label="618:localize"
+Translator;Translator;label="619:messageFormat"
+Translator;Translator;label="620:localize"
+Translator;Translator;label="621:getName"
+Translator;Translator;label="622", style=dashed
+Translator;Translator;label="623:loadBundle"
+Translator;Translator;label="624", style=dashed
+Translator;Translator;label="625", style=dashed
+Translator;Translator;label="626", style=dashed
+Translator;UMLListCellRenderer2;label="627", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="628", style=dashed
+UMLListCellRenderer2;Model;label="629:getFacade"
+Model;MDRModelImplementation;label="630:getFacade"
+MDRModelImplementation;Model;label="631", style=dashed
+Model;UMLListCellRenderer2;label="632", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="633:isAStereotype"
+FacadeMDRImpl;UMLListCellRenderer2;label="634", style=dashed
+UMLListCellRenderer2;Model;label="635:getModelManagementHelper"
+Model;MDRModelImplementation;label="636:getModelManagementHelper"
+MDRModelImplementation;Model;label="637", style=dashed
+Model;UMLListCellRenderer2;label="638", style=dashed
+UMLListCellRenderer2;ModelManagementHelperMDRImpl;label="639:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="640:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="641:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="642:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="643", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="644:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="645", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="646:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="647", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="648", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="649:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="650", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="651:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="652", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="653", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="654:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="655", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="656:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="657", style=dashed
+ModelManagementHelperMDRImpl;UMLListCellRenderer2;label="658", style=dashed
+UMLListCellRenderer2;Translator;label="659:localize"
+Translator;Translator;label="660:messageFormat"
+Translator;Translator;label="661:localize"
+Translator;Translator;label="662:getName"
+Translator;Translator;label="663", style=dashed
+Translator;Translator;label="664:loadBundle"
+Translator;Translator;label="665", style=dashed
+Translator;Translator;label="666", style=dashed
+Translator;Translator;label="667", style=dashed
+Translator;UMLListCellRenderer2;label="668", style=dashed
+UMLListCellRenderer2;Translator;label="669:localize"
+Translator;Translator;label="670:messageFormat"
+Translator;Translator;label="671:localize"
+Translator;Translator;label="672:getName"
+Translator;Translator;label="673", style=dashed
+Translator;Translator;label="674:loadBundle"
+Translator;Translator;label="675", style=dashed
+Translator;Translator;label="676", style=dashed
+Translator;Translator;label="677", style=dashed
+Translator;UMLListCellRenderer2;label="678", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="679", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="680:getInstance"
+ResourceLoaderWrapper;UMLListCellRenderer2;label="681", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="682:lookupIcon"
+ResourceLoaderWrapper;Model;label="683:getFacade"
+Model;MDRModelImplementation;label="684:getFacade"
+MDRModelImplementation;Model;label="685", style=dashed
+Model;ResourceLoaderWrapper;label="686", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="687:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="688", style=dashed
+ResourceLoaderWrapper;Model;label="689:getFacade"
+Model;MDRModelImplementation;label="690:getFacade"
+MDRModelImplementation;Model;label="691", style=dashed
+Model;ResourceLoaderWrapper;label="692", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="693:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="694", style=dashed
+ResourceLoaderWrapper;Model;label="695:getFacade"
+Model;MDRModelImplementation;label="696:getFacade"
+MDRModelImplementation;Model;label="697", style=dashed
+Model;ResourceLoaderWrapper;label="698", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="699:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="700", style=dashed
+ResourceLoaderWrapper;Model;label="701:getFacade"
+Model;MDRModelImplementation;label="702:getFacade"
+MDRModelImplementation;Model;label="703", style=dashed
+Model;ResourceLoaderWrapper;label="704", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="705:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="706", style=dashed
+ResourceLoaderWrapper;Model;label="707:getFacade"
+Model;MDRModelImplementation;label="708:getFacade"
+MDRModelImplementation;Model;label="709", style=dashed
+Model;ResourceLoaderWrapper;label="710", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="711:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="712", style=dashed
+ResourceLoaderWrapper;UMLListCellRenderer2;label="713", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="714", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="715", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="716:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="717:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="718:getFacade"
+Model;MDRModelImplementation;label="719:getFacade"
+MDRModelImplementation;Model;label="720", style=dashed
+Model;UMLListCellRenderer2;label="721", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="722:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="723", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="724:makeText"
+UMLListCellRenderer2;Model;label="725:getFacade"
+Model;MDRModelImplementation;label="726:getFacade"
+MDRModelImplementation;Model;label="727", style=dashed
+Model;UMLListCellRenderer2;label="728", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="729:isAParameter"
+FacadeMDRImpl;UMLListCellRenderer2;label="730", style=dashed
+UMLListCellRenderer2;Model;label="731:getFacade"
+Model;MDRModelImplementation;label="732:getFacade"
+MDRModelImplementation;Model;label="733", style=dashed
+Model;UMLListCellRenderer2;label="734", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="735:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="736", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="737:getName"
+UMLListCellRenderer2;Model;label="738:getFacade"
+Model;MDRModelImplementation;label="739:getFacade"
+MDRModelImplementation;Model;label="740", style=dashed
+Model;UMLListCellRenderer2;label="741", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="742:isANamedElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="743", style=dashed
+UMLListCellRenderer2;Model;label="744:getFacade"
+Model;MDRModelImplementation;label="745:getFacade"
+MDRModelImplementation;Model;label="746", style=dashed
+Model;UMLListCellRenderer2;label="747", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="748:getName"
+FacadeMDRImpl;UMLListCellRenderer2;label="749", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="750:makeTypeName"
+UMLListCellRenderer2;Model;label="751:getFacade"
+Model;MDRModelImplementation;label="752:getFacade"
+MDRModelImplementation;Model;label="753", style=dashed
+Model;UMLListCellRenderer2;label="754", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="755:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="756", style=dashed
+UMLListCellRenderer2;Model;label="757:getFacade"
+Model;MDRModelImplementation;label="758:getFacade"
+MDRModelImplementation;Model;label="759", style=dashed
+Model;UMLListCellRenderer2;label="760", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="761:getUMLClassName"
+FacadeMDRImpl;FacadeMDRImpl;label="762:isAUMLElement"
+FacadeMDRImpl;FacadeMDRImpl;label="763", style=dashed
+FacadeMDRImpl;MDRModelImplementation;label="764:getMetaTypes"
+MDRModelImplementation;FacadeMDRImpl;label="765", style=dashed
+FacadeMDRImpl;MetaTypesMDRImpl;label="766:getName"
+MetaTypesMDRImpl;FacadeMDRImpl;label="767", style=dashed
+FacadeMDRImpl;UMLListCellRenderer2;label="768", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="769", style=dashed
+UMLListCellRenderer2;Translator;label="770:localize"
+Translator;Translator;label="771:messageFormat"
+Translator;Translator;label="772:localize"
+Translator;Translator;label="773:getName"
+Translator;Translator;label="774", style=dashed
+Translator;Translator;label="775:loadBundle"
+Translator;Translator;label="776", style=dashed
+Translator;Translator;label="777", style=dashed
+Translator;Translator;label="778", style=dashed
+Translator;UMLListCellRenderer2;label="779", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="780", style=dashed
+UMLListCellRenderer2;Model;label="781:getFacade"
+Model;MDRModelImplementation;label="782:getFacade"
+MDRModelImplementation;Model;label="783", style=dashed
+Model;UMLListCellRenderer2;label="784", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="785:isAStereotype"
+FacadeMDRImpl;UMLListCellRenderer2;label="786", style=dashed
+UMLListCellRenderer2;Model;label="787:getModelManagementHelper"
+Model;MDRModelImplementation;label="788:getModelManagementHelper"
+MDRModelImplementation;Model;label="789", style=dashed
+Model;UMLListCellRenderer2;label="790", style=dashed
+UMLListCellRenderer2;ModelManagementHelperMDRImpl;label="791:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="792:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="793:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="794:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="795", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="796:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="797", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="798:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="799", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="800", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="801:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="802", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="803:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="804", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="805", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="806:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="807", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="808:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="809", style=dashed
+ModelManagementHelperMDRImpl;UMLListCellRenderer2;label="810", style=dashed
+UMLListCellRenderer2;Translator;label="811:localize"
+Translator;Translator;label="812:messageFormat"
+Translator;Translator;label="813:localize"
+Translator;Translator;label="814:getName"
+Translator;Translator;label="815", style=dashed
+Translator;Translator;label="816:loadBundle"
+Translator;Translator;label="817", style=dashed
+Translator;Translator;label="818", style=dashed
+Translator;Translator;label="819", style=dashed
+Translator;UMLListCellRenderer2;label="820", style=dashed
+UMLListCellRenderer2;Translator;label="821:localize"
+Translator;Translator;label="822:messageFormat"
+Translator;Translator;label="823:localize"
+Translator;Translator;label="824:getName"
+Translator;Translator;label="825", style=dashed
+Translator;Translator;label="826:loadBundle"
+Translator;Translator;label="827", style=dashed
+Translator;Translator;label="828", style=dashed
+Translator;Translator;label="829", style=dashed
+Translator;UMLListCellRenderer2;label="830", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="831", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="832:getInstance"
+ResourceLoaderWrapper;UMLListCellRenderer2;label="833", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="834:lookupIcon"
+ResourceLoaderWrapper;Model;label="835:getFacade"
+Model;MDRModelImplementation;label="836:getFacade"
+MDRModelImplementation;Model;label="837", style=dashed
+Model;ResourceLoaderWrapper;label="838", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="839:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="840", style=dashed
+ResourceLoaderWrapper;Model;label="841:getFacade"
+Model;MDRModelImplementation;label="842:getFacade"
+MDRModelImplementation;Model;label="843", style=dashed
+Model;ResourceLoaderWrapper;label="844", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="845:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="846", style=dashed
+ResourceLoaderWrapper;Model;label="847:getFacade"
+Model;MDRModelImplementation;label="848:getFacade"
+MDRModelImplementation;Model;label="849", style=dashed
+Model;ResourceLoaderWrapper;label="850", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="851:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="852", style=dashed
+ResourceLoaderWrapper;Model;label="853:getFacade"
+Model;MDRModelImplementation;label="854:getFacade"
+MDRModelImplementation;Model;label="855", style=dashed
+Model;ResourceLoaderWrapper;label="856", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="857:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="858", style=dashed
+ResourceLoaderWrapper;Model;label="859:getFacade"
+Model;MDRModelImplementation;label="860:getFacade"
+MDRModelImplementation;Model;label="861", style=dashed
+Model;ResourceLoaderWrapper;label="862", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="863:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="864", style=dashed
+ResourceLoaderWrapper;UMLListCellRenderer2;label="865", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="866", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="867", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="868:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="869:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="870:getFacade"
+Model;MDRModelImplementation;label="871:getFacade"
+MDRModelImplementation;Model;label="872", style=dashed
+Model;UMLListCellRenderer2;label="873", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="874:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="875", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="876:makeText"
+UMLListCellRenderer2;Model;label="877:getFacade"
+Model;MDRModelImplementation;label="878:getFacade"
+MDRModelImplementation;Model;label="879", style=dashed
+Model;UMLListCellRenderer2;label="880", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="881:isAParameter"
+FacadeMDRImpl;UMLListCellRenderer2;label="882", style=dashed
+UMLListCellRenderer2;Model;label="883:getFacade"
+Model;MDRModelImplementation;label="884:getFacade"
+MDRModelImplementation;Model;label="885", style=dashed
+Model;UMLListCellRenderer2;label="886", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="887:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="888", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="889:getName"
+UMLListCellRenderer2;Model;label="890:getFacade"
+Model;MDRModelImplementation;label="891:getFacade"
+MDRModelImplementation;Model;label="892", style=dashed
+Model;UMLListCellRenderer2;label="893", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="894:isANamedElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="895", style=dashed
+UMLListCellRenderer2;Model;label="896:getFacade"
+Model;MDRModelImplementation;label="897:getFacade"
+MDRModelImplementation;Model;label="898", style=dashed
+Model;UMLListCellRenderer2;label="899", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="900:getName"
+FacadeMDRImpl;UMLListCellRenderer2;label="901", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="902:makeTypeName"
+UMLListCellRenderer2;Model;label="903:getFacade"
+Model;MDRModelImplementation;label="904:getFacade"
+MDRModelImplementation;Model;label="905", style=dashed
+Model;UMLListCellRenderer2;label="906", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="907:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="908", style=dashed
+UMLListCellRenderer2;Model;label="909:getFacade"
+Model;MDRModelImplementation;label="910:getFacade"
+MDRModelImplementation;Model;label="911", style=dashed
+Model;UMLListCellRenderer2;label="912", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="913:getUMLClassName"
+FacadeMDRImpl;FacadeMDRImpl;label="914:isAUMLElement"
+FacadeMDRImpl;FacadeMDRImpl;label="915", style=dashed
+FacadeMDRImpl;MDRModelImplementation;label="916:getMetaTypes"
+MDRModelImplementation;FacadeMDRImpl;label="917", style=dashed
+FacadeMDRImpl;MetaTypesMDRImpl;label="918:getName"
+MetaTypesMDRImpl;FacadeMDRImpl;label="919", style=dashed
+FacadeMDRImpl;UMLListCellRenderer2;label="920", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="921", style=dashed
+UMLListCellRenderer2;Translator;label="922:localize"
+Translator;Translator;label="923:messageFormat"
+Translator;Translator;label="924:localize"
+Translator;Translator;label="925:getName"
+Translator;Translator;label="926", style=dashed
+Translator;Translator;label="927:loadBundle"
+Translator;Translator;label="928", style=dashed
+Translator;Translator;label="929", style=dashed
+Translator;Translator;label="930", style=dashed
+Translator;UMLListCellRenderer2;label="931", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="932", style=dashed
+UMLListCellRenderer2;Model;label="933:getFacade"
+Model;MDRModelImplementation;label="934:getFacade"
+MDRModelImplementation;Model;label="935", style=dashed
+Model;UMLListCellRenderer2;label="936", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="937:isAStereotype"
+FacadeMDRImpl;UMLListCellRenderer2;label="938", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="939", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="940:getInstance"
+ResourceLoaderWrapper;UMLListCellRenderer2;label="941", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="942:lookupIcon"
+ResourceLoaderWrapper;Model;label="943:getFacade"
+Model;MDRModelImplementation;label="944:getFacade"
+MDRModelImplementation;Model;label="945", style=dashed
+Model;ResourceLoaderWrapper;label="946", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="947:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="948", style=dashed
+ResourceLoaderWrapper;Model;label="949:getFacade"
+Model;MDRModelImplementation;label="950:getFacade"
+MDRModelImplementation;Model;label="951", style=dashed
+Model;ResourceLoaderWrapper;label="952", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="953:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="954", style=dashed
+ResourceLoaderWrapper;Model;label="955:getFacade"
+Model;MDRModelImplementation;label="956:getFacade"
+MDRModelImplementation;Model;label="957", style=dashed
+Model;ResourceLoaderWrapper;label="958", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="959:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="960", style=dashed
+ResourceLoaderWrapper;Model;label="961:getFacade"
+Model;MDRModelImplementation;label="962:getFacade"
+MDRModelImplementation;Model;label="963", style=dashed
+Model;ResourceLoaderWrapper;label="964", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="965:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="966", style=dashed
+ResourceLoaderWrapper;Model;label="967:getFacade"
+Model;MDRModelImplementation;label="968:getFacade"
+MDRModelImplementation;Model;label="969", style=dashed
+Model;ResourceLoaderWrapper;label="970", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="971:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="972", style=dashed
+ResourceLoaderWrapper;UMLListCellRenderer2;label="973", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="974", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="975", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="976:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="977:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="978:getFacade"
+Model;MDRModelImplementation;label="979:getFacade"
+MDRModelImplementation;Model;label="980", style=dashed
+Model;UMLListCellRenderer2;label="981", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="982:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="983", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="984:makeText"
+UMLListCellRenderer2;Model;label="985:getFacade"
+Model;MDRModelImplementation;label="986:getFacade"
+MDRModelImplementation;Model;label="987", style=dashed
+Model;UMLListCellRenderer2;label="988", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="989:isAParameter"
+FacadeMDRImpl;UMLListCellRenderer2;label="990", style=dashed
+UMLListCellRenderer2;Model;label="991:getFacade"
+Model;MDRModelImplementation;label="992:getFacade"
+MDRModelImplementation;Model;label="993", style=dashed
+Model;UMLListCellRenderer2;label="994", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="995:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="996", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="997:getName"
+UMLListCellRenderer2;Model;label="998:getFacade"
+Model;MDRModelImplementation;label="999:getFacade"
+MDRModelImplementation;Model;label="1000", style=dashed
+Model;UMLListCellRenderer2;label="1001", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1002:isANamedElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1003", style=dashed
+UMLListCellRenderer2;Model;label="1004:getFacade"
+Model;MDRModelImplementation;label="1005:getFacade"
+MDRModelImplementation;Model;label="1006", style=dashed
+Model;UMLListCellRenderer2;label="1007", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1008:getName"
+FacadeMDRImpl;UMLListCellRenderer2;label="1009", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1010", style=dashed
+UMLListCellRenderer2;Model;label="1011:getFacade"
+Model;MDRModelImplementation;label="1012:getFacade"
+MDRModelImplementation;Model;label="1013", style=dashed
+Model;UMLListCellRenderer2;label="1014", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1015:isAStereotype"
+FacadeMDRImpl;UMLListCellRenderer2;label="1016", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1017", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="1018:getInstance"
+ResourceLoaderWrapper;UMLListCellRenderer2;label="1019", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="1020:lookupIcon"
+ResourceLoaderWrapper;Model;label="1021:getFacade"
+Model;MDRModelImplementation;label="1022:getFacade"
+MDRModelImplementation;Model;label="1023", style=dashed
+Model;ResourceLoaderWrapper;label="1024", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1025:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1026", style=dashed
+ResourceLoaderWrapper;Model;label="1027:getFacade"
+Model;MDRModelImplementation;label="1028:getFacade"
+MDRModelImplementation;Model;label="1029", style=dashed
+Model;ResourceLoaderWrapper;label="1030", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1031:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1032", style=dashed
+ResourceLoaderWrapper;Model;label="1033:getFacade"
+Model;MDRModelImplementation;label="1034:getFacade"
+MDRModelImplementation;Model;label="1035", style=dashed
+Model;ResourceLoaderWrapper;label="1036", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1037:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1038", style=dashed
+ResourceLoaderWrapper;Model;label="1039:getFacade"
+Model;MDRModelImplementation;label="1040:getFacade"
+MDRModelImplementation;Model;label="1041", style=dashed
+Model;ResourceLoaderWrapper;label="1042", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1043:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1044", style=dashed
+ResourceLoaderWrapper;Model;label="1045:getFacade"
+Model;MDRModelImplementation;label="1046:getFacade"
+MDRModelImplementation;Model;label="1047", style=dashed
+Model;ResourceLoaderWrapper;label="1048", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1049:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1050", style=dashed
+ResourceLoaderWrapper;UMLListCellRenderer2;label="1051", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="1052", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="1053", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="1054:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="1055:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="1056:getFacade"
+Model;MDRModelImplementation;label="1057:getFacade"
+MDRModelImplementation;Model;label="1058", style=dashed
+Model;UMLListCellRenderer2;label="1059", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1060:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1061", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="1062", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="1063", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="1064:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="1065:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="1066:getFacade"
+Model;MDRModelImplementation;label="1067:getFacade"
+MDRModelImplementation;Model;label="1068", style=dashed
+Model;UMLListCellRenderer2;label="1069", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1070:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1071", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="1072", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="1073", style=dashed
+ProjectBrowser;UMLLinkedListCellRenderer;label="1074:getListCellRendererComponent"
+UMLLinkedListCellRenderer;UMLListCellRenderer2;label="1075:getListCellRendererComponent"
+UMLListCellRenderer2;Model;label="1076:getFacade"
+Model;MDRModelImplementation;label="1077:getFacade"
+MDRModelImplementation;Model;label="1078", style=dashed
+Model;UMLListCellRenderer2;label="1079", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1080:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1081", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1082:makeText"
+UMLListCellRenderer2;Model;label="1083:getFacade"
+Model;MDRModelImplementation;label="1084:getFacade"
+MDRModelImplementation;Model;label="1085", style=dashed
+Model;UMLListCellRenderer2;label="1086", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1087:isAParameter"
+FacadeMDRImpl;UMLListCellRenderer2;label="1088", style=dashed
+UMLListCellRenderer2;Model;label="1089:getFacade"
+Model;MDRModelImplementation;label="1090:getFacade"
+MDRModelImplementation;Model;label="1091", style=dashed
+Model;UMLListCellRenderer2;label="1092", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1093:isAUMLElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1094", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1095:getName"
+UMLListCellRenderer2;Model;label="1096:getFacade"
+Model;MDRModelImplementation;label="1097:getFacade"
+MDRModelImplementation;Model;label="1098", style=dashed
+Model;UMLListCellRenderer2;label="1099", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1100:isANamedElement"
+FacadeMDRImpl;UMLListCellRenderer2;label="1101", style=dashed
+UMLListCellRenderer2;Model;label="1102:getFacade"
+Model;MDRModelImplementation;label="1103:getFacade"
+MDRModelImplementation;Model;label="1104", style=dashed
+Model;UMLListCellRenderer2;label="1105", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1106:getName"
+FacadeMDRImpl;UMLListCellRenderer2;label="1107", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1108", style=dashed
+UMLListCellRenderer2;Model;label="1109:getFacade"
+Model;MDRModelImplementation;label="1110:getFacade"
+MDRModelImplementation;Model;label="1111", style=dashed
+Model;UMLListCellRenderer2;label="1112", style=dashed
+UMLListCellRenderer2;FacadeMDRImpl;label="1113:isAStereotype"
+FacadeMDRImpl;UMLListCellRenderer2;label="1114", style=dashed
+UMLListCellRenderer2;Model;label="1115:getModelManagementHelper"
+Model;MDRModelImplementation;label="1116:getModelManagementHelper"
+MDRModelImplementation;Model;label="1117", style=dashed
+Model;UMLListCellRenderer2;label="1118", style=dashed
+UMLListCellRenderer2;ModelManagementHelperMDRImpl;label="1119:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1120:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1121:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1122:getPathList"
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1123", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="1124:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="1125", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="1126:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="1127", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1128", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="1129:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="1130", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="1131:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="1132", style=dashed
+ModelManagementHelperMDRImpl;ModelManagementHelperMDRImpl;label="1133", style=dashed
+ModelManagementHelperMDRImpl;MDRModelImplementation;label="1134:getFacade"
+MDRModelImplementation;ModelManagementHelperMDRImpl;label="1135", style=dashed
+ModelManagementHelperMDRImpl;FacadeMDRImpl;label="1136:getName"
+FacadeMDRImpl;ModelManagementHelperMDRImpl;label="1137", style=dashed
+ModelManagementHelperMDRImpl;UMLListCellRenderer2;label="1138", style=dashed
+UMLListCellRenderer2;Translator;label="1139:localize"
+Translator;Translator;label="1140:messageFormat"
+Translator;Translator;label="1141:localize"
+Translator;Translator;label="1142:getName"
+Translator;Translator;label="1143", style=dashed
+Translator;Translator;label="1144:loadBundle"
+Translator;Translator;label="1145", style=dashed
+Translator;Translator;label="1146", style=dashed
+Translator;Translator;label="1147", style=dashed
+Translator;UMLListCellRenderer2;label="1148", style=dashed
+UMLListCellRenderer2;Translator;label="1149:localize"
+Translator;Translator;label="1150:messageFormat"
+Translator;Translator;label="1151:localize"
+Translator;Translator;label="1152:getName"
+Translator;Translator;label="1153", style=dashed
+Translator;Translator;label="1154:loadBundle"
+Translator;Translator;label="1155", style=dashed
+Translator;Translator;label="1156", style=dashed
+Translator;Translator;label="1157", style=dashed
+Translator;UMLListCellRenderer2;label="1158", style=dashed
+UMLListCellRenderer2;UMLListCellRenderer2;label="1159", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="1160:getInstance"
+ResourceLoaderWrapper;UMLListCellRenderer2;label="1161", style=dashed
+UMLListCellRenderer2;ResourceLoaderWrapper;label="1162:lookupIcon"
+ResourceLoaderWrapper;Model;label="1163:getFacade"
+Model;MDRModelImplementation;label="1164:getFacade"
+MDRModelImplementation;Model;label="1165", style=dashed
+Model;ResourceLoaderWrapper;label="1166", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1167:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1168", style=dashed
+ResourceLoaderWrapper;Model;label="1169:getFacade"
+Model;MDRModelImplementation;label="1170:getFacade"
+MDRModelImplementation;Model;label="1171", style=dashed
+Model;ResourceLoaderWrapper;label="1172", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1173:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1174", style=dashed
+ResourceLoaderWrapper;Model;label="1175:getFacade"
+Model;MDRModelImplementation;label="1176:getFacade"
+MDRModelImplementation;Model;label="1177", style=dashed
+Model;ResourceLoaderWrapper;label="1178", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1179:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1180", style=dashed
+ResourceLoaderWrapper;Model;label="1181:getFacade"
+Model;MDRModelImplementation;label="1182:getFacade"
+MDRModelImplementation;Model;label="1183", style=dashed
+Model;ResourceLoaderWrapper;label="1184", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1185:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1186", style=dashed
+ResourceLoaderWrapper;Model;label="1187:getFacade"
+Model;MDRModelImplementation;label="1188:getFacade"
+MDRModelImplementation;Model;label="1189", style=dashed
+Model;ResourceLoaderWrapper;label="1190", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1191:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1192", style=dashed
+ResourceLoaderWrapper;UMLListCellRenderer2;label="1193", style=dashed
+UMLListCellRenderer2;UMLLinkedListCellRenderer;label="1194", style=dashed
+UMLLinkedListCellRenderer;ProjectBrowser;label="1195", style=dashed
+ProjectBrowser;ExplorerTree;label="1196:paint"
+ExplorerTree;ExplorerTreeNode;label="1197:isLeaf"
+ExplorerTreeNode;ExplorerTree;label="1198", style=dashed
+ExplorerTree;UMLTreeCellRenderer;label="1199:getTreeCellRendererComponent"
+UMLTreeCellRenderer;DisplayTextTree;label="1200:convertValueToText"
+DisplayTextTree;Model;label="1201:getFacade"
+Model;MDRModelImplementation;label="1202:getFacade"
+MDRModelImplementation;Model;label="1203", style=dashed
+Model;DisplayTextTree;label="1204", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1205:isAModelElement"
+FacadeMDRImpl;DisplayTextTree;label="1206", style=dashed
+DisplayTextTree;Model;label="1207:getFacade"
+Model;MDRModelImplementation;label="1208:getFacade"
+MDRModelImplementation;Model;label="1209", style=dashed
+Model;DisplayTextTree;label="1210", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1211:isAElementImport"
+FacadeMDRImpl;DisplayTextTree;label="1212", style=dashed
+DisplayTextTree;Model;label="1213:getFacade"
+Model;MDRModelImplementation;label="1214:getFacade"
+MDRModelImplementation;Model;label="1215", style=dashed
+Model;DisplayTextTree;label="1216", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1217:isAUMLElement"
+FacadeMDRImpl;DisplayTextTree;label="1218", style=dashed
+DisplayTextTree;Model;label="1219:getFacade"
+Model;MDRModelImplementation;label="1220:getFacade"
+MDRModelImplementation;Model;label="1221", style=dashed
+Model;DisplayTextTree;label="1222", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1223:isAAppliedProfileElement"
+FacadeMDRImpl;DisplayTextTree;label="1224", style=dashed
+DisplayTextTree;ProfileConfiguration;label="1225:toString"
+ProfileConfiguration;Translator;label="1226:localize"
+Translator;Main_1;label="1227:i18nlocalize"
+Main_1;Translator;label="1228:localize"
+Translator;Translator;label="1229:getName"
+Translator;Translator;label="1230", style=dashed
+Translator;Translator;label="1231:loadBundle"
+Translator;Translator;label="1232", style=dashed
+Translator;Main_1;label="1233", style=dashed
+Main_1;Translator;label="1234", style=dashed
+Translator;ProfileConfiguration;label="1235", style=dashed
+ProfileConfiguration;DisplayTextTree;label="1236", style=dashed
+DisplayTextTree;UMLTreeCellRenderer;label="1237", style=dashed
+UMLTreeCellRenderer;ResourceLoaderWrapper;label="1238:getInstance"
+ResourceLoaderWrapper;UMLTreeCellRenderer;label="1239", style=dashed
+UMLTreeCellRenderer;ResourceLoaderWrapper;label="1240:lookupIcon"
+ResourceLoaderWrapper;Model;label="1241:getFacade"
+Model;MDRModelImplementation;label="1242:getFacade"
+MDRModelImplementation;Model;label="1243", style=dashed
+Model;ResourceLoaderWrapper;label="1244", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1245:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1246", style=dashed
+ResourceLoaderWrapper;Model;label="1247:getFacade"
+Model;MDRModelImplementation;label="1248:getFacade"
+MDRModelImplementation;Model;label="1249", style=dashed
+Model;ResourceLoaderWrapper;label="1250", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1251:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1252", style=dashed
+ResourceLoaderWrapper;Model;label="1253:getFacade"
+Model;MDRModelImplementation;label="1254:getFacade"
+MDRModelImplementation;Model;label="1255", style=dashed
+Model;ResourceLoaderWrapper;label="1256", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1257:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1258", style=dashed
+ResourceLoaderWrapper;Model;label="1259:getFacade"
+Model;MDRModelImplementation;label="1260:getFacade"
+MDRModelImplementation;Model;label="1261", style=dashed
+Model;ResourceLoaderWrapper;label="1262", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1263:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1264", style=dashed
+ResourceLoaderWrapper;Model;label="1265:getFacade"
+Model;MDRModelImplementation;label="1266:getFacade"
+MDRModelImplementation;Model;label="1267", style=dashed
+Model;ResourceLoaderWrapper;label="1268", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1269:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1270", style=dashed
+ResourceLoaderWrapper;UMLTreeCellRenderer;label="1271", style=dashed
+UMLTreeCellRenderer;Model;label="1272:getFacade"
+Model;MDRModelImplementation;label="1273:getFacade"
+MDRModelImplementation;Model;label="1274", style=dashed
+Model;UMLTreeCellRenderer;label="1275", style=dashed
+UMLTreeCellRenderer;FacadeMDRImpl;label="1276:isAModelElement"
+FacadeMDRImpl;UMLTreeCellRenderer;label="1277", style=dashed
+UMLTreeCellRenderer;ExplorerTree;label="1278", style=dashed
+ExplorerTree;ExplorerTreeNode;label="1279:isLeaf"
+ExplorerTreeNode;ExplorerTree;label="1280", style=dashed
+ExplorerTree;UMLTreeCellRenderer;label="1281:getTreeCellRendererComponent"
+UMLTreeCellRenderer;DisplayTextTree;label="1282:convertValueToText"
+DisplayTextTree;Model;label="1283:getFacade"
+Model;MDRModelImplementation;label="1284:getFacade"
+MDRModelImplementation;Model;label="1285", style=dashed
+Model;DisplayTextTree;label="1286", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1287:isAModelElement"
+FacadeMDRImpl;DisplayTextTree;label="1288", style=dashed
+DisplayTextTree;Model;label="1289:getFacade"
+Model;MDRModelImplementation;label="1290:getFacade"
+MDRModelImplementation;Model;label="1291", style=dashed
+Model;DisplayTextTree;label="1292", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1293:isATransition"
+FacadeMDRImpl;DisplayTextTree;label="1294", style=dashed
+DisplayTextTree;Model;label="1295:getFacade"
+Model;MDRModelImplementation;label="1296:getFacade"
+MDRModelImplementation;Model;label="1297", style=dashed
+Model;DisplayTextTree;label="1298", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1299:isAExtensionPoint"
+FacadeMDRImpl;DisplayTextTree;label="1300", style=dashed
+DisplayTextTree;Model;label="1301:getFacade"
+Model;MDRModelImplementation;label="1302:getFacade"
+MDRModelImplementation;Model;label="1303", style=dashed
+Model;DisplayTextTree;label="1304", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1305:isAComment"
+FacadeMDRImpl;DisplayTextTree;label="1306", style=dashed
+DisplayTextTree;Model;label="1307:getFacade"
+Model;MDRModelImplementation;label="1308:getFacade"
+MDRModelImplementation;Model;label="1309", style=dashed
+Model;DisplayTextTree;label="1310", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1311:isATaggedValue"
+FacadeMDRImpl;DisplayTextTree;label="1312", style=dashed
+DisplayTextTree;DisplayTextTree;label="1313:getModelElementDisplayName"
+DisplayTextTree;Model;label="1314:getFacade"
+Model;MDRModelImplementation;label="1315:getFacade"
+MDRModelImplementation;Model;label="1316", style=dashed
+Model;DisplayTextTree;label="1317", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1318:isANamedElement"
+FacadeMDRImpl;DisplayTextTree;label="1319", style=dashed
+DisplayTextTree;Model;label="1320:getFacade"
+Model;MDRModelImplementation;label="1321:getFacade"
+MDRModelImplementation;Model;label="1322", style=dashed
+Model;DisplayTextTree;label="1323", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1324:getName"
+FacadeMDRImpl;DisplayTextTree;label="1325", style=dashed
+DisplayTextTree;DisplayTextTree;label="1326", style=dashed
+DisplayTextTree;UMLTreeCellRenderer;label="1327", style=dashed
+UMLTreeCellRenderer;ResourceLoaderWrapper;label="1328:getInstance"
+ResourceLoaderWrapper;UMLTreeCellRenderer;label="1329", style=dashed
+UMLTreeCellRenderer;ResourceLoaderWrapper;label="1330:lookupIcon"
+ResourceLoaderWrapper;Model;label="1331:getFacade"
+Model;MDRModelImplementation;label="1332:getFacade"
+MDRModelImplementation;Model;label="1333", style=dashed
+Model;ResourceLoaderWrapper;label="1334", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1335:isAPseudostate"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1336", style=dashed
+ResourceLoaderWrapper;Model;label="1337:getFacade"
+Model;MDRModelImplementation;label="1338:getFacade"
+MDRModelImplementation;Model;label="1339", style=dashed
+Model;ResourceLoaderWrapper;label="1340", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1341:isAAbstraction"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1342", style=dashed
+ResourceLoaderWrapper;Model;label="1343:getFacade"
+Model;MDRModelImplementation;label="1344:getFacade"
+MDRModelImplementation;Model;label="1345", style=dashed
+Model;ResourceLoaderWrapper;label="1346", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1347:isAException"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1348", style=dashed
+ResourceLoaderWrapper;Model;label="1349:getFacade"
+Model;MDRModelImplementation;label="1350:getFacade"
+MDRModelImplementation;Model;label="1351", style=dashed
+Model;ResourceLoaderWrapper;label="1352", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1353:isASignal"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1354", style=dashed
+ResourceLoaderWrapper;Model;label="1355:getFacade"
+Model;MDRModelImplementation;label="1356:getFacade"
+MDRModelImplementation;Model;label="1357", style=dashed
+Model;ResourceLoaderWrapper;label="1358", style=dashed
+ResourceLoaderWrapper;FacadeMDRImpl;label="1359:isAComment"
+FacadeMDRImpl;ResourceLoaderWrapper;label="1360", style=dashed
+ResourceLoaderWrapper;UMLTreeCellRenderer;label="1361", style=dashed
+UMLTreeCellRenderer;Model;label="1362:getFacade"
+Model;MDRModelImplementation;label="1363:getFacade"
+MDRModelImplementation;Model;label="1364", style=dashed
+Model;UMLTreeCellRenderer;label="1365", style=dashed
+UMLTreeCellRenderer;FacadeMDRImpl;label="1366:isAModelElement"
+FacadeMDRImpl;UMLTreeCellRenderer;label="1367", style=dashed
+UMLTreeCellRenderer;Model;label="1368:getFacade"
+Model;MDRModelImplementation;label="1369:getFacade"
+MDRModelImplementation;Model;label="1370", style=dashed
+Model;UMLTreeCellRenderer;label="1371", style=dashed
+UMLTreeCellRenderer;FacadeMDRImpl;label="1372:getUMLClassName"
+FacadeMDRImpl;FacadeMDRImpl;label="1373:isAUMLElement"
+FacadeMDRImpl;FacadeMDRImpl;label="1374", style=dashed
+FacadeMDRImpl;MDRModelImplementation;label="1375:getMetaTypes"
+MDRModelImplementation;FacadeMDRImpl;label="1376", style=dashed
+FacadeMDRImpl;MetaTypesMDRImpl;label="1377:getName"
+MetaTypesMDRImpl;FacadeMDRImpl;label="1378", style=dashed
+FacadeMDRImpl;UMLTreeCellRenderer;label="1379", style=dashed
+UMLTreeCellRenderer;ExplorerTree;label="1380", style=dashed
+ExplorerTree;ProjectBrowser;label="1381", style=dashed
+ProjectBrowser;TreeModelComposite;label="1382:isLeaf"
+TreeModelComposite;PerspectiveSupport;label="1383:getGoRuleList"
+PerspectiveSupport;TreeModelComposite;label="1384", style=dashed
+TreeModelComposite;GoListToPriorityToItem;label="1385:isLeaf"
+GoListToPriorityToItem;GoListToPriorityToItem;label="1386:getChildCount"
+GoListToPriorityToItem;Designer;label="1387:theDesigner"
+Designer;GoListToPriorityToItem;label="1388", style=dashed
+GoListToPriorityToItem;Designer;label="1389:getToDoList"
+Designer;GoListToPriorityToItem;label="1390", style=dashed
+GoListToPriorityToItem;ToDoList;label="1391:getToDoItemList"
+ToDoList;GoListToPriorityToItem;label="1392", style=dashed
+GoListToPriorityToItem;ToDoItem;label="1393:getPriority"
+ToDoItem;GoListToPriorityToItem;label="1394", style=dashed
+GoListToPriorityToItem;PriorityNode;label="1395:getPriority"
+PriorityNode;GoListToPriorityToItem;label="1396", style=dashed
+GoListToPriorityToItem;GoListToPriorityToItem;label="1397", style=dashed
+GoListToPriorityToItem;TreeModelComposite;label="1398", style=dashed
+TreeModelComposite;ProjectBrowser;label="1399", style=dashed
+ProjectBrowser;ToDoTreeRenderer;label="1400:getTreeCellRendererComponent"
+ToDoTreeRenderer;DisplayTextTree;label="1401:convertValueToText"
+DisplayTextTree;Model;label="1402:getFacade"
+Model;MDRModelImplementation;label="1403:getFacade"
+MDRModelImplementation;Model;label="1404", style=dashed
+Model;DisplayTextTree;label="1405", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1406:isAModelElement"
+FacadeMDRImpl;DisplayTextTree;label="1407", style=dashed
+DisplayTextTree;Model;label="1408:getFacade"
+Model;MDRModelImplementation;label="1409:getFacade"
+MDRModelImplementation;Model;label="1410", style=dashed
+Model;DisplayTextTree;label="1411", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1412:isAElementImport"
+FacadeMDRImpl;DisplayTextTree;label="1413", style=dashed
+DisplayTextTree;Model;label="1414:getFacade"
+Model;MDRModelImplementation;label="1415:getFacade"
+MDRModelImplementation;Model;label="1416", style=dashed
+Model;DisplayTextTree;label="1417", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1418:isAUMLElement"
+FacadeMDRImpl;DisplayTextTree;label="1419", style=dashed
+DisplayTextTree;Model;label="1420:getFacade"
+Model;MDRModelImplementation;label="1421:getFacade"
+MDRModelImplementation;Model;label="1422", style=dashed
+Model;DisplayTextTree;label="1423", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1424:isAAppliedProfileElement"
+FacadeMDRImpl;DisplayTextTree;label="1425", style=dashed
+DisplayTextTree;PriorityNode;label="1426:toString"
+PriorityNode;PriorityNode;label="1427:getName"
+PriorityNode;PriorityNode;label="1428", style=dashed
+PriorityNode;DisplayTextTree;label="1429", style=dashed
+DisplayTextTree;ToDoTreeRenderer;label="1430", style=dashed
+ToDoTreeRenderer;ProjectBrowser;label="1431", style=dashed
+ProjectBrowser;TreeModelComposite;label="1432:isLeaf"
+TreeModelComposite;PerspectiveSupport;label="1433:getGoRuleList"
+PerspectiveSupport;TreeModelComposite;label="1434", style=dashed
+TreeModelComposite;GoListToPriorityToItem;label="1435:isLeaf"
+GoListToPriorityToItem;GoListToPriorityToItem;label="1436:getChildCount"
+GoListToPriorityToItem;Designer;label="1437:theDesigner"
+Designer;GoListToPriorityToItem;label="1438", style=dashed
+GoListToPriorityToItem;Designer;label="1439:getToDoList"
+Designer;GoListToPriorityToItem;label="1440", style=dashed
+GoListToPriorityToItem;ToDoList;label="1441:getToDoItemList"
+ToDoList;GoListToPriorityToItem;label="1442", style=dashed
+GoListToPriorityToItem;ToDoItem;label="1443:getPriority"
+ToDoItem;GoListToPriorityToItem;label="1444", style=dashed
+GoListToPriorityToItem;PriorityNode;label="1445:getPriority"
+PriorityNode;GoListToPriorityToItem;label="1446", style=dashed
+GoListToPriorityToItem;GoListToPriorityToItem;label="1447", style=dashed
+GoListToPriorityToItem;TreeModelComposite;label="1448", style=dashed
+TreeModelComposite;ProjectBrowser;label="1449", style=dashed
+ProjectBrowser;ToDoTreeRenderer;label="1450:getTreeCellRendererComponent"
+ToDoTreeRenderer;DisplayTextTree;label="1451:convertValueToText"
+DisplayTextTree;Model;label="1452:getFacade"
+Model;MDRModelImplementation;label="1453:getFacade"
+MDRModelImplementation;Model;label="1454", style=dashed
+Model;DisplayTextTree;label="1455", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1456:isAModelElement"
+FacadeMDRImpl;DisplayTextTree;label="1457", style=dashed
+DisplayTextTree;Model;label="1458:getFacade"
+Model;MDRModelImplementation;label="1459:getFacade"
+MDRModelImplementation;Model;label="1460", style=dashed
+Model;DisplayTextTree;label="1461", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1462:isAElementImport"
+FacadeMDRImpl;DisplayTextTree;label="1463", style=dashed
+DisplayTextTree;Model;label="1464:getFacade"
+Model;MDRModelImplementation;label="1465:getFacade"
+MDRModelImplementation;Model;label="1466", style=dashed
+Model;DisplayTextTree;label="1467", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1468:isAUMLElement"
+FacadeMDRImpl;DisplayTextTree;label="1469", style=dashed
+DisplayTextTree;Model;label="1470:getFacade"
+Model;MDRModelImplementation;label="1471:getFacade"
+MDRModelImplementation;Model;label="1472", style=dashed
+Model;DisplayTextTree;label="1473", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1474:isAAppliedProfileElement"
+FacadeMDRImpl;DisplayTextTree;label="1475", style=dashed
+DisplayTextTree;PriorityNode;label="1476:toString"
+PriorityNode;PriorityNode;label="1477:getName"
+PriorityNode;PriorityNode;label="1478", style=dashed
+PriorityNode;DisplayTextTree;label="1479", style=dashed
+DisplayTextTree;ToDoTreeRenderer;label="1480", style=dashed
+ToDoTreeRenderer;ProjectBrowser;label="1481", style=dashed
+ProjectBrowser;TreeModelComposite;label="1482:isLeaf"
+TreeModelComposite;PerspectiveSupport;label="1483:getGoRuleList"
+PerspectiveSupport;TreeModelComposite;label="1484", style=dashed
+TreeModelComposite;GoListToPriorityToItem;label="1485:isLeaf"
+GoListToPriorityToItem;GoListToPriorityToItem;label="1486:getChildCount"
+GoListToPriorityToItem;Designer;label="1487:theDesigner"
+Designer;GoListToPriorityToItem;label="1488", style=dashed
+GoListToPriorityToItem;Designer;label="1489:getToDoList"
+Designer;GoListToPriorityToItem;label="1490", style=dashed
+GoListToPriorityToItem;ToDoList;label="1491:getToDoItemList"
+ToDoList;GoListToPriorityToItem;label="1492", style=dashed
+GoListToPriorityToItem;ToDoItem;label="1493:getPriority"
+ToDoItem;GoListToPriorityToItem;label="1494", style=dashed
+GoListToPriorityToItem;PriorityNode;label="1495:getPriority"
+PriorityNode;GoListToPriorityToItem;label="1496", style=dashed
+GoListToPriorityToItem;GoListToPriorityToItem;label="1497", style=dashed
+GoListToPriorityToItem;TreeModelComposite;label="1498", style=dashed
+TreeModelComposite;ProjectBrowser;label="1499", style=dashed
+ProjectBrowser;ToDoTreeRenderer;label="1500:getTreeCellRendererComponent"
+ToDoTreeRenderer;DisplayTextTree;label="1501:convertValueToText"
+DisplayTextTree;Model;label="1502:getFacade"
+Model;MDRModelImplementation;label="1503:getFacade"
+MDRModelImplementation;Model;label="1504", style=dashed
+Model;DisplayTextTree;label="1505", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1506:isAModelElement"
+FacadeMDRImpl;DisplayTextTree;label="1507", style=dashed
+DisplayTextTree;Model;label="1508:getFacade"
+Model;MDRModelImplementation;label="1509:getFacade"
+MDRModelImplementation;Model;label="1510", style=dashed
+Model;DisplayTextTree;label="1511", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1512:isAElementImport"
+FacadeMDRImpl;DisplayTextTree;label="1513", style=dashed
+DisplayTextTree;Model;label="1514:getFacade"
+Model;MDRModelImplementation;label="1515:getFacade"
+MDRModelImplementation;Model;label="1516", style=dashed
+Model;DisplayTextTree;label="1517", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1518:isAUMLElement"
+FacadeMDRImpl;DisplayTextTree;label="1519", style=dashed
+DisplayTextTree;Model;label="1520:getFacade"
+Model;MDRModelImplementation;label="1521:getFacade"
+MDRModelImplementation;Model;label="1522", style=dashed
+Model;DisplayTextTree;label="1523", style=dashed
+DisplayTextTree;FacadeMDRImpl;label="1524:isAAppliedProfileElement"
+FacadeMDRImpl;DisplayTextTree;label="1525", style=dashed
+DisplayTextTree;PriorityNode;label="1526:toString"
+PriorityNode;PriorityNode;label="1527:getName"
+PriorityNode;PriorityNode;label="1528", style=dashed
+PriorityNode;DisplayTextTree;label="1529", style=dashed
+DisplayTextTree;ToDoTreeRenderer;label="1530", style=dashed
+ToDoTreeRenderer;ProjectBrowser;label="1531", style=dashed
+ProjectBrowser;TypeThenNameOrder;label="1532:toString"
+TypeThenNameOrder;Translator;label="1533:localize"
+Translator;Translator;label="1534:getName"
+Translator;Translator;label="1535", style=dashed
+Translator;Translator;label="1536:loadBundle"
+Translator;Translator;label="1537", style=dashed
+Translator;TypeThenNameOrder;label="1538", style=dashed
+TypeThenNameOrder;ProjectBrowser;label="1539", style=dashed
+ProjectBrowser;ExplorerPerspective;label="1540:toString"
+ExplorerPerspective;ProjectBrowser;label="1541", style=dashed
+ProjectBrowser;PerspectiveSupport;label="1542:toString"
+PerspectiveSupport;PerspectiveSupport;label="1543:getName"
+PerspectiveSupport;PerspectiveSupport;label="1544", style=dashed
+PerspectiveSupport;PerspectiveSupport;label="1545:getName"
+PerspectiveSupport;PerspectiveSupport;label="1546", style=dashed
+PerspectiveSupport;ProjectBrowser;label="1547", style=dashed
+ProjectBrowser;PerspectiveSupport;label="1548:toString"
+PerspectiveSupport;PerspectiveSupport;label="1549:getName"
+PerspectiveSupport;PerspectiveSupport;label="1550", style=dashed
+PerspectiveSupport;PerspectiveSupport;label="1551:getName"
+PerspectiveSupport;PerspectiveSupport;label="1552", style=dashed
+PerspectiveSupport;ProjectBrowser;label="1553", style=dashed
+ProjectBrowser;HeapMonitor;label="1554:actionPerformed"
+HeapMonitor;HeapMonitor;label="1555:updateStats"
+HeapMonitor;HeapMonitor;label="1556", style=dashed
+HeapMonitor;ProjectBrowser;label="1557", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1558:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="1559", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1560:propertyChange"
+ProjectBrowser_1;ProjectManager;label="1561:getManager"
+ProjectManager;ProjectBrowser_1;label="1562", style=dashed
+ProjectBrowser_1;ProjectManager;label="1563:getCurrentProject"
+ProjectManager;ProjectBrowser_1;label="1564", style=dashed
+ProjectBrowser_1;ProjectImpl;label="1565:getUndoManager"
+ProjectImpl;ProjectBrowser_1;label="1566", style=dashed
+ProjectBrowser_1;DefaultUndoManager;label="1567:startInteraction"
+DefaultUndoManager;ProjectBrowser_1;label="1568", style=dashed
+ProjectBrowser_1;ProjectBrowser;label="1569", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1570:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="1571", style=dashed
+ProjectBrowser;HeapMonitor;label="1572:paint"
+HeapMonitor;ProjectBrowser;label="1573", style=dashed
+ProjectBrowser;HeapMonitor;label="1574:actionPerformed"
+HeapMonitor;HeapMonitor;label="1575:updateStats"
+HeapMonitor;HeapMonitor;label="1576", style=dashed
+HeapMonitor;ProjectBrowser;label="1577", style=dashed
+ProjectBrowser;HeapMonitor;label="1578:paint"
+HeapMonitor;ProjectBrowser;label="1579", style=dashed
+ProjectBrowser;HeapMonitor;label="1580:actionPerformed"
+HeapMonitor;HeapMonitor;label="1581:updateStats"
+HeapMonitor;HeapMonitor;label="1582", style=dashed
+HeapMonitor;ProjectBrowser;label="1583", style=dashed
+ProjectBrowser;HeapMonitor;label="1584:paint"
+HeapMonitor;ProjectBrowser;label="1585", style=dashed
+ProjectBrowser;HeapMonitor;label="1586:actionPerformed"
+HeapMonitor;HeapMonitor;label="1587:updateStats"
+HeapMonitor;HeapMonitor;label="1588", style=dashed
+HeapMonitor;ProjectBrowser;label="1589", style=dashed
+ProjectBrowser;HeapMonitor;label="1590:paint"
+HeapMonitor;ProjectBrowser;label="1591", style=dashed
+ProjectBrowser;HeapMonitor;label="1592:actionPerformed"
+HeapMonitor;HeapMonitor;label="1593:updateStats"
+HeapMonitor;HeapMonitor;label="1594", style=dashed
+HeapMonitor;ProjectBrowser;label="1595", style=dashed
+ProjectBrowser;HeapMonitor;label="1596:paint"
+HeapMonitor;ProjectBrowser;label="1597", style=dashed
+ProjectBrowser;HeapMonitor;label="1598:actionPerformed"
+HeapMonitor;HeapMonitor;label="1599:updateStats"
+HeapMonitor;HeapMonitor;label="1600", style=dashed
+HeapMonitor;ProjectBrowser;label="1601", style=dashed
+ProjectBrowser;HeapMonitor;label="1602:paint"
+HeapMonitor;ProjectBrowser;label="1603", style=dashed
+ProjectBrowser;HeapMonitor;label="1604:actionPerformed"
+HeapMonitor;HeapMonitor;label="1605:updateStats"
+HeapMonitor;HeapMonitor;label="1606", style=dashed
+HeapMonitor;ProjectBrowser;label="1607", style=dashed
+ProjectBrowser;HeapMonitor;label="1608:paint"
+HeapMonitor;ProjectBrowser;label="1609", style=dashed
+ProjectBrowser;HeapMonitor;label="1610:actionPerformed"
+HeapMonitor;HeapMonitor;label="1611:updateStats"
+HeapMonitor;HeapMonitor;label="1612", style=dashed
+HeapMonitor;ProjectBrowser;label="1613", style=dashed
+ProjectBrowser;HeapMonitor;label="1614:paint"
+HeapMonitor;ProjectBrowser;label="1615", style=dashed
+ProjectBrowser;HeapMonitor;label="1616:actionPerformed"
+HeapMonitor;HeapMonitor;label="1617:updateStats"
+HeapMonitor;HeapMonitor;label="1618", style=dashed
+HeapMonitor;ProjectBrowser;label="1619", style=dashed
+ProjectBrowser;HeapMonitor;label="1620:paint"
+HeapMonitor;ProjectBrowser;label="1621", style=dashed
+ProjectBrowser;HeapMonitor;label="1622:actionPerformed"
+HeapMonitor;HeapMonitor;label="1623:updateStats"
+HeapMonitor;HeapMonitor;label="1624", style=dashed
+HeapMonitor;ProjectBrowser;label="1625", style=dashed
+ProjectBrowser;HeapMonitor;label="1626:paint"
+HeapMonitor;ProjectBrowser;label="1627", style=dashed
+ProjectBrowser;HeapMonitor;label="1628:actionPerformed"
+HeapMonitor;HeapMonitor;label="1629:updateStats"
+HeapMonitor;HeapMonitor;label="1630", style=dashed
+HeapMonitor;ProjectBrowser;label="1631", style=dashed
+ProjectBrowser;HeapMonitor;label="1632:paint"
+HeapMonitor;ProjectBrowser;label="1633", style=dashed
+ProjectBrowser;HeapMonitor;label="1634:actionPerformed"
+HeapMonitor;HeapMonitor;label="1635:updateStats"
+HeapMonitor;HeapMonitor;label="1636", style=dashed
+HeapMonitor;ProjectBrowser;label="1637", style=dashed
+ProjectBrowser;HeapMonitor;label="1638:paint"
+HeapMonitor;ProjectBrowser;label="1639", style=dashed
+ProjectBrowser;HeapMonitor;label="1640:actionPerformed"
+HeapMonitor;HeapMonitor;label="1641:updateStats"
+HeapMonitor;HeapMonitor;label="1642", style=dashed
+HeapMonitor;ProjectBrowser;label="1643", style=dashed
+ProjectBrowser;HeapMonitor;label="1644:paint"
+HeapMonitor;ProjectBrowser;label="1645", style=dashed
+ProjectBrowser;HeapMonitor;label="1646:actionPerformed"
+HeapMonitor;HeapMonitor;label="1647:updateStats"
+HeapMonitor;HeapMonitor;label="1648", style=dashed
+HeapMonitor;ProjectBrowser;label="1649", style=dashed
+ProjectBrowser;HeapMonitor;label="1650:paint"
+HeapMonitor;ProjectBrowser;label="1651", style=dashed
+ProjectBrowser;HeapMonitor;label="1652:actionPerformed"
+HeapMonitor;HeapMonitor;label="1653:updateStats"
+HeapMonitor;HeapMonitor;label="1654", style=dashed
+HeapMonitor;ProjectBrowser;label="1655", style=dashed
+ProjectBrowser;HeapMonitor;label="1656:paint"
+HeapMonitor;ProjectBrowser;label="1657", style=dashed
+ProjectBrowser;HeapMonitor;label="1658:actionPerformed"
+HeapMonitor;HeapMonitor;label="1659:updateStats"
+HeapMonitor;HeapMonitor;label="1660", style=dashed
+HeapMonitor;ProjectBrowser;label="1661", style=dashed
+ProjectBrowser;HeapMonitor;label="1662:paint"
+HeapMonitor;ProjectBrowser;label="1663", style=dashed
+ProjectBrowser;HeapMonitor;label="1664:actionPerformed"
+HeapMonitor;HeapMonitor;label="1665:updateStats"
+HeapMonitor;HeapMonitor;label="1666", style=dashed
+HeapMonitor;ProjectBrowser;label="1667", style=dashed
+ProjectBrowser;HeapMonitor;label="1668:paint"
+HeapMonitor;ProjectBrowser;label="1669", style=dashed
+ProjectBrowser;HeapMonitor;label="1670:actionPerformed"
+HeapMonitor;HeapMonitor;label="1671:updateStats"
+HeapMonitor;HeapMonitor;label="1672", style=dashed
+HeapMonitor;ProjectBrowser;label="1673", style=dashed
+ProjectBrowser;HeapMonitor;label="1674:paint"
+HeapMonitor;ProjectBrowser;label="1675", style=dashed
+ProjectBrowser;HeapMonitor;label="1676:actionPerformed"
+HeapMonitor;HeapMonitor;label="1677:updateStats"
+HeapMonitor;HeapMonitor;label="1678", style=dashed
+HeapMonitor;ProjectBrowser;label="1679", style=dashed
+ProjectBrowser;HeapMonitor;label="1680:paint"
+HeapMonitor;ProjectBrowser;label="1681", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1682:accept"
+AbstractFilePersister;ProjectBrowser;label="1683", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1684:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="1685", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1686:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="1687", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1688:propertyChange"
+ProjectBrowser_1;ProjectManager;label="1689:getManager"
+ProjectManager;ProjectBrowser_1;label="1690", style=dashed
+ProjectBrowser_1;ProjectManager;label="1691:getCurrentProject"
+ProjectManager;ProjectBrowser_1;label="1692", style=dashed
+ProjectBrowser_1;ProjectImpl;label="1693:getUndoManager"
+ProjectImpl;ProjectBrowser_1;label="1694", style=dashed
+ProjectBrowser_1;DefaultUndoManager;label="1695:startInteraction"
+DefaultUndoManager;ProjectBrowser_1;label="1696", style=dashed
+ProjectBrowser_1;ProjectBrowser;label="1697", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="1698:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="1699", style=dashed
+ProjectBrowser;ProjectFileView;label="1700:getIcon"
+ProjectFileView;PersistenceManager;label="1701:getInstance"
+PersistenceManager;ProjectFileView;label="1702", style=dashed
+ProjectFileView;PersistenceManager;label="1703:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1704:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1705:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1706", style=dashed
+AbstractFilePersister;PersistenceManager;label="1707", style=dashed
+PersistenceManager;AbstractFilePersister;label="1708:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1709:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1710", style=dashed
+AbstractFilePersister;PersistenceManager;label="1711", style=dashed
+PersistenceManager;AbstractFilePersister;label="1712:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1713:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1714", style=dashed
+AbstractFilePersister;PersistenceManager;label="1715", style=dashed
+PersistenceManager;AbstractFilePersister;label="1716:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1717:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1718", style=dashed
+AbstractFilePersister;PersistenceManager;label="1719", style=dashed
+PersistenceManager;AbstractFilePersister;label="1720:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1721:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1722", style=dashed
+AbstractFilePersister;PersistenceManager;label="1723", style=dashed
+PersistenceManager;ProjectFileView;label="1724", style=dashed
+ProjectFileView;ProjectBrowser;label="1725", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1726:accept"
+AbstractFilePersister;ProjectBrowser;label="1727", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1728:accept"
+AbstractFilePersister;ProjectBrowser;label="1729", style=dashed
+ProjectBrowser;ProjectFileView;label="1730:getIcon"
+ProjectFileView;PersistenceManager;label="1731:getInstance"
+PersistenceManager;ProjectFileView;label="1732", style=dashed
+ProjectFileView;PersistenceManager;label="1733:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1734:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1735:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1736", style=dashed
+AbstractFilePersister;PersistenceManager;label="1737", style=dashed
+PersistenceManager;AbstractFilePersister;label="1738:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1739:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1740", style=dashed
+AbstractFilePersister;PersistenceManager;label="1741", style=dashed
+PersistenceManager;AbstractFilePersister;label="1742:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1743:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1744", style=dashed
+AbstractFilePersister;PersistenceManager;label="1745", style=dashed
+PersistenceManager;AbstractFilePersister;label="1746:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1747:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1748", style=dashed
+AbstractFilePersister;PersistenceManager;label="1749", style=dashed
+PersistenceManager;AbstractFilePersister;label="1750:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1751:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1752", style=dashed
+AbstractFilePersister;PersistenceManager;label="1753", style=dashed
+PersistenceManager;ProjectFileView;label="1754", style=dashed
+ProjectFileView;ProjectBrowser;label="1755", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1756:accept"
+AbstractFilePersister;ProjectBrowser;label="1757", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1758:accept"
+AbstractFilePersister;ProjectBrowser;label="1759", style=dashed
+ProjectBrowser;ProjectFileView;label="1760:getIcon"
+ProjectFileView;PersistenceManager;label="1761:getInstance"
+PersistenceManager;ProjectFileView;label="1762", style=dashed
+ProjectFileView;PersistenceManager;label="1763:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1764:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1765:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1766", style=dashed
+AbstractFilePersister;PersistenceManager;label="1767", style=dashed
+PersistenceManager;ProjectFileView;label="1768", style=dashed
+ProjectFileView;UmlFilePersister;label="1769:hasAnIcon"
+UmlFilePersister;ProjectFileView;label="1770", style=dashed
+ProjectFileView;ResourceLoaderWrapper;label="1771:lookupIconResource"
+ResourceLoaderWrapper;ResourceLoader;label="1772:lookupIconResource"
+ResourceLoader;ResourceLoader;label="1773:lookupIconResource"
+ResourceLoader;ResourceLoader;label="1774:lookupIconResource"
+ResourceLoader;ResourceLoader;label="1775:toJavaIdentifier"
+ResourceLoader;ResourceLoader;label="1776", style=dashed
+ResourceLoader;ResourceLoader;label="1777:isInCache"
+ResourceLoader;ResourceLoader;label="1778", style=dashed
+ResourceLoader;ResourceLoader;label="1779", style=dashed
+ResourceLoader;ResourceLoader;label="1780", style=dashed
+ResourceLoader;ResourceLoaderWrapper;label="1781", style=dashed
+ResourceLoaderWrapper;ProjectFileView;label="1782", style=dashed
+ProjectFileView;ProjectBrowser;label="1783", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1784:accept"
+AbstractFilePersister;AbstractFilePersister;label="1785:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1786:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1787", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="1788", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="1789:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1790", style=dashed
+AbstractFilePersister;ProjectBrowser;label="1791", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1792:accept"
+AbstractFilePersister;AbstractFilePersister;label="1793:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1794:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1795", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="1796", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="1797:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1798", style=dashed
+AbstractFilePersister;ProjectBrowser;label="1799", style=dashed
+ProjectBrowser;ProjectFileView;label="1800:getIcon"
+ProjectFileView;PersistenceManager;label="1801:getInstance"
+PersistenceManager;ProjectFileView;label="1802", style=dashed
+ProjectFileView;PersistenceManager;label="1803:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1804:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1805:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1806", style=dashed
+AbstractFilePersister;PersistenceManager;label="1807", style=dashed
+PersistenceManager;AbstractFilePersister;label="1808:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1809:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1810", style=dashed
+AbstractFilePersister;PersistenceManager;label="1811", style=dashed
+PersistenceManager;AbstractFilePersister;label="1812:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1813:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1814", style=dashed
+AbstractFilePersister;PersistenceManager;label="1815", style=dashed
+PersistenceManager;AbstractFilePersister;label="1816:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1817:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1818", style=dashed
+AbstractFilePersister;PersistenceManager;label="1819", style=dashed
+PersistenceManager;AbstractFilePersister;label="1820:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1821:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1822", style=dashed
+AbstractFilePersister;PersistenceManager;label="1823", style=dashed
+PersistenceManager;ProjectFileView;label="1824", style=dashed
+ProjectFileView;ProjectBrowser;label="1825", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1826:accept"
+AbstractFilePersister;AbstractFilePersister;label="1827:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1828:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1829", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="1830", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="1831:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1832", style=dashed
+AbstractFilePersister;ProjectBrowser;label="1833", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1834:accept"
+AbstractFilePersister;AbstractFilePersister;label="1835:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1836:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="1837", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="1838", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="1839:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1840", style=dashed
+AbstractFilePersister;ProjectBrowser;label="1841", style=dashed
+ProjectBrowser;ProjectFileView;label="1842:getIcon"
+ProjectFileView;PersistenceManager;label="1843:getInstance"
+PersistenceManager;ProjectFileView;label="1844", style=dashed
+ProjectFileView;PersistenceManager;label="1845:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1846:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1847:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1848", style=dashed
+AbstractFilePersister;PersistenceManager;label="1849", style=dashed
+PersistenceManager;AbstractFilePersister;label="1850:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1851:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1852", style=dashed
+AbstractFilePersister;PersistenceManager;label="1853", style=dashed
+PersistenceManager;AbstractFilePersister;label="1854:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1855:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1856", style=dashed
+AbstractFilePersister;PersistenceManager;label="1857", style=dashed
+PersistenceManager;AbstractFilePersister;label="1858:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1859:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1860", style=dashed
+AbstractFilePersister;PersistenceManager;label="1861", style=dashed
+PersistenceManager;AbstractFilePersister;label="1862:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1863:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1864", style=dashed
+AbstractFilePersister;PersistenceManager;label="1865", style=dashed
+PersistenceManager;ProjectFileView;label="1866", style=dashed
+ProjectFileView;ProjectBrowser;label="1867", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1868:accept"
+AbstractFilePersister;ProjectBrowser;label="1869", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1870:accept"
+AbstractFilePersister;ProjectBrowser;label="1871", style=dashed
+ProjectBrowser;ProjectFileView;label="1872:getIcon"
+ProjectFileView;PersistenceManager;label="1873:getInstance"
+PersistenceManager;ProjectFileView;label="1874", style=dashed
+ProjectFileView;PersistenceManager;label="1875:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1876:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1877:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1878", style=dashed
+AbstractFilePersister;PersistenceManager;label="1879", style=dashed
+PersistenceManager;AbstractFilePersister;label="1880:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1881:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1882", style=dashed
+AbstractFilePersister;PersistenceManager;label="1883", style=dashed
+PersistenceManager;AbstractFilePersister;label="1884:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1885:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1886", style=dashed
+AbstractFilePersister;PersistenceManager;label="1887", style=dashed
+PersistenceManager;AbstractFilePersister;label="1888:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1889:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1890", style=dashed
+AbstractFilePersister;PersistenceManager;label="1891", style=dashed
+PersistenceManager;AbstractFilePersister;label="1892:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1893:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1894", style=dashed
+AbstractFilePersister;PersistenceManager;label="1895", style=dashed
+PersistenceManager;ProjectFileView;label="1896", style=dashed
+ProjectFileView;ProjectBrowser;label="1897", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1898:accept"
+AbstractFilePersister;ProjectBrowser;label="1899", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1900:accept"
+AbstractFilePersister;ProjectBrowser;label="1901", style=dashed
+ProjectBrowser;ProjectFileView;label="1902:getIcon"
+ProjectFileView;PersistenceManager;label="1903:getInstance"
+PersistenceManager;ProjectFileView;label="1904", style=dashed
+ProjectFileView;PersistenceManager;label="1905:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1906:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1907:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1908", style=dashed
+AbstractFilePersister;PersistenceManager;label="1909", style=dashed
+PersistenceManager;AbstractFilePersister;label="1910:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1911:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1912", style=dashed
+AbstractFilePersister;PersistenceManager;label="1913", style=dashed
+PersistenceManager;AbstractFilePersister;label="1914:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1915:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1916", style=dashed
+AbstractFilePersister;PersistenceManager;label="1917", style=dashed
+PersistenceManager;AbstractFilePersister;label="1918:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1919:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1920", style=dashed
+AbstractFilePersister;PersistenceManager;label="1921", style=dashed
+PersistenceManager;AbstractFilePersister;label="1922:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1923:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1924", style=dashed
+AbstractFilePersister;PersistenceManager;label="1925", style=dashed
+PersistenceManager;ProjectFileView;label="1926", style=dashed
+ProjectFileView;ProjectBrowser;label="1927", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1928:accept"
+AbstractFilePersister;ProjectBrowser;label="1929", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1930:accept"
+AbstractFilePersister;ProjectBrowser;label="1931", style=dashed
+ProjectBrowser;ProjectFileView;label="1932:getIcon"
+ProjectFileView;PersistenceManager;label="1933:getInstance"
+PersistenceManager;ProjectFileView;label="1934", style=dashed
+ProjectFileView;PersistenceManager;label="1935:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1936:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1937:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1938", style=dashed
+AbstractFilePersister;PersistenceManager;label="1939", style=dashed
+PersistenceManager;AbstractFilePersister;label="1940:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1941:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1942", style=dashed
+AbstractFilePersister;PersistenceManager;label="1943", style=dashed
+PersistenceManager;AbstractFilePersister;label="1944:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1945:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1946", style=dashed
+AbstractFilePersister;PersistenceManager;label="1947", style=dashed
+PersistenceManager;AbstractFilePersister;label="1948:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1949:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1950", style=dashed
+AbstractFilePersister;PersistenceManager;label="1951", style=dashed
+PersistenceManager;AbstractFilePersister;label="1952:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1953:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1954", style=dashed
+AbstractFilePersister;PersistenceManager;label="1955", style=dashed
+PersistenceManager;ProjectFileView;label="1956", style=dashed
+ProjectFileView;ProjectBrowser;label="1957", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1958:accept"
+AbstractFilePersister;ProjectBrowser;label="1959", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1960:accept"
+AbstractFilePersister;ProjectBrowser;label="1961", style=dashed
+ProjectBrowser;ProjectFileView;label="1962:getIcon"
+ProjectFileView;PersistenceManager;label="1963:getInstance"
+PersistenceManager;ProjectFileView;label="1964", style=dashed
+ProjectFileView;PersistenceManager;label="1965:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1966:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1967:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1968", style=dashed
+AbstractFilePersister;PersistenceManager;label="1969", style=dashed
+PersistenceManager;AbstractFilePersister;label="1970:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="1971:getExtension"
+XmiFilePersister;AbstractFilePersister;label="1972", style=dashed
+AbstractFilePersister;PersistenceManager;label="1973", style=dashed
+PersistenceManager;AbstractFilePersister;label="1974:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="1975:getExtension"
+XmlFilePersister;AbstractFilePersister;label="1976", style=dashed
+AbstractFilePersister;PersistenceManager;label="1977", style=dashed
+PersistenceManager;AbstractFilePersister;label="1978:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="1979:getExtension"
+UmlFilePersister;AbstractFilePersister;label="1980", style=dashed
+AbstractFilePersister;PersistenceManager;label="1981", style=dashed
+PersistenceManager;AbstractFilePersister;label="1982:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="1983:getExtension"
+ZipFilePersister;AbstractFilePersister;label="1984", style=dashed
+AbstractFilePersister;PersistenceManager;label="1985", style=dashed
+PersistenceManager;ProjectFileView;label="1986", style=dashed
+ProjectFileView;ProjectBrowser;label="1987", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1988:accept"
+AbstractFilePersister;ProjectBrowser;label="1989", style=dashed
+ProjectBrowser;AbstractFilePersister;label="1990:accept"
+AbstractFilePersister;ProjectBrowser;label="1991", style=dashed
+ProjectBrowser;ProjectFileView;label="1992:getIcon"
+ProjectFileView;PersistenceManager;label="1993:getInstance"
+PersistenceManager;ProjectFileView;label="1994", style=dashed
+ProjectFileView;PersistenceManager;label="1995:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="1996:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="1997:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="1998", style=dashed
+AbstractFilePersister;PersistenceManager;label="1999", style=dashed
+PersistenceManager;AbstractFilePersister;label="2000:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2001:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2002", style=dashed
+AbstractFilePersister;PersistenceManager;label="2003", style=dashed
+PersistenceManager;AbstractFilePersister;label="2004:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2005:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2006", style=dashed
+AbstractFilePersister;PersistenceManager;label="2007", style=dashed
+PersistenceManager;AbstractFilePersister;label="2008:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2009:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2010", style=dashed
+AbstractFilePersister;PersistenceManager;label="2011", style=dashed
+PersistenceManager;AbstractFilePersister;label="2012:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2013:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2014", style=dashed
+AbstractFilePersister;PersistenceManager;label="2015", style=dashed
+PersistenceManager;ProjectFileView;label="2016", style=dashed
+ProjectFileView;ProjectBrowser;label="2017", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2018:accept"
+AbstractFilePersister;ProjectBrowser;label="2019", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2020:accept"
+AbstractFilePersister;ProjectBrowser;label="2021", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2022:accept"
+AbstractFilePersister;ProjectBrowser;label="2023", style=dashed
+ProjectBrowser;ProjectFileView;label="2024:getIcon"
+ProjectFileView;PersistenceManager;label="2025:getInstance"
+PersistenceManager;ProjectFileView;label="2026", style=dashed
+ProjectFileView;PersistenceManager;label="2027:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2028:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2029:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2030", style=dashed
+AbstractFilePersister;PersistenceManager;label="2031", style=dashed
+PersistenceManager;AbstractFilePersister;label="2032:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2033:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2034", style=dashed
+AbstractFilePersister;PersistenceManager;label="2035", style=dashed
+PersistenceManager;AbstractFilePersister;label="2036:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2037:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2038", style=dashed
+AbstractFilePersister;PersistenceManager;label="2039", style=dashed
+PersistenceManager;AbstractFilePersister;label="2040:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2041:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2042", style=dashed
+AbstractFilePersister;PersistenceManager;label="2043", style=dashed
+PersistenceManager;AbstractFilePersister;label="2044:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2045:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2046", style=dashed
+AbstractFilePersister;PersistenceManager;label="2047", style=dashed
+PersistenceManager;ProjectFileView;label="2048", style=dashed
+ProjectFileView;ProjectBrowser;label="2049", style=dashed
+ProjectBrowser;ProjectFileView;label="2050:getIcon"
+ProjectFileView;PersistenceManager;label="2051:getInstance"
+PersistenceManager;ProjectFileView;label="2052", style=dashed
+ProjectFileView;PersistenceManager;label="2053:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2054:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2055:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2056", style=dashed
+AbstractFilePersister;PersistenceManager;label="2057", style=dashed
+PersistenceManager;AbstractFilePersister;label="2058:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2059:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2060", style=dashed
+AbstractFilePersister;PersistenceManager;label="2061", style=dashed
+PersistenceManager;AbstractFilePersister;label="2062:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2063:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2064", style=dashed
+AbstractFilePersister;PersistenceManager;label="2065", style=dashed
+PersistenceManager;AbstractFilePersister;label="2066:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2067:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2068", style=dashed
+AbstractFilePersister;PersistenceManager;label="2069", style=dashed
+PersistenceManager;AbstractFilePersister;label="2070:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2071:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2072", style=dashed
+AbstractFilePersister;PersistenceManager;label="2073", style=dashed
+PersistenceManager;ProjectFileView;label="2074", style=dashed
+ProjectFileView;ProjectBrowser;label="2075", style=dashed
+ProjectBrowser;ProjectFileView;label="2076:getIcon"
+ProjectFileView;PersistenceManager;label="2077:getInstance"
+PersistenceManager;ProjectFileView;label="2078", style=dashed
+ProjectFileView;PersistenceManager;label="2079:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2080:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2081:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2082", style=dashed
+AbstractFilePersister;PersistenceManager;label="2083", style=dashed
+PersistenceManager;AbstractFilePersister;label="2084:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2085:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2086", style=dashed
+AbstractFilePersister;PersistenceManager;label="2087", style=dashed
+PersistenceManager;AbstractFilePersister;label="2088:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2089:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2090", style=dashed
+AbstractFilePersister;PersistenceManager;label="2091", style=dashed
+PersistenceManager;AbstractFilePersister;label="2092:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2093:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2094", style=dashed
+AbstractFilePersister;PersistenceManager;label="2095", style=dashed
+PersistenceManager;AbstractFilePersister;label="2096:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2097:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2098", style=dashed
+AbstractFilePersister;PersistenceManager;label="2099", style=dashed
+PersistenceManager;ProjectFileView;label="2100", style=dashed
+ProjectFileView;ProjectBrowser;label="2101", style=dashed
+ProjectBrowser;ProjectFileView;label="2102:getIcon"
+ProjectFileView;PersistenceManager;label="2103:getInstance"
+PersistenceManager;ProjectFileView;label="2104", style=dashed
+ProjectFileView;PersistenceManager;label="2105:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2106:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2107:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2108", style=dashed
+AbstractFilePersister;PersistenceManager;label="2109", style=dashed
+PersistenceManager;AbstractFilePersister;label="2110:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2111:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2112", style=dashed
+AbstractFilePersister;PersistenceManager;label="2113", style=dashed
+PersistenceManager;AbstractFilePersister;label="2114:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2115:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2116", style=dashed
+AbstractFilePersister;PersistenceManager;label="2117", style=dashed
+PersistenceManager;AbstractFilePersister;label="2118:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2119:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2120", style=dashed
+AbstractFilePersister;PersistenceManager;label="2121", style=dashed
+PersistenceManager;AbstractFilePersister;label="2122:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2123:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2124", style=dashed
+AbstractFilePersister;PersistenceManager;label="2125", style=dashed
+PersistenceManager;ProjectFileView;label="2126", style=dashed
+ProjectFileView;ProjectBrowser;label="2127", style=dashed
+ProjectBrowser;ProjectFileView;label="2128:getIcon"
+ProjectFileView;PersistenceManager;label="2129:getInstance"
+PersistenceManager;ProjectFileView;label="2130", style=dashed
+ProjectFileView;PersistenceManager;label="2131:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2132:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2133:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2134", style=dashed
+AbstractFilePersister;PersistenceManager;label="2135", style=dashed
+PersistenceManager;AbstractFilePersister;label="2136:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2137:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2138", style=dashed
+AbstractFilePersister;PersistenceManager;label="2139", style=dashed
+PersistenceManager;AbstractFilePersister;label="2140:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2141:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2142", style=dashed
+AbstractFilePersister;PersistenceManager;label="2143", style=dashed
+PersistenceManager;AbstractFilePersister;label="2144:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2145:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2146", style=dashed
+AbstractFilePersister;PersistenceManager;label="2147", style=dashed
+PersistenceManager;AbstractFilePersister;label="2148:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2149:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2150", style=dashed
+AbstractFilePersister;PersistenceManager;label="2151", style=dashed
+PersistenceManager;ProjectFileView;label="2152", style=dashed
+ProjectFileView;ProjectBrowser;label="2153", style=dashed
+ProjectBrowser;ProjectFileView;label="2154:getIcon"
+ProjectFileView;PersistenceManager;label="2155:getInstance"
+PersistenceManager;ProjectFileView;label="2156", style=dashed
+ProjectFileView;PersistenceManager;label="2157:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2158:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2159:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2160", style=dashed
+AbstractFilePersister;PersistenceManager;label="2161", style=dashed
+PersistenceManager;AbstractFilePersister;label="2162:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2163:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2164", style=dashed
+AbstractFilePersister;PersistenceManager;label="2165", style=dashed
+PersistenceManager;AbstractFilePersister;label="2166:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2167:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2168", style=dashed
+AbstractFilePersister;PersistenceManager;label="2169", style=dashed
+PersistenceManager;AbstractFilePersister;label="2170:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2171:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2172", style=dashed
+AbstractFilePersister;PersistenceManager;label="2173", style=dashed
+PersistenceManager;AbstractFilePersister;label="2174:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2175:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2176", style=dashed
+AbstractFilePersister;PersistenceManager;label="2177", style=dashed
+PersistenceManager;ProjectFileView;label="2178", style=dashed
+ProjectFileView;ZipFilePersister;label="2179:hasAnIcon"
+ZipFilePersister;ProjectFileView;label="2180", style=dashed
+ProjectFileView;ProjectBrowser;label="2181", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2182:accept"
+AbstractFilePersister;AbstractFilePersister;label="2183:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2184:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2185", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2186", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2187:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2188", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2189", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2190:accept"
+AbstractFilePersister;AbstractFilePersister;label="2191:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2192:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2193", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2194", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2195:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2196", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2197", style=dashed
+ProjectBrowser;ProjectFileView;label="2198:getIcon"
+ProjectFileView;PersistenceManager;label="2199:getInstance"
+PersistenceManager;ProjectFileView;label="2200", style=dashed
+ProjectFileView;PersistenceManager;label="2201:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2202:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2203:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2204", style=dashed
+AbstractFilePersister;PersistenceManager;label="2205", style=dashed
+PersistenceManager;AbstractFilePersister;label="2206:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2207:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2208", style=dashed
+AbstractFilePersister;PersistenceManager;label="2209", style=dashed
+PersistenceManager;AbstractFilePersister;label="2210:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2211:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2212", style=dashed
+AbstractFilePersister;PersistenceManager;label="2213", style=dashed
+PersistenceManager;AbstractFilePersister;label="2214:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2215:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2216", style=dashed
+AbstractFilePersister;PersistenceManager;label="2217", style=dashed
+PersistenceManager;AbstractFilePersister;label="2218:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2219:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2220", style=dashed
+AbstractFilePersister;PersistenceManager;label="2221", style=dashed
+PersistenceManager;ProjectFileView;label="2222", style=dashed
+ProjectFileView;ProjectBrowser;label="2223", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2224:accept"
+AbstractFilePersister;AbstractFilePersister;label="2225:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2226:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2227", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2228", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2229:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2230", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2231", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2232:accept"
+AbstractFilePersister;AbstractFilePersister;label="2233:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2234:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2235", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2236", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2237:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2238", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2239", style=dashed
+ProjectBrowser;ProjectFileView;label="2240:getIcon"
+ProjectFileView;PersistenceManager;label="2241:getInstance"
+PersistenceManager;ProjectFileView;label="2242", style=dashed
+ProjectFileView;PersistenceManager;label="2243:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2244:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2245:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2246", style=dashed
+AbstractFilePersister;PersistenceManager;label="2247", style=dashed
+PersistenceManager;AbstractFilePersister;label="2248:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2249:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2250", style=dashed
+AbstractFilePersister;PersistenceManager;label="2251", style=dashed
+PersistenceManager;AbstractFilePersister;label="2252:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2253:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2254", style=dashed
+AbstractFilePersister;PersistenceManager;label="2255", style=dashed
+PersistenceManager;AbstractFilePersister;label="2256:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2257:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2258", style=dashed
+AbstractFilePersister;PersistenceManager;label="2259", style=dashed
+PersistenceManager;AbstractFilePersister;label="2260:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2261:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2262", style=dashed
+AbstractFilePersister;PersistenceManager;label="2263", style=dashed
+PersistenceManager;ProjectFileView;label="2264", style=dashed
+ProjectFileView;ProjectBrowser;label="2265", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2266:accept"
+AbstractFilePersister;AbstractFilePersister;label="2267:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2268:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2269", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2270", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2271:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2272", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2273", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2274:accept"
+AbstractFilePersister;AbstractFilePersister;label="2275:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2276:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2277", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2278", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2279:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2280", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2281", style=dashed
+ProjectBrowser;ProjectFileView;label="2282:getIcon"
+ProjectFileView;PersistenceManager;label="2283:getInstance"
+PersistenceManager;ProjectFileView;label="2284", style=dashed
+ProjectFileView;PersistenceManager;label="2285:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2286:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2287:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2288", style=dashed
+AbstractFilePersister;PersistenceManager;label="2289", style=dashed
+PersistenceManager;AbstractFilePersister;label="2290:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2291:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2292", style=dashed
+AbstractFilePersister;PersistenceManager;label="2293", style=dashed
+PersistenceManager;AbstractFilePersister;label="2294:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2295:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2296", style=dashed
+AbstractFilePersister;PersistenceManager;label="2297", style=dashed
+PersistenceManager;AbstractFilePersister;label="2298:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2299:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2300", style=dashed
+AbstractFilePersister;PersistenceManager;label="2301", style=dashed
+PersistenceManager;AbstractFilePersister;label="2302:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2303:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2304", style=dashed
+AbstractFilePersister;PersistenceManager;label="2305", style=dashed
+PersistenceManager;ProjectFileView;label="2306", style=dashed
+ProjectFileView;ProjectBrowser;label="2307", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2308:accept"
+AbstractFilePersister;AbstractFilePersister;label="2309:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2310:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2311", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2312", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2313:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2314", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2315", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2316:accept"
+AbstractFilePersister;AbstractFilePersister;label="2317:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2318:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2319", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2320", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2321:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2322", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2323", style=dashed
+ProjectBrowser;ProjectFileView;label="2324:getIcon"
+ProjectFileView;PersistenceManager;label="2325:getInstance"
+PersistenceManager;ProjectFileView;label="2326", style=dashed
+ProjectFileView;PersistenceManager;label="2327:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2328:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2329:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2330", style=dashed
+AbstractFilePersister;PersistenceManager;label="2331", style=dashed
+PersistenceManager;AbstractFilePersister;label="2332:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2333:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2334", style=dashed
+AbstractFilePersister;PersistenceManager;label="2335", style=dashed
+PersistenceManager;AbstractFilePersister;label="2336:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2337:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2338", style=dashed
+AbstractFilePersister;PersistenceManager;label="2339", style=dashed
+PersistenceManager;AbstractFilePersister;label="2340:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2341:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2342", style=dashed
+AbstractFilePersister;PersistenceManager;label="2343", style=dashed
+PersistenceManager;AbstractFilePersister;label="2344:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2345:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2346", style=dashed
+AbstractFilePersister;PersistenceManager;label="2347", style=dashed
+PersistenceManager;ProjectFileView;label="2348", style=dashed
+ProjectFileView;ProjectBrowser;label="2349", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2350:accept"
+AbstractFilePersister;AbstractFilePersister;label="2351:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2352:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2353", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2354", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2355:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2356", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2357", style=dashed
+ProjectBrowser;AbstractFilePersister;label="2358:accept"
+AbstractFilePersister;AbstractFilePersister;label="2359:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2360:getExtension"
+AbstractFilePersister;AbstractFilePersister;label="2361", style=dashed
+AbstractFilePersister;AbstractFilePersister;label="2362", style=dashed
+AbstractFilePersister;ZargoFilePersister;label="2363:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2364", style=dashed
+AbstractFilePersister;ProjectBrowser;label="2365", style=dashed
+ProjectBrowser;HeapMonitor;label="2366:actionPerformed"
+HeapMonitor;HeapMonitor;label="2367:updateStats"
+HeapMonitor;HeapMonitor;label="2368", style=dashed
+HeapMonitor;ProjectBrowser;label="2369", style=dashed
+ProjectBrowser;HeapMonitor;label="2370:paint"
+HeapMonitor;ProjectBrowser;label="2371", style=dashed
+ProjectBrowser;HeapMonitor;label="2372:actionPerformed"
+HeapMonitor;HeapMonitor;label="2373:updateStats"
+HeapMonitor;HeapMonitor;label="2374", style=dashed
+HeapMonitor;ProjectBrowser;label="2375", style=dashed
+ProjectBrowser;HeapMonitor;label="2376:paint"
+HeapMonitor;ProjectBrowser;label="2377", style=dashed
+ProjectBrowser;HeapMonitor;label="2378:actionPerformed"
+HeapMonitor;HeapMonitor;label="2379:updateStats"
+HeapMonitor;HeapMonitor;label="2380", style=dashed
+HeapMonitor;ProjectBrowser;label="2381", style=dashed
+ProjectBrowser;HeapMonitor;label="2382:paint"
+HeapMonitor;ProjectBrowser;label="2383", style=dashed
+ProjectBrowser;HeapMonitor;label="2384:actionPerformed"
+HeapMonitor;HeapMonitor;label="2385:updateStats"
+HeapMonitor;HeapMonitor;label="2386", style=dashed
+HeapMonitor;ProjectBrowser;label="2387", style=dashed
+ProjectBrowser;HeapMonitor;label="2388:paint"
+HeapMonitor;ProjectBrowser;label="2389", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2390:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="2391", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2392:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="2393", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2394:propertyChange"
+ProjectBrowser_1;ProjectManager;label="2395:getManager"
+ProjectManager;ProjectBrowser_1;label="2396", style=dashed
+ProjectBrowser_1;ProjectManager;label="2397:getCurrentProject"
+ProjectManager;ProjectBrowser_1;label="2398", style=dashed
+ProjectBrowser_1;ProjectImpl;label="2399:getUndoManager"
+ProjectImpl;ProjectBrowser_1;label="2400", style=dashed
+ProjectBrowser_1;DefaultUndoManager;label="2401:startInteraction"
+DefaultUndoManager;ProjectBrowser_1;label="2402", style=dashed
+ProjectBrowser_1;ProjectBrowser;label="2403", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2404:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="2405", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2406:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="2407", style=dashed
+ProjectBrowser;ProjectBrowser_1;label="2408:propertyChange"
+ProjectBrowser_1;ProjectBrowser;label="2409", style=dashed
+ProjectBrowser;PersistenceManager;label="2410:getInstance"
+PersistenceManager;ProjectBrowser;label="2411", style=dashed
+ProjectBrowser;PersistenceManager;label="2412:getBaseName"
+PersistenceManager;PersistenceManager;label="2413:getPersisterFromFileName"
+PersistenceManager;AbstractFilePersister;label="2414:isFileExtensionApplicable"
+AbstractFilePersister;ZargoFilePersister;label="2415:getExtension"
+ZargoFilePersister;AbstractFilePersister;label="2416", style=dashed
+AbstractFilePersister;PersistenceManager;label="2417", style=dashed
+PersistenceManager;AbstractFilePersister;label="2418:isFileExtensionApplicable"
+AbstractFilePersister;XmiFilePersister;label="2419:getExtension"
+XmiFilePersister;AbstractFilePersister;label="2420", style=dashed
+AbstractFilePersister;PersistenceManager;label="2421", style=dashed
+PersistenceManager;AbstractFilePersister;label="2422:isFileExtensionApplicable"
+AbstractFilePersister;XmlFilePersister;label="2423:getExtension"
+XmlFilePersister;AbstractFilePersister;label="2424", style=dashed
+AbstractFilePersister;PersistenceManager;label="2425", style=dashed
+PersistenceManager;AbstractFilePersister;label="2426:isFileExtensionApplicable"
+AbstractFilePersister;UmlFilePersister;label="2427:getExtension"
+UmlFilePersister;AbstractFilePersister;label="2428", style=dashed
+AbstractFilePersister;PersistenceManager;label="2429", style=dashed
+PersistenceManager;AbstractFilePersister;label="2430:isFileExtensionApplicable"
+AbstractFilePersister;ZipFilePersister;label="2431:getExtension"
+ZipFilePersister;AbstractFilePersister;label="2432", style=dashed
+AbstractFilePersister;PersistenceManager;label="2433", style=dashed
+PersistenceManager;PersistenceManager;label="2434", style=dashed
+PersistenceManager;ProjectBrowser;label="2435", style=dashed
+ProjectBrowser;Configuration;label="2436:setString"
+Configuration;ConfigurationHandler;label="2437:setString"
+ConfigurationHandler;ConfigurationHandler;label="2438:workerSetValue"
+ConfigurationHandler;ConfigurationHandler;label="2439:loadIfNecessary"
+ConfigurationHandler;ConfigurationHandler;label="2440", style=dashed
+ConfigurationHandler;ConfigurationKeyImpl;label="2441:getKey"
+ConfigurationKeyImpl;ConfigurationHandler;label="2442", style=dashed
+ConfigurationHandler;ConfigurationProperties;label="2443:getValue"
+ConfigurationProperties;ConfigurationHandler;label="2444", style=dashed
+ConfigurationHandler;ConfigurationKeyImpl;label="2445:getKey"
+ConfigurationKeyImpl;ConfigurationHandler;label="2446", style=dashed
+ConfigurationHandler;ConfigurationProperties;label="2447:setValue"
+ConfigurationProperties;ConfigurationHandler;label="2448", style=dashed
+ConfigurationHandler;ConfigurationKeyImpl;label="2449:getKey"
+ConfigurationKeyImpl;ConfigurationHandler;label="2450", style=dashed
+ConfigurationHandler;ConfigurationHandler;label="2451", style=dashed
+ConfigurationHandler;Configuration;label="2452", style=dashed
+Configuration;ProjectBrowser;label="2453", style=dashed
+ProjectBrowser;ZargoFilePersister;label="2454:getExtension"
+ZargoFilePersister;ProjectBrowser;label="2455", style=dashed
+ProjectBrowser;ZargoFilePersister;label="2456:getExtension"
+ZargoFilePersister;ProjectBrowser;label="2457", style=dashed
+ProjectBrowser;PersistenceManager;label="2458:getInstance"
+PersistenceManager;ProjectBrowser;label="2459", style=dashed
+ProjectBrowser;PersistenceManager;label="2460:setSavePersister"
+PersistenceManager;ProjectBrowser;label="2461", style=dashed
+ProjectBrowser;ProjectBrowser;label="2462", style=dashed
+ProjectBrowser;ProjectBrowser;label="2463:trySaveWithProgressMonitor"
+ProjectBrowser;PersistenceManager;label="2464:getInstance"
+PersistenceManager;ProjectBrowser;label="2465", style=dashed
+ProjectBrowser;ArgoFrame;label="2466:getFrame"
+ArgoFrame;ProjectBrowser;label="2467", style=dashed
+ProjectBrowser;PersistenceManager;label="2468:confirmOverwrite"
+PersistenceManager;ProjectBrowser;label="2469", style=dashed
+ProjectBrowser;ProjectBrowser;label="2470:isFileReadonly"
+ProjectBrowser;ProjectBrowser;label="2471", style=dashed
+ProjectBrowser;SwingWorker;label="2472:<clinit>"
+SwingWorker;ProjectBrowser;label="2473", style=dashed
+ProjectBrowser;ProjectManager;label="2474:getManager"
+ProjectManager;ProjectBrowser;label="2475", style=dashed
+ProjectBrowser;ProjectManager;label="2476:getCurrentProject"
+ProjectManager;ProjectBrowser;label="2477", style=dashed
+ProjectBrowser;SaveSwingWorker;label="2478:SaveSwingWorker"
+SaveSwingWorker;SwingWorker;label="2479:SwingWorker"
+SwingWorker;SwingWorker;label="2480:SwingWorker"
+SwingWorker;SwingWorker_1;label="2481:SwingWorker_1"
+SwingWorker_1;SwingWorker;label="2482", style=dashed
+SwingWorker;SwingWorker_2;label="2483:SwingWorker_2"
+SwingWorker_2;SwingWorker;label="2484", style=dashed
+SwingWorker;SwingWorker_ThreadVar;label="2485:SwingWorker_ThreadVar"
+SwingWorker_ThreadVar;SwingWorker;label="2486", style=dashed
+SwingWorker;SwingWorker;label="2487", style=dashed
+SwingWorker;SwingWorker_ThreadVar;label="2488:get"
+SwingWorker_ThreadVar;SwingWorker;label="2489", style=dashed
+SwingWorker;SaveSwingWorker;label="2490", style=dashed
+SaveSwingWorker;ProjectBrowser;label="2491", style=dashed
+ProjectBrowser;SwingWorker;label="2492:start"
+SwingWorker;SwingWorker_ThreadVar;label="2493:get"
+SwingWorker_ThreadVar;SwingWorker;label="2494", style=dashed
+SwingWorker;ProjectBrowser;label="2495", style=dashed
+ProjectBrowser;ProjectBrowser;label="2496", style=dashed
+ProjectBrowser;ProjectBrowser;label="2497", style=dashed
+ProjectBrowser;ProjectBrowser;label="2498", style=dashed
+ProjectBrowser;ActionSaveProject;label="2499", style=dashed
+ActionSaveProject;_START_;label="2500", style=dashed
+_START_;ActionSaveProject;label="1:setEnabled"
+ActionSaveProject;ActionSaveProject;label="2:internalSetEnabled"
+ActionSaveProject;ProjectBrowser;label="3:getInstance"
+ProjectBrowser;ActionSaveProject;label="4", style=dashed
+ActionSaveProject;ProjectBrowser;label="5:showSaveIndicator"
+ProjectBrowser;ProjectBrowser_TitleHandler;label="6:buildTitle"
+ProjectBrowser_TitleHandler;ProjectManager;label="7:getManager"
+ProjectManager;ProjectBrowser_TitleHandler;label="8", style=dashed
+ProjectBrowser_TitleHandler;ProjectManager;label="9:getCurrentProject"
+ProjectManager;ProjectBrowser_TitleHandler;label="10", style=dashed
+ProjectBrowser_TitleHandler;ProjectManager;label="11:getManager"
+ProjectManager;ProjectBrowser_TitleHandler;label="12", style=dashed
+ProjectBrowser_TitleHandler;ProjectManager;label="13:getCurrentProject"
+ProjectManager;ProjectBrowser_TitleHandler;label="14", style=dashed
+ProjectBrowser_TitleHandler;ProjectImpl;label="15:getName"
+ProjectImpl;ProjectBrowser_TitleHandler;label="16", style=dashed
+ProjectBrowser_TitleHandler;DiagramUtils;label="17:getActiveDiagram"
+DiagramUtils;DiagramUtils;label="18:getActiveLayer"
+DiagramUtils;DiagramUtils;label="19", style=dashed
+DiagramUtils;ProjectBrowser_TitleHandler;label="20", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser;label="21:access_100"
+ProjectBrowser;ProjectBrowser_TitleHandler;label="22", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser;label="23:access_100"
+ProjectBrowser;ProjectBrowser_TitleHandler;label="24", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser;label="25:getAppName"
+ProjectBrowser;ProjectBrowser_TitleHandler;label="26", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser_TitleHandler;label="27:setTitleInternal"
+ProjectBrowser_TitleHandler;ProjectBrowser_TitleHandler_1;label="28:ProjectBrowser_TitleHandler_1"
+ProjectBrowser_TitleHandler_1;ProjectBrowser_TitleHandler;label="29", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser_TitleHandler;label="30", style=dashed
+ProjectBrowser_TitleHandler;ProjectBrowser;label="31", style=dashed
+ProjectBrowser;ActionSaveProject;label="32", style=dashed
+ActionSaveProject;ActionSaveProject;label="33", style=dashed
+ActionSaveProject;_START_;label="34", style=dashed

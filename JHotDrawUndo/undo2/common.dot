@@ -1,0 +1,20 @@
+_START_;UndoCommand;label="1:UndoCommand"
+UndoCommand;AbstractCommand;label="2:AbstractCommand"
+AbstractCommand;AbstractCommand;label="3:AbstractCommand"
+AbstractCommand;AbstractCommand;label="4:setName"
+AbstractCommand;AbstractCommand;label="5", style=dashed
+AbstractCommand;AbstractCommand;label="6:setDrawingEditor"
+AbstractCommand;AbstractCommand;label="7", style=dashed
+AbstractCommand;AbstractCommand;label="8:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="9", style=dashed
+AbstractCommand;DrawApplication;label="10:addViewChangeListener"
+DrawApplication;AbstractCommand;label="11", style=dashed
+AbstractCommand;AbstractCommand;label="12:createEventDispatcher"
+AbstractCommand;AbstractCommand_EventDispatcher;label="13:AbstractCommand_EventDispatcher"
+AbstractCommand_EventDispatcher;AbstractCommand;label="14", style=dashed
+AbstractCommand;AbstractCommand;label="15", style=dashed
+AbstractCommand;AbstractCommand;label="16:setEventDispatcher"
+AbstractCommand;AbstractCommand;label="17", style=dashed
+AbstractCommand;AbstractCommand;label="18", style=dashed
+AbstractCommand;UndoCommand;label="19", style=dashed
+UndoCommand;_START_;label="20", style=dashed

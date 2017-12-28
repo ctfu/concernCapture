@@ -1,0 +1,2850 @@
+_START_;UndoCommand;label="1:execute"
+UndoCommand;AbstractCommand;label="2:execute"
+AbstractCommand;AbstractCommand;label="3:view"
+AbstractCommand;AbstractCommand;label="4:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="5", style=dashed
+AbstractCommand;DrawApplication;label="6:view"
+DrawApplication;AbstractCommand;label="7", style=dashed
+AbstractCommand;AbstractCommand;label="8", style=dashed
+AbstractCommand;UndoCommand;label="9", style=dashed
+UndoCommand;AbstractCommand;label="10:getDrawingEditor"
+AbstractCommand;UndoCommand;label="11", style=dashed
+UndoCommand;DrawApplication;label="12:getUndoManager"
+DrawApplication;UndoCommand;label="13", style=dashed
+UndoCommand;UndoManager;label="14:isUndoable"
+UndoManager;UndoManager;label="15:getUndoSize"
+UndoManager;UndoManager;label="16", style=dashed
+UndoManager;UndoableAdapter;label="17:isUndoable"
+UndoableAdapter;UndoManager;label="18", style=dashed
+UndoManager;UndoCommand;label="19", style=dashed
+UndoCommand;UndoManager;label="20:popUndo"
+UndoManager;UndoManager;label="21:peekUndo"
+UndoManager;UndoManager;label="22:getUndoSize"
+UndoManager;UndoManager;label="23", style=dashed
+UndoManager;UndoManager;label="24", style=dashed
+UndoManager;UndoManager;label="25:getUndoSize"
+UndoManager;UndoManager;label="26", style=dashed
+UndoManager;UndoCommand;label="27", style=dashed
+UndoCommand;ChangeAttributeCommand_UndoActivity;label="28:undo"
+ChangeAttributeCommand_UndoActivity;UndoableAdapter;label="29:undo"
+UndoableAdapter;UndoableAdapter;label="30:isUndoable"
+UndoableAdapter;UndoableAdapter;label="31", style=dashed
+UndoableAdapter;ChangeAttributeCommand_UndoActivity;label="32", style=dashed
+ChangeAttributeCommand_UndoActivity;UndoableAdapter;label="33:getAffectedFigures"
+UndoableAdapter;FigureEnumerator;label="34:FigureEnumerator"
+FigureEnumerator;UndoableAdapter;label="35", style=dashed
+UndoableAdapter;ChangeAttributeCommand_UndoActivity;label="36", style=dashed
+ChangeAttributeCommand_UndoActivity;FigureEnumerator;label="37:hasMoreElements"
+FigureEnumerator;ChangeAttributeCommand_UndoActivity;label="38", style=dashed
+ChangeAttributeCommand_UndoActivity;FigureEnumerator;label="39:nextFigure"
+FigureEnumerator;ChangeAttributeCommand_UndoActivity;label="40", style=dashed
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="41:getOriginalValue"
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="42", style=dashed
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="43:getAttributeName"
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="44", style=dashed
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="45:getOriginalValue"
+ChangeAttributeCommand_UndoActivity;ChangeAttributeCommand_UndoActivity;label="46", style=dashed
+ChangeAttributeCommand_UndoActivity;DecoratorFigure;label="47:setAttribute"
+DecoratorFigure;DecoratorFigure;label="48:getDecoratedFigure"
+DecoratorFigure;DecoratorFigure;label="49", style=dashed
+DecoratorFigure;AttributeFigure;label="50:setAttribute"
+AttributeFigure;FigureAttributes;label="51:set"
+FigureAttributes;AttributeFigure;label="52", style=dashed
+AttributeFigure;AbstractFigure;label="53:changed"
+AbstractFigure;AbstractFigure;label="54:invalidate"
+AbstractFigure;RectangleFigure;label="55:displayBox"
+RectangleFigure;AbstractFigure;label="56", style=dashed
+AbstractFigure;FigureChangeEvent;label="57:FigureChangeEvent"
+FigureChangeEvent;AbstractFigure;label="58", style=dashed
+AbstractFigure;DecoratorFigure;label="59:figureInvalidated"
+DecoratorFigure;AbstractFigure;label="60:listener"
+AbstractFigure;DecoratorFigure;label="61", style=dashed
+DecoratorFigure;AbstractFigure;label="62:listener"
+AbstractFigure;DecoratorFigure;label="63", style=dashed
+DecoratorFigure;StandardDrawing;label="64:figureInvalidated"
+StandardDrawing;FigureChangeEvent;label="65:getInvalidatedRectangle"
+FigureChangeEvent;StandardDrawing;label="66", style=dashed
+StandardDrawing;DrawingChangeEvent;label="67:DrawingChangeEvent"
+DrawingChangeEvent;StandardDrawing;label="68", style=dashed
+StandardDrawing;StandardDrawingView;label="69:drawingInvalidated"
+StandardDrawingView;DrawingChangeEvent;label="70:getInvalidatedRectangle"
+DrawingChangeEvent;StandardDrawingView;label="71", style=dashed
+StandardDrawingView;StandardDrawing;label="72", style=dashed
+StandardDrawing;DecoratorFigure;label="73", style=dashed
+DecoratorFigure;AbstractFigure;label="74", style=dashed
+AbstractFigure;AbstractFigure;label="75", style=dashed
+AbstractFigure;FigureChangeEvent;label="76:FigureChangeEvent"
+FigureChangeEvent;AbstractFigure;label="77", style=dashed
+AbstractFigure;AttributeFigure;label="78", style=dashed
+AttributeFigure;DecoratorFigure;label="79", style=dashed
+DecoratorFigure;ChangeAttributeCommand_UndoActivity;label="80", style=dashed
+ChangeAttributeCommand_UndoActivity;FigureEnumerator;label="81:hasMoreElements"
+FigureEnumerator;ChangeAttributeCommand_UndoActivity;label="82", style=dashed
+ChangeAttributeCommand_UndoActivity;UndoCommand;label="83", style=dashed
+UndoCommand;UndoableAdapter;label="84:isRedoable"
+UndoableAdapter;UndoCommand;label="85", style=dashed
+UndoCommand;UndoManager;label="86:pushRedo"
+UndoManager;UndoableAdapter;label="87:isRedoable"
+UndoableAdapter;UndoManager;label="88", style=dashed
+UndoManager;UndoManager;label="89:getRedoSize"
+UndoManager;UndoManager;label="90", style=dashed
+UndoManager;UndoManager;label="91:getRedoSize"
+UndoManager;UndoManager;label="92", style=dashed
+UndoManager;UndoCommand;label="93", style=dashed
+UndoCommand;UndoableAdapter;label="94:getDrawingView"
+UndoableAdapter;UndoCommand;label="95", style=dashed
+UndoCommand;StandardDrawingView;label="96:checkDamage"
+StandardDrawingView;StandardDrawingView;label="97:drawing"
+StandardDrawingView;StandardDrawingView;label="98", style=dashed
+StandardDrawingView;StandardDrawing;label="99:drawingChangeListeners"
+StandardDrawing;StandardDrawingView;label="100", style=dashed
+StandardDrawingView;StandardDrawingView;label="101:repairDamage"
+StandardDrawingView;StandardDrawingView;label="102", style=dashed
+StandardDrawingView;UndoCommand;label="103", style=dashed
+UndoCommand;AbstractCommand;label="104:getDrawingEditor"
+AbstractCommand;UndoCommand;label="105", style=dashed
+UndoCommand;UndoableAdapter;label="106:getDrawingView"
+UndoableAdapter;UndoCommand;label="107", style=dashed
+UndoCommand;DrawApplication;label="108:figureSelectionChanged"
+DrawApplication;CommandMenu;label="109:checkEnabled"
+CommandMenu;UndoableCommand;label="110:isExecutable"
+UndoableCommand;UndoableCommand;label="111:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="112", style=dashed
+UndoableCommand;AbstractCommand;label="113:isExecutable"
+AbstractCommand;AbstractCommand;label="114:isViewRequired"
+AbstractCommand;AbstractCommand;label="115", style=dashed
+AbstractCommand;AbstractCommand;label="116:view"
+AbstractCommand;AbstractCommand;label="117:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="118", style=dashed
+AbstractCommand;DrawApplication;label="119:view"
+DrawApplication;AbstractCommand;label="120", style=dashed
+AbstractCommand;AbstractCommand;label="121", style=dashed
+AbstractCommand;AbstractCommand;label="122:view"
+AbstractCommand;AbstractCommand;label="123:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="124", style=dashed
+AbstractCommand;DrawApplication;label="125:view"
+DrawApplication;AbstractCommand;label="126", style=dashed
+AbstractCommand;AbstractCommand;label="127", style=dashed
+AbstractCommand;StandardDrawingView;label="128:isInteractive"
+StandardDrawingView;AbstractCommand;label="129", style=dashed
+AbstractCommand;SelectAllCommand;label="130:isExecutableWithView"
+SelectAllCommand;AbstractCommand;label="131:view"
+AbstractCommand;AbstractCommand;label="132:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="133", style=dashed
+AbstractCommand;DrawApplication;label="134:view"
+DrawApplication;AbstractCommand;label="135", style=dashed
+AbstractCommand;SelectAllCommand;label="136", style=dashed
+SelectAllCommand;StandardDrawingView;label="137:drawing"
+StandardDrawingView;SelectAllCommand;label="138", style=dashed
+SelectAllCommand;CompositeFigure;label="139:figures"
+CompositeFigure;FigureEnumerator;label="140:FigureEnumerator"
+FigureEnumerator;CompositeFigure;label="141", style=dashed
+CompositeFigure;SelectAllCommand;label="142", style=dashed
+SelectAllCommand;FigureEnumerator;label="143:hasMoreElements"
+FigureEnumerator;SelectAllCommand;label="144", style=dashed
+SelectAllCommand;FigureEnumerator;label="145:nextFigure"
+FigureEnumerator;SelectAllCommand;label="146", style=dashed
+SelectAllCommand;AbstractCommand;label="147", style=dashed
+AbstractCommand;UndoableCommand;label="148", style=dashed
+UndoableCommand;CommandMenu;label="149", style=dashed
+CommandMenu;UndoableCommand;label="150:isExecutable"
+UndoableCommand;UndoableCommand;label="151:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="152", style=dashed
+UndoableCommand;AbstractCommand;label="153:isExecutable"
+AbstractCommand;AbstractCommand;label="154:isViewRequired"
+AbstractCommand;AbstractCommand;label="155", style=dashed
+AbstractCommand;AbstractCommand;label="156:view"
+AbstractCommand;AbstractCommand;label="157:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="158", style=dashed
+AbstractCommand;DrawApplication;label="159:view"
+DrawApplication;AbstractCommand;label="160", style=dashed
+AbstractCommand;AbstractCommand;label="161", style=dashed
+AbstractCommand;AbstractCommand;label="162:view"
+AbstractCommand;AbstractCommand;label="163:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="164", style=dashed
+AbstractCommand;DrawApplication;label="165:view"
+DrawApplication;AbstractCommand;label="166", style=dashed
+AbstractCommand;AbstractCommand;label="167", style=dashed
+AbstractCommand;StandardDrawingView;label="168:isInteractive"
+StandardDrawingView;AbstractCommand;label="169", style=dashed
+AbstractCommand;CutCommand;label="170:isExecutableWithView"
+CutCommand;AbstractCommand;label="171:view"
+AbstractCommand;AbstractCommand;label="172:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="173", style=dashed
+AbstractCommand;DrawApplication;label="174:view"
+DrawApplication;AbstractCommand;label="175", style=dashed
+AbstractCommand;CutCommand;label="176", style=dashed
+CutCommand;StandardDrawingView;label="177:selectionCount"
+StandardDrawingView;CutCommand;label="178", style=dashed
+CutCommand;AbstractCommand;label="179", style=dashed
+AbstractCommand;UndoableCommand;label="180", style=dashed
+UndoableCommand;CommandMenu;label="181", style=dashed
+CommandMenu;AbstractCommand;label="182:isExecutable"
+AbstractCommand;AbstractCommand;label="183:isViewRequired"
+AbstractCommand;AbstractCommand;label="184", style=dashed
+AbstractCommand;AbstractCommand;label="185:view"
+AbstractCommand;AbstractCommand;label="186:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="187", style=dashed
+AbstractCommand;DrawApplication;label="188:view"
+DrawApplication;AbstractCommand;label="189", style=dashed
+AbstractCommand;AbstractCommand;label="190", style=dashed
+AbstractCommand;AbstractCommand;label="191:view"
+AbstractCommand;AbstractCommand;label="192:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="193", style=dashed
+AbstractCommand;DrawApplication;label="194:view"
+DrawApplication;AbstractCommand;label="195", style=dashed
+AbstractCommand;AbstractCommand;label="196", style=dashed
+AbstractCommand;StandardDrawingView;label="197:isInteractive"
+StandardDrawingView;AbstractCommand;label="198", style=dashed
+AbstractCommand;CopyCommand;label="199:isExecutableWithView"
+CopyCommand;AbstractCommand;label="200:view"
+AbstractCommand;AbstractCommand;label="201:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="202", style=dashed
+AbstractCommand;DrawApplication;label="203:view"
+DrawApplication;AbstractCommand;label="204", style=dashed
+AbstractCommand;CopyCommand;label="205", style=dashed
+CopyCommand;StandardDrawingView;label="206:selectionCount"
+StandardDrawingView;CopyCommand;label="207", style=dashed
+CopyCommand;AbstractCommand;label="208", style=dashed
+AbstractCommand;CommandMenu;label="209", style=dashed
+CommandMenu;UndoableCommand;label="210:isExecutable"
+UndoableCommand;UndoableCommand;label="211:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="212", style=dashed
+UndoableCommand;AbstractCommand;label="213:isExecutable"
+AbstractCommand;AbstractCommand;label="214:isViewRequired"
+AbstractCommand;AbstractCommand;label="215", style=dashed
+AbstractCommand;AbstractCommand;label="216:view"
+AbstractCommand;AbstractCommand;label="217:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="218", style=dashed
+AbstractCommand;DrawApplication;label="219:view"
+DrawApplication;AbstractCommand;label="220", style=dashed
+AbstractCommand;AbstractCommand;label="221", style=dashed
+AbstractCommand;AbstractCommand;label="222:view"
+AbstractCommand;AbstractCommand;label="223:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="224", style=dashed
+AbstractCommand;DrawApplication;label="225:view"
+DrawApplication;AbstractCommand;label="226", style=dashed
+AbstractCommand;AbstractCommand;label="227", style=dashed
+AbstractCommand;StandardDrawingView;label="228:isInteractive"
+StandardDrawingView;AbstractCommand;label="229", style=dashed
+AbstractCommand;PasteCommand;label="230:isExecutableWithView"
+PasteCommand;Clipboard;label="231:getClipboard"
+Clipboard;PasteCommand;label="232", style=dashed
+PasteCommand;Clipboard;label="233:getContents"
+Clipboard;PasteCommand;label="234", style=dashed
+PasteCommand;AbstractCommand;label="235", style=dashed
+AbstractCommand;UndoableCommand;label="236", style=dashed
+UndoableCommand;CommandMenu;label="237", style=dashed
+CommandMenu;UndoableCommand;label="238:isExecutable"
+UndoableCommand;UndoableCommand;label="239:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="240", style=dashed
+UndoableCommand;AbstractCommand;label="241:isExecutable"
+AbstractCommand;AbstractCommand;label="242:isViewRequired"
+AbstractCommand;AbstractCommand;label="243", style=dashed
+AbstractCommand;AbstractCommand;label="244:view"
+AbstractCommand;AbstractCommand;label="245:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="246", style=dashed
+AbstractCommand;DrawApplication;label="247:view"
+DrawApplication;AbstractCommand;label="248", style=dashed
+AbstractCommand;AbstractCommand;label="249", style=dashed
+AbstractCommand;AbstractCommand;label="250:view"
+AbstractCommand;AbstractCommand;label="251:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="252", style=dashed
+AbstractCommand;DrawApplication;label="253:view"
+DrawApplication;AbstractCommand;label="254", style=dashed
+AbstractCommand;AbstractCommand;label="255", style=dashed
+AbstractCommand;StandardDrawingView;label="256:isInteractive"
+StandardDrawingView;AbstractCommand;label="257", style=dashed
+AbstractCommand;DuplicateCommand;label="258:isExecutableWithView"
+DuplicateCommand;AbstractCommand;label="259:view"
+AbstractCommand;AbstractCommand;label="260:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="261", style=dashed
+AbstractCommand;DrawApplication;label="262:view"
+DrawApplication;AbstractCommand;label="263", style=dashed
+AbstractCommand;DuplicateCommand;label="264", style=dashed
+DuplicateCommand;StandardDrawingView;label="265:selectionCount"
+StandardDrawingView;DuplicateCommand;label="266", style=dashed
+DuplicateCommand;AbstractCommand;label="267", style=dashed
+AbstractCommand;UndoableCommand;label="268", style=dashed
+UndoableCommand;CommandMenu;label="269", style=dashed
+CommandMenu;UndoableCommand;label="270:isExecutable"
+UndoableCommand;UndoableCommand;label="271:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="272", style=dashed
+UndoableCommand;AbstractCommand;label="273:isExecutable"
+AbstractCommand;AbstractCommand;label="274:isViewRequired"
+AbstractCommand;AbstractCommand;label="275", style=dashed
+AbstractCommand;AbstractCommand;label="276:view"
+AbstractCommand;AbstractCommand;label="277:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="278", style=dashed
+AbstractCommand;DrawApplication;label="279:view"
+DrawApplication;AbstractCommand;label="280", style=dashed
+AbstractCommand;AbstractCommand;label="281", style=dashed
+AbstractCommand;AbstractCommand;label="282:view"
+AbstractCommand;AbstractCommand;label="283:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="284", style=dashed
+AbstractCommand;DrawApplication;label="285:view"
+DrawApplication;AbstractCommand;label="286", style=dashed
+AbstractCommand;AbstractCommand;label="287", style=dashed
+AbstractCommand;StandardDrawingView;label="288:isInteractive"
+StandardDrawingView;AbstractCommand;label="289", style=dashed
+AbstractCommand;DeleteCommand;label="290:isExecutableWithView"
+DeleteCommand;AbstractCommand;label="291:view"
+AbstractCommand;AbstractCommand;label="292:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="293", style=dashed
+AbstractCommand;DrawApplication;label="294:view"
+DrawApplication;AbstractCommand;label="295", style=dashed
+AbstractCommand;DeleteCommand;label="296", style=dashed
+DeleteCommand;StandardDrawingView;label="297:selectionCount"
+StandardDrawingView;DeleteCommand;label="298", style=dashed
+DeleteCommand;AbstractCommand;label="299", style=dashed
+AbstractCommand;UndoableCommand;label="300", style=dashed
+UndoableCommand;CommandMenu;label="301", style=dashed
+CommandMenu;UndoableCommand;label="302:isExecutable"
+UndoableCommand;UndoableCommand;label="303:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="304", style=dashed
+UndoableCommand;AbstractCommand;label="305:isExecutable"
+AbstractCommand;AbstractCommand;label="306:isViewRequired"
+AbstractCommand;AbstractCommand;label="307", style=dashed
+AbstractCommand;AbstractCommand;label="308:view"
+AbstractCommand;AbstractCommand;label="309:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="310", style=dashed
+AbstractCommand;DrawApplication;label="311:view"
+DrawApplication;AbstractCommand;label="312", style=dashed
+AbstractCommand;AbstractCommand;label="313", style=dashed
+AbstractCommand;AbstractCommand;label="314:view"
+AbstractCommand;AbstractCommand;label="315:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="316", style=dashed
+AbstractCommand;DrawApplication;label="317:view"
+DrawApplication;AbstractCommand;label="318", style=dashed
+AbstractCommand;AbstractCommand;label="319", style=dashed
+AbstractCommand;StandardDrawingView;label="320:isInteractive"
+StandardDrawingView;AbstractCommand;label="321", style=dashed
+AbstractCommand;GroupCommand;label="322:isExecutableWithView"
+GroupCommand;AbstractCommand;label="323:view"
+AbstractCommand;AbstractCommand;label="324:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="325", style=dashed
+AbstractCommand;DrawApplication;label="326:view"
+DrawApplication;AbstractCommand;label="327", style=dashed
+AbstractCommand;GroupCommand;label="328", style=dashed
+GroupCommand;StandardDrawingView;label="329:selectionCount"
+StandardDrawingView;GroupCommand;label="330", style=dashed
+GroupCommand;AbstractCommand;label="331", style=dashed
+AbstractCommand;UndoableCommand;label="332", style=dashed
+UndoableCommand;CommandMenu;label="333", style=dashed
+CommandMenu;UndoableCommand;label="334:isExecutable"
+UndoableCommand;UndoableCommand;label="335:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="336", style=dashed
+UndoableCommand;AbstractCommand;label="337:isExecutable"
+AbstractCommand;AbstractCommand;label="338:isViewRequired"
+AbstractCommand;AbstractCommand;label="339", style=dashed
+AbstractCommand;AbstractCommand;label="340:view"
+AbstractCommand;AbstractCommand;label="341:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="342", style=dashed
+AbstractCommand;DrawApplication;label="343:view"
+DrawApplication;AbstractCommand;label="344", style=dashed
+AbstractCommand;AbstractCommand;label="345", style=dashed
+AbstractCommand;AbstractCommand;label="346:view"
+AbstractCommand;AbstractCommand;label="347:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="348", style=dashed
+AbstractCommand;DrawApplication;label="349:view"
+DrawApplication;AbstractCommand;label="350", style=dashed
+AbstractCommand;AbstractCommand;label="351", style=dashed
+AbstractCommand;StandardDrawingView;label="352:isInteractive"
+StandardDrawingView;AbstractCommand;label="353", style=dashed
+AbstractCommand;UngroupCommand;label="354:isExecutableWithView"
+UngroupCommand;AbstractCommand;label="355:view"
+AbstractCommand;AbstractCommand;label="356:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="357", style=dashed
+AbstractCommand;DrawApplication;label="358:view"
+DrawApplication;AbstractCommand;label="359", style=dashed
+AbstractCommand;UngroupCommand;label="360", style=dashed
+UngroupCommand;StandardDrawingView;label="361:selectionElements"
+StandardDrawingView;StandardDrawingView;label="362:selectionZOrdered"
+StandardDrawingView;StandardDrawingView;label="363:selectionCount"
+StandardDrawingView;StandardDrawingView;label="364", style=dashed
+StandardDrawingView;StandardDrawingView;label="365:drawing"
+StandardDrawingView;StandardDrawingView;label="366", style=dashed
+StandardDrawingView;CompositeFigure;label="367:figures"
+CompositeFigure;FigureEnumerator;label="368:FigureEnumerator"
+FigureEnumerator;CompositeFigure;label="369", style=dashed
+CompositeFigure;StandardDrawingView;label="370", style=dashed
+StandardDrawingView;FigureEnumerator;label="371:hasMoreElements"
+FigureEnumerator;StandardDrawingView;label="372", style=dashed
+StandardDrawingView;FigureEnumerator;label="373:nextFigure"
+FigureEnumerator;StandardDrawingView;label="374", style=dashed
+StandardDrawingView;StandardDrawingView;label="375:isFigureSelected"
+StandardDrawingView;StandardDrawingView;label="376", style=dashed
+StandardDrawingView;FigureEnumerator;label="377:hasMoreElements"
+FigureEnumerator;StandardDrawingView;label="378", style=dashed
+StandardDrawingView;StandardDrawingView;label="379", style=dashed
+StandardDrawingView;FigureEnumerator;label="380:FigureEnumerator"
+FigureEnumerator;StandardDrawingView;label="381", style=dashed
+StandardDrawingView;UngroupCommand;label="382", style=dashed
+UngroupCommand;FigureEnumerator;label="383:hasMoreElements"
+FigureEnumerator;UngroupCommand;label="384", style=dashed
+UngroupCommand;FigureEnumerator;label="385:nextFigure"
+FigureEnumerator;UngroupCommand;label="386", style=dashed
+UngroupCommand;DecoratorFigure;label="387:getDecoratedFigure"
+DecoratorFigure;UngroupCommand;label="388", style=dashed
+UngroupCommand;AbstractCommand;label="389", style=dashed
+AbstractCommand;UndoableCommand;label="390", style=dashed
+UndoableCommand;CommandMenu;label="391", style=dashed
+CommandMenu;UndoableCommand;label="392:isExecutable"
+UndoableCommand;UndoableCommand;label="393:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="394", style=dashed
+UndoableCommand;AbstractCommand;label="395:isExecutable"
+AbstractCommand;AbstractCommand;label="396:isViewRequired"
+AbstractCommand;AbstractCommand;label="397", style=dashed
+AbstractCommand;AbstractCommand;label="398:view"
+AbstractCommand;AbstractCommand;label="399:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="400", style=dashed
+AbstractCommand;DrawApplication;label="401:view"
+DrawApplication;AbstractCommand;label="402", style=dashed
+AbstractCommand;AbstractCommand;label="403", style=dashed
+AbstractCommand;AbstractCommand;label="404:view"
+AbstractCommand;AbstractCommand;label="405:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="406", style=dashed
+AbstractCommand;DrawApplication;label="407:view"
+DrawApplication;AbstractCommand;label="408", style=dashed
+AbstractCommand;AbstractCommand;label="409", style=dashed
+AbstractCommand;StandardDrawingView;label="410:isInteractive"
+StandardDrawingView;AbstractCommand;label="411", style=dashed
+AbstractCommand;SendToBackCommand;label="412:isExecutableWithView"
+SendToBackCommand;AbstractCommand;label="413:view"
+AbstractCommand;AbstractCommand;label="414:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="415", style=dashed
+AbstractCommand;DrawApplication;label="416:view"
+DrawApplication;AbstractCommand;label="417", style=dashed
+AbstractCommand;SendToBackCommand;label="418", style=dashed
+SendToBackCommand;StandardDrawingView;label="419:selectionCount"
+StandardDrawingView;SendToBackCommand;label="420", style=dashed
+SendToBackCommand;AbstractCommand;label="421", style=dashed
+AbstractCommand;UndoableCommand;label="422", style=dashed
+UndoableCommand;CommandMenu;label="423", style=dashed
+CommandMenu;UndoableCommand;label="424:isExecutable"
+UndoableCommand;UndoableCommand;label="425:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="426", style=dashed
+UndoableCommand;AbstractCommand;label="427:isExecutable"
+AbstractCommand;AbstractCommand;label="428:isViewRequired"
+AbstractCommand;AbstractCommand;label="429", style=dashed
+AbstractCommand;AbstractCommand;label="430:view"
+AbstractCommand;AbstractCommand;label="431:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="432", style=dashed
+AbstractCommand;DrawApplication;label="433:view"
+DrawApplication;AbstractCommand;label="434", style=dashed
+AbstractCommand;AbstractCommand;label="435", style=dashed
+AbstractCommand;AbstractCommand;label="436:view"
+AbstractCommand;AbstractCommand;label="437:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="438", style=dashed
+AbstractCommand;DrawApplication;label="439:view"
+DrawApplication;AbstractCommand;label="440", style=dashed
+AbstractCommand;AbstractCommand;label="441", style=dashed
+AbstractCommand;StandardDrawingView;label="442:isInteractive"
+StandardDrawingView;AbstractCommand;label="443", style=dashed
+AbstractCommand;BringToFrontCommand;label="444:isExecutableWithView"
+BringToFrontCommand;AbstractCommand;label="445:view"
+AbstractCommand;AbstractCommand;label="446:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="447", style=dashed
+AbstractCommand;DrawApplication;label="448:view"
+DrawApplication;AbstractCommand;label="449", style=dashed
+AbstractCommand;BringToFrontCommand;label="450", style=dashed
+BringToFrontCommand;StandardDrawingView;label="451:selectionCount"
+StandardDrawingView;BringToFrontCommand;label="452", style=dashed
+BringToFrontCommand;AbstractCommand;label="453", style=dashed
+AbstractCommand;UndoableCommand;label="454", style=dashed
+UndoableCommand;CommandMenu;label="455", style=dashed
+CommandMenu;AbstractCommand;label="456:isExecutable"
+AbstractCommand;AbstractCommand;label="457:isViewRequired"
+AbstractCommand;AbstractCommand;label="458", style=dashed
+AbstractCommand;AbstractCommand;label="459:view"
+AbstractCommand;AbstractCommand;label="460:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="461", style=dashed
+AbstractCommand;DrawApplication;label="462:view"
+DrawApplication;AbstractCommand;label="463", style=dashed
+AbstractCommand;AbstractCommand;label="464", style=dashed
+AbstractCommand;AbstractCommand;label="465:view"
+AbstractCommand;AbstractCommand;label="466:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="467", style=dashed
+AbstractCommand;DrawApplication;label="468:view"
+DrawApplication;AbstractCommand;label="469", style=dashed
+AbstractCommand;AbstractCommand;label="470", style=dashed
+AbstractCommand;StandardDrawingView;label="471:isInteractive"
+StandardDrawingView;AbstractCommand;label="472", style=dashed
+AbstractCommand;UndoCommand;label="473:isExecutableWithView"
+UndoCommand;AbstractCommand;label="474:getDrawingEditor"
+AbstractCommand;UndoCommand;label="475", style=dashed
+UndoCommand;DrawApplication;label="476:getUndoManager"
+DrawApplication;UndoCommand;label="477", style=dashed
+UndoCommand;UndoManager;label="478:getUndoSize"
+UndoManager;UndoCommand;label="479", style=dashed
+UndoCommand;AbstractCommand;label="480", style=dashed
+AbstractCommand;CommandMenu;label="481", style=dashed
+CommandMenu;AbstractCommand;label="482:isExecutable"
+AbstractCommand;AbstractCommand;label="483:isViewRequired"
+AbstractCommand;AbstractCommand;label="484", style=dashed
+AbstractCommand;AbstractCommand;label="485:view"
+AbstractCommand;AbstractCommand;label="486:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="487", style=dashed
+AbstractCommand;DrawApplication;label="488:view"
+DrawApplication;AbstractCommand;label="489", style=dashed
+AbstractCommand;AbstractCommand;label="490", style=dashed
+AbstractCommand;AbstractCommand;label="491:view"
+AbstractCommand;AbstractCommand;label="492:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="493", style=dashed
+AbstractCommand;DrawApplication;label="494:view"
+DrawApplication;AbstractCommand;label="495", style=dashed
+AbstractCommand;AbstractCommand;label="496", style=dashed
+AbstractCommand;StandardDrawingView;label="497:isInteractive"
+StandardDrawingView;AbstractCommand;label="498", style=dashed
+AbstractCommand;RedoCommand;label="499:isExecutableWithView"
+RedoCommand;AbstractCommand;label="500:getDrawingEditor"
+AbstractCommand;RedoCommand;label="501", style=dashed
+RedoCommand;DrawApplication;label="502:getUndoManager"
+DrawApplication;RedoCommand;label="503", style=dashed
+RedoCommand;UndoManager;label="504:getRedoSize"
+UndoManager;RedoCommand;label="505", style=dashed
+RedoCommand;AbstractCommand;label="506", style=dashed
+AbstractCommand;CommandMenu;label="507", style=dashed
+CommandMenu;DrawApplication;label="508", style=dashed
+DrawApplication;CommandMenu;label="509:checkEnabled"
+CommandMenu;AbstractCommand;label="510:isExecutable"
+AbstractCommand;AbstractCommand;label="511:isViewRequired"
+AbstractCommand;AbstractCommand;label="512", style=dashed
+AbstractCommand;AbstractCommand;label="513:view"
+AbstractCommand;AbstractCommand;label="514:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="515", style=dashed
+AbstractCommand;DrawApplication;label="516:view"
+DrawApplication;AbstractCommand;label="517", style=dashed
+AbstractCommand;AbstractCommand;label="518", style=dashed
+AbstractCommand;AbstractCommand;label="519:view"
+AbstractCommand;AbstractCommand;label="520:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="521", style=dashed
+AbstractCommand;DrawApplication;label="522:view"
+DrawApplication;AbstractCommand;label="523", style=dashed
+AbstractCommand;AbstractCommand;label="524", style=dashed
+AbstractCommand;StandardDrawingView;label="525:isInteractive"
+StandardDrawingView;AbstractCommand;label="526", style=dashed
+AbstractCommand;AbstractCommand;label="527:isExecutableWithView"
+AbstractCommand;AbstractCommand;label="528", style=dashed
+AbstractCommand;CommandMenu;label="529", style=dashed
+CommandMenu;UndoableCommand;label="530:isExecutable"
+UndoableCommand;UndoableCommand;label="531:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="532", style=dashed
+UndoableCommand;AbstractCommand;label="533:isExecutable"
+AbstractCommand;AbstractCommand;label="534:isViewRequired"
+AbstractCommand;AbstractCommand;label="535", style=dashed
+AbstractCommand;AbstractCommand;label="536:view"
+AbstractCommand;AbstractCommand;label="537:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="538", style=dashed
+AbstractCommand;DrawApplication;label="539:view"
+DrawApplication;AbstractCommand;label="540", style=dashed
+AbstractCommand;AbstractCommand;label="541", style=dashed
+AbstractCommand;AbstractCommand;label="542:view"
+AbstractCommand;AbstractCommand;label="543:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="544", style=dashed
+AbstractCommand;DrawApplication;label="545:view"
+DrawApplication;AbstractCommand;label="546", style=dashed
+AbstractCommand;AbstractCommand;label="547", style=dashed
+AbstractCommand;StandardDrawingView;label="548:isInteractive"
+StandardDrawingView;AbstractCommand;label="549", style=dashed
+AbstractCommand;AlignCommand;label="550:isExecutableWithView"
+AlignCommand;AbstractCommand;label="551:view"
+AbstractCommand;AbstractCommand;label="552:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="553", style=dashed
+AbstractCommand;DrawApplication;label="554:view"
+DrawApplication;AbstractCommand;label="555", style=dashed
+AbstractCommand;AlignCommand;label="556", style=dashed
+AlignCommand;StandardDrawingView;label="557:selectionCount"
+StandardDrawingView;AlignCommand;label="558", style=dashed
+AlignCommand;AbstractCommand;label="559", style=dashed
+AbstractCommand;UndoableCommand;label="560", style=dashed
+UndoableCommand;CommandMenu;label="561", style=dashed
+CommandMenu;UndoableCommand;label="562:isExecutable"
+UndoableCommand;UndoableCommand;label="563:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="564", style=dashed
+UndoableCommand;AbstractCommand;label="565:isExecutable"
+AbstractCommand;AbstractCommand;label="566:isViewRequired"
+AbstractCommand;AbstractCommand;label="567", style=dashed
+AbstractCommand;AbstractCommand;label="568:view"
+AbstractCommand;AbstractCommand;label="569:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="570", style=dashed
+AbstractCommand;DrawApplication;label="571:view"
+DrawApplication;AbstractCommand;label="572", style=dashed
+AbstractCommand;AbstractCommand;label="573", style=dashed
+AbstractCommand;AbstractCommand;label="574:view"
+AbstractCommand;AbstractCommand;label="575:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="576", style=dashed
+AbstractCommand;DrawApplication;label="577:view"
+DrawApplication;AbstractCommand;label="578", style=dashed
+AbstractCommand;AbstractCommand;label="579", style=dashed
+AbstractCommand;StandardDrawingView;label="580:isInteractive"
+StandardDrawingView;AbstractCommand;label="581", style=dashed
+AbstractCommand;AlignCommand;label="582:isExecutableWithView"
+AlignCommand;AbstractCommand;label="583:view"
+AbstractCommand;AbstractCommand;label="584:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="585", style=dashed
+AbstractCommand;DrawApplication;label="586:view"
+DrawApplication;AbstractCommand;label="587", style=dashed
+AbstractCommand;AlignCommand;label="588", style=dashed
+AlignCommand;StandardDrawingView;label="589:selectionCount"
+StandardDrawingView;AlignCommand;label="590", style=dashed
+AlignCommand;AbstractCommand;label="591", style=dashed
+AbstractCommand;UndoableCommand;label="592", style=dashed
+UndoableCommand;CommandMenu;label="593", style=dashed
+CommandMenu;UndoableCommand;label="594:isExecutable"
+UndoableCommand;UndoableCommand;label="595:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="596", style=dashed
+UndoableCommand;AbstractCommand;label="597:isExecutable"
+AbstractCommand;AbstractCommand;label="598:isViewRequired"
+AbstractCommand;AbstractCommand;label="599", style=dashed
+AbstractCommand;AbstractCommand;label="600:view"
+AbstractCommand;AbstractCommand;label="601:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="602", style=dashed
+AbstractCommand;DrawApplication;label="603:view"
+DrawApplication;AbstractCommand;label="604", style=dashed
+AbstractCommand;AbstractCommand;label="605", style=dashed
+AbstractCommand;AbstractCommand;label="606:view"
+AbstractCommand;AbstractCommand;label="607:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="608", style=dashed
+AbstractCommand;DrawApplication;label="609:view"
+DrawApplication;AbstractCommand;label="610", style=dashed
+AbstractCommand;AbstractCommand;label="611", style=dashed
+AbstractCommand;StandardDrawingView;label="612:isInteractive"
+StandardDrawingView;AbstractCommand;label="613", style=dashed
+AbstractCommand;AlignCommand;label="614:isExecutableWithView"
+AlignCommand;AbstractCommand;label="615:view"
+AbstractCommand;AbstractCommand;label="616:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="617", style=dashed
+AbstractCommand;DrawApplication;label="618:view"
+DrawApplication;AbstractCommand;label="619", style=dashed
+AbstractCommand;AlignCommand;label="620", style=dashed
+AlignCommand;StandardDrawingView;label="621:selectionCount"
+StandardDrawingView;AlignCommand;label="622", style=dashed
+AlignCommand;AbstractCommand;label="623", style=dashed
+AbstractCommand;UndoableCommand;label="624", style=dashed
+UndoableCommand;CommandMenu;label="625", style=dashed
+CommandMenu;UndoableCommand;label="626:isExecutable"
+UndoableCommand;UndoableCommand;label="627:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="628", style=dashed
+UndoableCommand;AbstractCommand;label="629:isExecutable"
+AbstractCommand;AbstractCommand;label="630:isViewRequired"
+AbstractCommand;AbstractCommand;label="631", style=dashed
+AbstractCommand;AbstractCommand;label="632:view"
+AbstractCommand;AbstractCommand;label="633:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="634", style=dashed
+AbstractCommand;DrawApplication;label="635:view"
+DrawApplication;AbstractCommand;label="636", style=dashed
+AbstractCommand;AbstractCommand;label="637", style=dashed
+AbstractCommand;AbstractCommand;label="638:view"
+AbstractCommand;AbstractCommand;label="639:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="640", style=dashed
+AbstractCommand;DrawApplication;label="641:view"
+DrawApplication;AbstractCommand;label="642", style=dashed
+AbstractCommand;AbstractCommand;label="643", style=dashed
+AbstractCommand;StandardDrawingView;label="644:isInteractive"
+StandardDrawingView;AbstractCommand;label="645", style=dashed
+AbstractCommand;AlignCommand;label="646:isExecutableWithView"
+AlignCommand;AbstractCommand;label="647:view"
+AbstractCommand;AbstractCommand;label="648:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="649", style=dashed
+AbstractCommand;DrawApplication;label="650:view"
+DrawApplication;AbstractCommand;label="651", style=dashed
+AbstractCommand;AlignCommand;label="652", style=dashed
+AlignCommand;StandardDrawingView;label="653:selectionCount"
+StandardDrawingView;AlignCommand;label="654", style=dashed
+AlignCommand;AbstractCommand;label="655", style=dashed
+AbstractCommand;UndoableCommand;label="656", style=dashed
+UndoableCommand;CommandMenu;label="657", style=dashed
+CommandMenu;UndoableCommand;label="658:isExecutable"
+UndoableCommand;UndoableCommand;label="659:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="660", style=dashed
+UndoableCommand;AbstractCommand;label="661:isExecutable"
+AbstractCommand;AbstractCommand;label="662:isViewRequired"
+AbstractCommand;AbstractCommand;label="663", style=dashed
+AbstractCommand;AbstractCommand;label="664:view"
+AbstractCommand;AbstractCommand;label="665:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="666", style=dashed
+AbstractCommand;DrawApplication;label="667:view"
+DrawApplication;AbstractCommand;label="668", style=dashed
+AbstractCommand;AbstractCommand;label="669", style=dashed
+AbstractCommand;AbstractCommand;label="670:view"
+AbstractCommand;AbstractCommand;label="671:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="672", style=dashed
+AbstractCommand;DrawApplication;label="673:view"
+DrawApplication;AbstractCommand;label="674", style=dashed
+AbstractCommand;AbstractCommand;label="675", style=dashed
+AbstractCommand;StandardDrawingView;label="676:isInteractive"
+StandardDrawingView;AbstractCommand;label="677", style=dashed
+AbstractCommand;AlignCommand;label="678:isExecutableWithView"
+AlignCommand;AbstractCommand;label="679:view"
+AbstractCommand;AbstractCommand;label="680:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="681", style=dashed
+AbstractCommand;DrawApplication;label="682:view"
+DrawApplication;AbstractCommand;label="683", style=dashed
+AbstractCommand;AlignCommand;label="684", style=dashed
+AlignCommand;StandardDrawingView;label="685:selectionCount"
+StandardDrawingView;AlignCommand;label="686", style=dashed
+AlignCommand;AbstractCommand;label="687", style=dashed
+AbstractCommand;UndoableCommand;label="688", style=dashed
+UndoableCommand;CommandMenu;label="689", style=dashed
+CommandMenu;UndoableCommand;label="690:isExecutable"
+UndoableCommand;UndoableCommand;label="691:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="692", style=dashed
+UndoableCommand;AbstractCommand;label="693:isExecutable"
+AbstractCommand;AbstractCommand;label="694:isViewRequired"
+AbstractCommand;AbstractCommand;label="695", style=dashed
+AbstractCommand;AbstractCommand;label="696:view"
+AbstractCommand;AbstractCommand;label="697:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="698", style=dashed
+AbstractCommand;DrawApplication;label="699:view"
+DrawApplication;AbstractCommand;label="700", style=dashed
+AbstractCommand;AbstractCommand;label="701", style=dashed
+AbstractCommand;AbstractCommand;label="702:view"
+AbstractCommand;AbstractCommand;label="703:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="704", style=dashed
+AbstractCommand;DrawApplication;label="705:view"
+DrawApplication;AbstractCommand;label="706", style=dashed
+AbstractCommand;AbstractCommand;label="707", style=dashed
+AbstractCommand;StandardDrawingView;label="708:isInteractive"
+StandardDrawingView;AbstractCommand;label="709", style=dashed
+AbstractCommand;AlignCommand;label="710:isExecutableWithView"
+AlignCommand;AbstractCommand;label="711:view"
+AbstractCommand;AbstractCommand;label="712:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="713", style=dashed
+AbstractCommand;DrawApplication;label="714:view"
+DrawApplication;AbstractCommand;label="715", style=dashed
+AbstractCommand;AlignCommand;label="716", style=dashed
+AlignCommand;StandardDrawingView;label="717:selectionCount"
+StandardDrawingView;AlignCommand;label="718", style=dashed
+AlignCommand;AbstractCommand;label="719", style=dashed
+AbstractCommand;UndoableCommand;label="720", style=dashed
+UndoableCommand;CommandMenu;label="721", style=dashed
+CommandMenu;DrawApplication;label="722", style=dashed
+DrawApplication;CommandMenu;label="723:checkEnabled"
+CommandMenu;UndoableCommand;label="724:isExecutable"
+UndoableCommand;UndoableCommand;label="725:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="726", style=dashed
+UndoableCommand;AbstractCommand;label="727:isExecutable"
+AbstractCommand;AbstractCommand;label="728:isViewRequired"
+AbstractCommand;AbstractCommand;label="729", style=dashed
+AbstractCommand;AbstractCommand;label="730:view"
+AbstractCommand;AbstractCommand;label="731:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="732", style=dashed
+AbstractCommand;DrawApplication;label="733:view"
+DrawApplication;AbstractCommand;label="734", style=dashed
+AbstractCommand;AbstractCommand;label="735", style=dashed
+AbstractCommand;AbstractCommand;label="736:view"
+AbstractCommand;AbstractCommand;label="737:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="738", style=dashed
+AbstractCommand;DrawApplication;label="739:view"
+DrawApplication;AbstractCommand;label="740", style=dashed
+AbstractCommand;AbstractCommand;label="741", style=dashed
+AbstractCommand;StandardDrawingView;label="742:isInteractive"
+StandardDrawingView;AbstractCommand;label="743", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="744:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="745:view"
+AbstractCommand;AbstractCommand;label="746:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="747", style=dashed
+AbstractCommand;DrawApplication;label="748:view"
+DrawApplication;AbstractCommand;label="749", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="750", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="751:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="752", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="753", style=dashed
+AbstractCommand;UndoableCommand;label="754", style=dashed
+UndoableCommand;CommandMenu;label="755", style=dashed
+CommandMenu;UndoableCommand;label="756:isExecutable"
+UndoableCommand;UndoableCommand;label="757:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="758", style=dashed
+UndoableCommand;AbstractCommand;label="759:isExecutable"
+AbstractCommand;AbstractCommand;label="760:isViewRequired"
+AbstractCommand;AbstractCommand;label="761", style=dashed
+AbstractCommand;AbstractCommand;label="762:view"
+AbstractCommand;AbstractCommand;label="763:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="764", style=dashed
+AbstractCommand;DrawApplication;label="765:view"
+DrawApplication;AbstractCommand;label="766", style=dashed
+AbstractCommand;AbstractCommand;label="767", style=dashed
+AbstractCommand;AbstractCommand;label="768:view"
+AbstractCommand;AbstractCommand;label="769:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="770", style=dashed
+AbstractCommand;DrawApplication;label="771:view"
+DrawApplication;AbstractCommand;label="772", style=dashed
+AbstractCommand;AbstractCommand;label="773", style=dashed
+AbstractCommand;StandardDrawingView;label="774:isInteractive"
+StandardDrawingView;AbstractCommand;label="775", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="776:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="777:view"
+AbstractCommand;AbstractCommand;label="778:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="779", style=dashed
+AbstractCommand;DrawApplication;label="780:view"
+DrawApplication;AbstractCommand;label="781", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="782", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="783:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="784", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="785", style=dashed
+AbstractCommand;UndoableCommand;label="786", style=dashed
+UndoableCommand;CommandMenu;label="787", style=dashed
+CommandMenu;UndoableCommand;label="788:isExecutable"
+UndoableCommand;UndoableCommand;label="789:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="790", style=dashed
+UndoableCommand;AbstractCommand;label="791:isExecutable"
+AbstractCommand;AbstractCommand;label="792:isViewRequired"
+AbstractCommand;AbstractCommand;label="793", style=dashed
+AbstractCommand;AbstractCommand;label="794:view"
+AbstractCommand;AbstractCommand;label="795:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="796", style=dashed
+AbstractCommand;DrawApplication;label="797:view"
+DrawApplication;AbstractCommand;label="798", style=dashed
+AbstractCommand;AbstractCommand;label="799", style=dashed
+AbstractCommand;AbstractCommand;label="800:view"
+AbstractCommand;AbstractCommand;label="801:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="802", style=dashed
+AbstractCommand;DrawApplication;label="803:view"
+DrawApplication;AbstractCommand;label="804", style=dashed
+AbstractCommand;AbstractCommand;label="805", style=dashed
+AbstractCommand;StandardDrawingView;label="806:isInteractive"
+StandardDrawingView;AbstractCommand;label="807", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="808:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="809:view"
+AbstractCommand;AbstractCommand;label="810:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="811", style=dashed
+AbstractCommand;DrawApplication;label="812:view"
+DrawApplication;AbstractCommand;label="813", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="814", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="815:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="816", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="817", style=dashed
+AbstractCommand;UndoableCommand;label="818", style=dashed
+UndoableCommand;CommandMenu;label="819", style=dashed
+CommandMenu;UndoableCommand;label="820:isExecutable"
+UndoableCommand;UndoableCommand;label="821:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="822", style=dashed
+UndoableCommand;AbstractCommand;label="823:isExecutable"
+AbstractCommand;AbstractCommand;label="824:isViewRequired"
+AbstractCommand;AbstractCommand;label="825", style=dashed
+AbstractCommand;AbstractCommand;label="826:view"
+AbstractCommand;AbstractCommand;label="827:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="828", style=dashed
+AbstractCommand;DrawApplication;label="829:view"
+DrawApplication;AbstractCommand;label="830", style=dashed
+AbstractCommand;AbstractCommand;label="831", style=dashed
+AbstractCommand;AbstractCommand;label="832:view"
+AbstractCommand;AbstractCommand;label="833:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="834", style=dashed
+AbstractCommand;DrawApplication;label="835:view"
+DrawApplication;AbstractCommand;label="836", style=dashed
+AbstractCommand;AbstractCommand;label="837", style=dashed
+AbstractCommand;StandardDrawingView;label="838:isInteractive"
+StandardDrawingView;AbstractCommand;label="839", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="840:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="841:view"
+AbstractCommand;AbstractCommand;label="842:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="843", style=dashed
+AbstractCommand;DrawApplication;label="844:view"
+DrawApplication;AbstractCommand;label="845", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="846", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="847:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="848", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="849", style=dashed
+AbstractCommand;UndoableCommand;label="850", style=dashed
+UndoableCommand;CommandMenu;label="851", style=dashed
+CommandMenu;UndoableCommand;label="852:isExecutable"
+UndoableCommand;UndoableCommand;label="853:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="854", style=dashed
+UndoableCommand;AbstractCommand;label="855:isExecutable"
+AbstractCommand;AbstractCommand;label="856:isViewRequired"
+AbstractCommand;AbstractCommand;label="857", style=dashed
+AbstractCommand;AbstractCommand;label="858:view"
+AbstractCommand;AbstractCommand;label="859:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="860", style=dashed
+AbstractCommand;DrawApplication;label="861:view"
+DrawApplication;AbstractCommand;label="862", style=dashed
+AbstractCommand;AbstractCommand;label="863", style=dashed
+AbstractCommand;AbstractCommand;label="864:view"
+AbstractCommand;AbstractCommand;label="865:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="866", style=dashed
+AbstractCommand;DrawApplication;label="867:view"
+DrawApplication;AbstractCommand;label="868", style=dashed
+AbstractCommand;AbstractCommand;label="869", style=dashed
+AbstractCommand;StandardDrawingView;label="870:isInteractive"
+StandardDrawingView;AbstractCommand;label="871", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="872:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="873:view"
+AbstractCommand;AbstractCommand;label="874:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="875", style=dashed
+AbstractCommand;DrawApplication;label="876:view"
+DrawApplication;AbstractCommand;label="877", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="878", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="879:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="880", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="881", style=dashed
+AbstractCommand;UndoableCommand;label="882", style=dashed
+UndoableCommand;CommandMenu;label="883", style=dashed
+CommandMenu;UndoableCommand;label="884:isExecutable"
+UndoableCommand;UndoableCommand;label="885:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="886", style=dashed
+UndoableCommand;AbstractCommand;label="887:isExecutable"
+AbstractCommand;AbstractCommand;label="888:isViewRequired"
+AbstractCommand;AbstractCommand;label="889", style=dashed
+AbstractCommand;AbstractCommand;label="890:view"
+AbstractCommand;AbstractCommand;label="891:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="892", style=dashed
+AbstractCommand;DrawApplication;label="893:view"
+DrawApplication;AbstractCommand;label="894", style=dashed
+AbstractCommand;AbstractCommand;label="895", style=dashed
+AbstractCommand;AbstractCommand;label="896:view"
+AbstractCommand;AbstractCommand;label="897:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="898", style=dashed
+AbstractCommand;DrawApplication;label="899:view"
+DrawApplication;AbstractCommand;label="900", style=dashed
+AbstractCommand;AbstractCommand;label="901", style=dashed
+AbstractCommand;StandardDrawingView;label="902:isInteractive"
+StandardDrawingView;AbstractCommand;label="903", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="904:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="905:view"
+AbstractCommand;AbstractCommand;label="906:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="907", style=dashed
+AbstractCommand;DrawApplication;label="908:view"
+DrawApplication;AbstractCommand;label="909", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="910", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="911:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="912", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="913", style=dashed
+AbstractCommand;UndoableCommand;label="914", style=dashed
+UndoableCommand;CommandMenu;label="915", style=dashed
+CommandMenu;UndoableCommand;label="916:isExecutable"
+UndoableCommand;UndoableCommand;label="917:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="918", style=dashed
+UndoableCommand;AbstractCommand;label="919:isExecutable"
+AbstractCommand;AbstractCommand;label="920:isViewRequired"
+AbstractCommand;AbstractCommand;label="921", style=dashed
+AbstractCommand;AbstractCommand;label="922:view"
+AbstractCommand;AbstractCommand;label="923:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="924", style=dashed
+AbstractCommand;DrawApplication;label="925:view"
+DrawApplication;AbstractCommand;label="926", style=dashed
+AbstractCommand;AbstractCommand;label="927", style=dashed
+AbstractCommand;AbstractCommand;label="928:view"
+AbstractCommand;AbstractCommand;label="929:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="930", style=dashed
+AbstractCommand;DrawApplication;label="931:view"
+DrawApplication;AbstractCommand;label="932", style=dashed
+AbstractCommand;AbstractCommand;label="933", style=dashed
+AbstractCommand;StandardDrawingView;label="934:isInteractive"
+StandardDrawingView;AbstractCommand;label="935", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="936:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="937:view"
+AbstractCommand;AbstractCommand;label="938:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="939", style=dashed
+AbstractCommand;DrawApplication;label="940:view"
+DrawApplication;AbstractCommand;label="941", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="942", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="943:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="944", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="945", style=dashed
+AbstractCommand;UndoableCommand;label="946", style=dashed
+UndoableCommand;CommandMenu;label="947", style=dashed
+CommandMenu;UndoableCommand;label="948:isExecutable"
+UndoableCommand;UndoableCommand;label="949:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="950", style=dashed
+UndoableCommand;AbstractCommand;label="951:isExecutable"
+AbstractCommand;AbstractCommand;label="952:isViewRequired"
+AbstractCommand;AbstractCommand;label="953", style=dashed
+AbstractCommand;AbstractCommand;label="954:view"
+AbstractCommand;AbstractCommand;label="955:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="956", style=dashed
+AbstractCommand;DrawApplication;label="957:view"
+DrawApplication;AbstractCommand;label="958", style=dashed
+AbstractCommand;AbstractCommand;label="959", style=dashed
+AbstractCommand;AbstractCommand;label="960:view"
+AbstractCommand;AbstractCommand;label="961:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="962", style=dashed
+AbstractCommand;DrawApplication;label="963:view"
+DrawApplication;AbstractCommand;label="964", style=dashed
+AbstractCommand;AbstractCommand;label="965", style=dashed
+AbstractCommand;StandardDrawingView;label="966:isInteractive"
+StandardDrawingView;AbstractCommand;label="967", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="968:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="969:view"
+AbstractCommand;AbstractCommand;label="970:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="971", style=dashed
+AbstractCommand;DrawApplication;label="972:view"
+DrawApplication;AbstractCommand;label="973", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="974", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="975:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="976", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="977", style=dashed
+AbstractCommand;UndoableCommand;label="978", style=dashed
+UndoableCommand;CommandMenu;label="979", style=dashed
+CommandMenu;UndoableCommand;label="980:isExecutable"
+UndoableCommand;UndoableCommand;label="981:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="982", style=dashed
+UndoableCommand;AbstractCommand;label="983:isExecutable"
+AbstractCommand;AbstractCommand;label="984:isViewRequired"
+AbstractCommand;AbstractCommand;label="985", style=dashed
+AbstractCommand;AbstractCommand;label="986:view"
+AbstractCommand;AbstractCommand;label="987:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="988", style=dashed
+AbstractCommand;DrawApplication;label="989:view"
+DrawApplication;AbstractCommand;label="990", style=dashed
+AbstractCommand;AbstractCommand;label="991", style=dashed
+AbstractCommand;AbstractCommand;label="992:view"
+AbstractCommand;AbstractCommand;label="993:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="994", style=dashed
+AbstractCommand;DrawApplication;label="995:view"
+DrawApplication;AbstractCommand;label="996", style=dashed
+AbstractCommand;AbstractCommand;label="997", style=dashed
+AbstractCommand;StandardDrawingView;label="998:isInteractive"
+StandardDrawingView;AbstractCommand;label="999", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1000:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1001:view"
+AbstractCommand;AbstractCommand;label="1002:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1003", style=dashed
+AbstractCommand;DrawApplication;label="1004:view"
+DrawApplication;AbstractCommand;label="1005", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1006", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1007:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1008", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1009", style=dashed
+AbstractCommand;UndoableCommand;label="1010", style=dashed
+UndoableCommand;CommandMenu;label="1011", style=dashed
+CommandMenu;UndoableCommand;label="1012:isExecutable"
+UndoableCommand;UndoableCommand;label="1013:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1014", style=dashed
+UndoableCommand;AbstractCommand;label="1015:isExecutable"
+AbstractCommand;AbstractCommand;label="1016:isViewRequired"
+AbstractCommand;AbstractCommand;label="1017", style=dashed
+AbstractCommand;AbstractCommand;label="1018:view"
+AbstractCommand;AbstractCommand;label="1019:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1020", style=dashed
+AbstractCommand;DrawApplication;label="1021:view"
+DrawApplication;AbstractCommand;label="1022", style=dashed
+AbstractCommand;AbstractCommand;label="1023", style=dashed
+AbstractCommand;AbstractCommand;label="1024:view"
+AbstractCommand;AbstractCommand;label="1025:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1026", style=dashed
+AbstractCommand;DrawApplication;label="1027:view"
+DrawApplication;AbstractCommand;label="1028", style=dashed
+AbstractCommand;AbstractCommand;label="1029", style=dashed
+AbstractCommand;StandardDrawingView;label="1030:isInteractive"
+StandardDrawingView;AbstractCommand;label="1031", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1032:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1033:view"
+AbstractCommand;AbstractCommand;label="1034:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1035", style=dashed
+AbstractCommand;DrawApplication;label="1036:view"
+DrawApplication;AbstractCommand;label="1037", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1038", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1039:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1040", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1041", style=dashed
+AbstractCommand;UndoableCommand;label="1042", style=dashed
+UndoableCommand;CommandMenu;label="1043", style=dashed
+CommandMenu;UndoableCommand;label="1044:isExecutable"
+UndoableCommand;UndoableCommand;label="1045:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1046", style=dashed
+UndoableCommand;AbstractCommand;label="1047:isExecutable"
+AbstractCommand;AbstractCommand;label="1048:isViewRequired"
+AbstractCommand;AbstractCommand;label="1049", style=dashed
+AbstractCommand;AbstractCommand;label="1050:view"
+AbstractCommand;AbstractCommand;label="1051:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1052", style=dashed
+AbstractCommand;DrawApplication;label="1053:view"
+DrawApplication;AbstractCommand;label="1054", style=dashed
+AbstractCommand;AbstractCommand;label="1055", style=dashed
+AbstractCommand;AbstractCommand;label="1056:view"
+AbstractCommand;AbstractCommand;label="1057:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1058", style=dashed
+AbstractCommand;DrawApplication;label="1059:view"
+DrawApplication;AbstractCommand;label="1060", style=dashed
+AbstractCommand;AbstractCommand;label="1061", style=dashed
+AbstractCommand;StandardDrawingView;label="1062:isInteractive"
+StandardDrawingView;AbstractCommand;label="1063", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1064:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1065:view"
+AbstractCommand;AbstractCommand;label="1066:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1067", style=dashed
+AbstractCommand;DrawApplication;label="1068:view"
+DrawApplication;AbstractCommand;label="1069", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1070", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1071:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1072", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1073", style=dashed
+AbstractCommand;UndoableCommand;label="1074", style=dashed
+UndoableCommand;CommandMenu;label="1075", style=dashed
+CommandMenu;UndoableCommand;label="1076:isExecutable"
+UndoableCommand;UndoableCommand;label="1077:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1078", style=dashed
+UndoableCommand;AbstractCommand;label="1079:isExecutable"
+AbstractCommand;AbstractCommand;label="1080:isViewRequired"
+AbstractCommand;AbstractCommand;label="1081", style=dashed
+AbstractCommand;AbstractCommand;label="1082:view"
+AbstractCommand;AbstractCommand;label="1083:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1084", style=dashed
+AbstractCommand;DrawApplication;label="1085:view"
+DrawApplication;AbstractCommand;label="1086", style=dashed
+AbstractCommand;AbstractCommand;label="1087", style=dashed
+AbstractCommand;AbstractCommand;label="1088:view"
+AbstractCommand;AbstractCommand;label="1089:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1090", style=dashed
+AbstractCommand;DrawApplication;label="1091:view"
+DrawApplication;AbstractCommand;label="1092", style=dashed
+AbstractCommand;AbstractCommand;label="1093", style=dashed
+AbstractCommand;StandardDrawingView;label="1094:isInteractive"
+StandardDrawingView;AbstractCommand;label="1095", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1096:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1097:view"
+AbstractCommand;AbstractCommand;label="1098:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1099", style=dashed
+AbstractCommand;DrawApplication;label="1100:view"
+DrawApplication;AbstractCommand;label="1101", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1102", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1103:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1104", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1105", style=dashed
+AbstractCommand;UndoableCommand;label="1106", style=dashed
+UndoableCommand;CommandMenu;label="1107", style=dashed
+CommandMenu;UndoableCommand;label="1108:isExecutable"
+UndoableCommand;UndoableCommand;label="1109:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1110", style=dashed
+UndoableCommand;AbstractCommand;label="1111:isExecutable"
+AbstractCommand;AbstractCommand;label="1112:isViewRequired"
+AbstractCommand;AbstractCommand;label="1113", style=dashed
+AbstractCommand;AbstractCommand;label="1114:view"
+AbstractCommand;AbstractCommand;label="1115:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1116", style=dashed
+AbstractCommand;DrawApplication;label="1117:view"
+DrawApplication;AbstractCommand;label="1118", style=dashed
+AbstractCommand;AbstractCommand;label="1119", style=dashed
+AbstractCommand;AbstractCommand;label="1120:view"
+AbstractCommand;AbstractCommand;label="1121:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1122", style=dashed
+AbstractCommand;DrawApplication;label="1123:view"
+DrawApplication;AbstractCommand;label="1124", style=dashed
+AbstractCommand;AbstractCommand;label="1125", style=dashed
+AbstractCommand;StandardDrawingView;label="1126:isInteractive"
+StandardDrawingView;AbstractCommand;label="1127", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1128:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1129:view"
+AbstractCommand;AbstractCommand;label="1130:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1131", style=dashed
+AbstractCommand;DrawApplication;label="1132:view"
+DrawApplication;AbstractCommand;label="1133", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1134", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1135:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1136", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1137", style=dashed
+AbstractCommand;UndoableCommand;label="1138", style=dashed
+UndoableCommand;CommandMenu;label="1139", style=dashed
+CommandMenu;UndoableCommand;label="1140:isExecutable"
+UndoableCommand;UndoableCommand;label="1141:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1142", style=dashed
+UndoableCommand;AbstractCommand;label="1143:isExecutable"
+AbstractCommand;AbstractCommand;label="1144:isViewRequired"
+AbstractCommand;AbstractCommand;label="1145", style=dashed
+AbstractCommand;AbstractCommand;label="1146:view"
+AbstractCommand;AbstractCommand;label="1147:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1148", style=dashed
+AbstractCommand;DrawApplication;label="1149:view"
+DrawApplication;AbstractCommand;label="1150", style=dashed
+AbstractCommand;AbstractCommand;label="1151", style=dashed
+AbstractCommand;AbstractCommand;label="1152:view"
+AbstractCommand;AbstractCommand;label="1153:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1154", style=dashed
+AbstractCommand;DrawApplication;label="1155:view"
+DrawApplication;AbstractCommand;label="1156", style=dashed
+AbstractCommand;AbstractCommand;label="1157", style=dashed
+AbstractCommand;StandardDrawingView;label="1158:isInteractive"
+StandardDrawingView;AbstractCommand;label="1159", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1160:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1161:view"
+AbstractCommand;AbstractCommand;label="1162:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1163", style=dashed
+AbstractCommand;DrawApplication;label="1164:view"
+DrawApplication;AbstractCommand;label="1165", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1166", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1167:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1168", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1169", style=dashed
+AbstractCommand;UndoableCommand;label="1170", style=dashed
+UndoableCommand;CommandMenu;label="1171", style=dashed
+CommandMenu;UndoableCommand;label="1172:isExecutable"
+UndoableCommand;UndoableCommand;label="1173:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1174", style=dashed
+UndoableCommand;AbstractCommand;label="1175:isExecutable"
+AbstractCommand;AbstractCommand;label="1176:isViewRequired"
+AbstractCommand;AbstractCommand;label="1177", style=dashed
+AbstractCommand;AbstractCommand;label="1178:view"
+AbstractCommand;AbstractCommand;label="1179:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1180", style=dashed
+AbstractCommand;DrawApplication;label="1181:view"
+DrawApplication;AbstractCommand;label="1182", style=dashed
+AbstractCommand;AbstractCommand;label="1183", style=dashed
+AbstractCommand;AbstractCommand;label="1184:view"
+AbstractCommand;AbstractCommand;label="1185:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1186", style=dashed
+AbstractCommand;DrawApplication;label="1187:view"
+DrawApplication;AbstractCommand;label="1188", style=dashed
+AbstractCommand;AbstractCommand;label="1189", style=dashed
+AbstractCommand;StandardDrawingView;label="1190:isInteractive"
+StandardDrawingView;AbstractCommand;label="1191", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1192:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1193:view"
+AbstractCommand;AbstractCommand;label="1194:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1195", style=dashed
+AbstractCommand;DrawApplication;label="1196:view"
+DrawApplication;AbstractCommand;label="1197", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1198", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1199:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1200", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1201", style=dashed
+AbstractCommand;UndoableCommand;label="1202", style=dashed
+UndoableCommand;CommandMenu;label="1203", style=dashed
+CommandMenu;DrawApplication;label="1204", style=dashed
+DrawApplication;CommandMenu;label="1205:checkEnabled"
+CommandMenu;UndoableCommand;label="1206:isExecutable"
+UndoableCommand;UndoableCommand;label="1207:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1208", style=dashed
+UndoableCommand;AbstractCommand;label="1209:isExecutable"
+AbstractCommand;AbstractCommand;label="1210:isViewRequired"
+AbstractCommand;AbstractCommand;label="1211", style=dashed
+AbstractCommand;AbstractCommand;label="1212:view"
+AbstractCommand;AbstractCommand;label="1213:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1214", style=dashed
+AbstractCommand;DrawApplication;label="1215:view"
+DrawApplication;AbstractCommand;label="1216", style=dashed
+AbstractCommand;AbstractCommand;label="1217", style=dashed
+AbstractCommand;AbstractCommand;label="1218:view"
+AbstractCommand;AbstractCommand;label="1219:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1220", style=dashed
+AbstractCommand;DrawApplication;label="1221:view"
+DrawApplication;AbstractCommand;label="1222", style=dashed
+AbstractCommand;AbstractCommand;label="1223", style=dashed
+AbstractCommand;StandardDrawingView;label="1224:isInteractive"
+StandardDrawingView;AbstractCommand;label="1225", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1226:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1227:view"
+AbstractCommand;AbstractCommand;label="1228:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1229", style=dashed
+AbstractCommand;DrawApplication;label="1230:view"
+DrawApplication;AbstractCommand;label="1231", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1232", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1233:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1234", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1235", style=dashed
+AbstractCommand;UndoableCommand;label="1236", style=dashed
+UndoableCommand;CommandMenu;label="1237", style=dashed
+CommandMenu;UndoableCommand;label="1238:isExecutable"
+UndoableCommand;UndoableCommand;label="1239:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1240", style=dashed
+UndoableCommand;AbstractCommand;label="1241:isExecutable"
+AbstractCommand;AbstractCommand;label="1242:isViewRequired"
+AbstractCommand;AbstractCommand;label="1243", style=dashed
+AbstractCommand;AbstractCommand;label="1244:view"
+AbstractCommand;AbstractCommand;label="1245:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1246", style=dashed
+AbstractCommand;DrawApplication;label="1247:view"
+DrawApplication;AbstractCommand;label="1248", style=dashed
+AbstractCommand;AbstractCommand;label="1249", style=dashed
+AbstractCommand;AbstractCommand;label="1250:view"
+AbstractCommand;AbstractCommand;label="1251:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1252", style=dashed
+AbstractCommand;DrawApplication;label="1253:view"
+DrawApplication;AbstractCommand;label="1254", style=dashed
+AbstractCommand;AbstractCommand;label="1255", style=dashed
+AbstractCommand;StandardDrawingView;label="1256:isInteractive"
+StandardDrawingView;AbstractCommand;label="1257", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1258:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1259:view"
+AbstractCommand;AbstractCommand;label="1260:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1261", style=dashed
+AbstractCommand;DrawApplication;label="1262:view"
+DrawApplication;AbstractCommand;label="1263", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1264", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1265:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1266", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1267", style=dashed
+AbstractCommand;UndoableCommand;label="1268", style=dashed
+UndoableCommand;CommandMenu;label="1269", style=dashed
+CommandMenu;UndoableCommand;label="1270:isExecutable"
+UndoableCommand;UndoableCommand;label="1271:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1272", style=dashed
+UndoableCommand;AbstractCommand;label="1273:isExecutable"
+AbstractCommand;AbstractCommand;label="1274:isViewRequired"
+AbstractCommand;AbstractCommand;label="1275", style=dashed
+AbstractCommand;AbstractCommand;label="1276:view"
+AbstractCommand;AbstractCommand;label="1277:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1278", style=dashed
+AbstractCommand;DrawApplication;label="1279:view"
+DrawApplication;AbstractCommand;label="1280", style=dashed
+AbstractCommand;AbstractCommand;label="1281", style=dashed
+AbstractCommand;AbstractCommand;label="1282:view"
+AbstractCommand;AbstractCommand;label="1283:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1284", style=dashed
+AbstractCommand;DrawApplication;label="1285:view"
+DrawApplication;AbstractCommand;label="1286", style=dashed
+AbstractCommand;AbstractCommand;label="1287", style=dashed
+AbstractCommand;StandardDrawingView;label="1288:isInteractive"
+StandardDrawingView;AbstractCommand;label="1289", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1290:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1291:view"
+AbstractCommand;AbstractCommand;label="1292:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1293", style=dashed
+AbstractCommand;DrawApplication;label="1294:view"
+DrawApplication;AbstractCommand;label="1295", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1296", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1297:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1298", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1299", style=dashed
+AbstractCommand;UndoableCommand;label="1300", style=dashed
+UndoableCommand;CommandMenu;label="1301", style=dashed
+CommandMenu;UndoableCommand;label="1302:isExecutable"
+UndoableCommand;UndoableCommand;label="1303:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1304", style=dashed
+UndoableCommand;AbstractCommand;label="1305:isExecutable"
+AbstractCommand;AbstractCommand;label="1306:isViewRequired"
+AbstractCommand;AbstractCommand;label="1307", style=dashed
+AbstractCommand;AbstractCommand;label="1308:view"
+AbstractCommand;AbstractCommand;label="1309:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1310", style=dashed
+AbstractCommand;DrawApplication;label="1311:view"
+DrawApplication;AbstractCommand;label="1312", style=dashed
+AbstractCommand;AbstractCommand;label="1313", style=dashed
+AbstractCommand;AbstractCommand;label="1314:view"
+AbstractCommand;AbstractCommand;label="1315:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1316", style=dashed
+AbstractCommand;DrawApplication;label="1317:view"
+DrawApplication;AbstractCommand;label="1318", style=dashed
+AbstractCommand;AbstractCommand;label="1319", style=dashed
+AbstractCommand;StandardDrawingView;label="1320:isInteractive"
+StandardDrawingView;AbstractCommand;label="1321", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1322:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1323:view"
+AbstractCommand;AbstractCommand;label="1324:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1325", style=dashed
+AbstractCommand;DrawApplication;label="1326:view"
+DrawApplication;AbstractCommand;label="1327", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1328", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1329:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1330", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1331", style=dashed
+AbstractCommand;UndoableCommand;label="1332", style=dashed
+UndoableCommand;CommandMenu;label="1333", style=dashed
+CommandMenu;UndoableCommand;label="1334:isExecutable"
+UndoableCommand;UndoableCommand;label="1335:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1336", style=dashed
+UndoableCommand;AbstractCommand;label="1337:isExecutable"
+AbstractCommand;AbstractCommand;label="1338:isViewRequired"
+AbstractCommand;AbstractCommand;label="1339", style=dashed
+AbstractCommand;AbstractCommand;label="1340:view"
+AbstractCommand;AbstractCommand;label="1341:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1342", style=dashed
+AbstractCommand;DrawApplication;label="1343:view"
+DrawApplication;AbstractCommand;label="1344", style=dashed
+AbstractCommand;AbstractCommand;label="1345", style=dashed
+AbstractCommand;AbstractCommand;label="1346:view"
+AbstractCommand;AbstractCommand;label="1347:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1348", style=dashed
+AbstractCommand;DrawApplication;label="1349:view"
+DrawApplication;AbstractCommand;label="1350", style=dashed
+AbstractCommand;AbstractCommand;label="1351", style=dashed
+AbstractCommand;StandardDrawingView;label="1352:isInteractive"
+StandardDrawingView;AbstractCommand;label="1353", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1354:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1355:view"
+AbstractCommand;AbstractCommand;label="1356:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1357", style=dashed
+AbstractCommand;DrawApplication;label="1358:view"
+DrawApplication;AbstractCommand;label="1359", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1360", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1361:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1362", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1363", style=dashed
+AbstractCommand;UndoableCommand;label="1364", style=dashed
+UndoableCommand;CommandMenu;label="1365", style=dashed
+CommandMenu;UndoableCommand;label="1366:isExecutable"
+UndoableCommand;UndoableCommand;label="1367:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1368", style=dashed
+UndoableCommand;AbstractCommand;label="1369:isExecutable"
+AbstractCommand;AbstractCommand;label="1370:isViewRequired"
+AbstractCommand;AbstractCommand;label="1371", style=dashed
+AbstractCommand;AbstractCommand;label="1372:view"
+AbstractCommand;AbstractCommand;label="1373:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1374", style=dashed
+AbstractCommand;DrawApplication;label="1375:view"
+DrawApplication;AbstractCommand;label="1376", style=dashed
+AbstractCommand;AbstractCommand;label="1377", style=dashed
+AbstractCommand;AbstractCommand;label="1378:view"
+AbstractCommand;AbstractCommand;label="1379:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1380", style=dashed
+AbstractCommand;DrawApplication;label="1381:view"
+DrawApplication;AbstractCommand;label="1382", style=dashed
+AbstractCommand;AbstractCommand;label="1383", style=dashed
+AbstractCommand;StandardDrawingView;label="1384:isInteractive"
+StandardDrawingView;AbstractCommand;label="1385", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1386:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1387:view"
+AbstractCommand;AbstractCommand;label="1388:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1389", style=dashed
+AbstractCommand;DrawApplication;label="1390:view"
+DrawApplication;AbstractCommand;label="1391", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1392", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1393:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1394", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1395", style=dashed
+AbstractCommand;UndoableCommand;label="1396", style=dashed
+UndoableCommand;CommandMenu;label="1397", style=dashed
+CommandMenu;UndoableCommand;label="1398:isExecutable"
+UndoableCommand;UndoableCommand;label="1399:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1400", style=dashed
+UndoableCommand;AbstractCommand;label="1401:isExecutable"
+AbstractCommand;AbstractCommand;label="1402:isViewRequired"
+AbstractCommand;AbstractCommand;label="1403", style=dashed
+AbstractCommand;AbstractCommand;label="1404:view"
+AbstractCommand;AbstractCommand;label="1405:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1406", style=dashed
+AbstractCommand;DrawApplication;label="1407:view"
+DrawApplication;AbstractCommand;label="1408", style=dashed
+AbstractCommand;AbstractCommand;label="1409", style=dashed
+AbstractCommand;AbstractCommand;label="1410:view"
+AbstractCommand;AbstractCommand;label="1411:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1412", style=dashed
+AbstractCommand;DrawApplication;label="1413:view"
+DrawApplication;AbstractCommand;label="1414", style=dashed
+AbstractCommand;AbstractCommand;label="1415", style=dashed
+AbstractCommand;StandardDrawingView;label="1416:isInteractive"
+StandardDrawingView;AbstractCommand;label="1417", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1418:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1419:view"
+AbstractCommand;AbstractCommand;label="1420:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1421", style=dashed
+AbstractCommand;DrawApplication;label="1422:view"
+DrawApplication;AbstractCommand;label="1423", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1424", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1425:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1426", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1427", style=dashed
+AbstractCommand;UndoableCommand;label="1428", style=dashed
+UndoableCommand;CommandMenu;label="1429", style=dashed
+CommandMenu;UndoableCommand;label="1430:isExecutable"
+UndoableCommand;UndoableCommand;label="1431:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1432", style=dashed
+UndoableCommand;AbstractCommand;label="1433:isExecutable"
+AbstractCommand;AbstractCommand;label="1434:isViewRequired"
+AbstractCommand;AbstractCommand;label="1435", style=dashed
+AbstractCommand;AbstractCommand;label="1436:view"
+AbstractCommand;AbstractCommand;label="1437:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1438", style=dashed
+AbstractCommand;DrawApplication;label="1439:view"
+DrawApplication;AbstractCommand;label="1440", style=dashed
+AbstractCommand;AbstractCommand;label="1441", style=dashed
+AbstractCommand;AbstractCommand;label="1442:view"
+AbstractCommand;AbstractCommand;label="1443:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1444", style=dashed
+AbstractCommand;DrawApplication;label="1445:view"
+DrawApplication;AbstractCommand;label="1446", style=dashed
+AbstractCommand;AbstractCommand;label="1447", style=dashed
+AbstractCommand;StandardDrawingView;label="1448:isInteractive"
+StandardDrawingView;AbstractCommand;label="1449", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1450:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1451:view"
+AbstractCommand;AbstractCommand;label="1452:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1453", style=dashed
+AbstractCommand;DrawApplication;label="1454:view"
+DrawApplication;AbstractCommand;label="1455", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1456", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1457:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1458", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1459", style=dashed
+AbstractCommand;UndoableCommand;label="1460", style=dashed
+UndoableCommand;CommandMenu;label="1461", style=dashed
+CommandMenu;UndoableCommand;label="1462:isExecutable"
+UndoableCommand;UndoableCommand;label="1463:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1464", style=dashed
+UndoableCommand;AbstractCommand;label="1465:isExecutable"
+AbstractCommand;AbstractCommand;label="1466:isViewRequired"
+AbstractCommand;AbstractCommand;label="1467", style=dashed
+AbstractCommand;AbstractCommand;label="1468:view"
+AbstractCommand;AbstractCommand;label="1469:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1470", style=dashed
+AbstractCommand;DrawApplication;label="1471:view"
+DrawApplication;AbstractCommand;label="1472", style=dashed
+AbstractCommand;AbstractCommand;label="1473", style=dashed
+AbstractCommand;AbstractCommand;label="1474:view"
+AbstractCommand;AbstractCommand;label="1475:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1476", style=dashed
+AbstractCommand;DrawApplication;label="1477:view"
+DrawApplication;AbstractCommand;label="1478", style=dashed
+AbstractCommand;AbstractCommand;label="1479", style=dashed
+AbstractCommand;StandardDrawingView;label="1480:isInteractive"
+StandardDrawingView;AbstractCommand;label="1481", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1482:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1483:view"
+AbstractCommand;AbstractCommand;label="1484:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1485", style=dashed
+AbstractCommand;DrawApplication;label="1486:view"
+DrawApplication;AbstractCommand;label="1487", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1488", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1489:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1490", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1491", style=dashed
+AbstractCommand;UndoableCommand;label="1492", style=dashed
+UndoableCommand;CommandMenu;label="1493", style=dashed
+CommandMenu;UndoableCommand;label="1494:isExecutable"
+UndoableCommand;UndoableCommand;label="1495:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1496", style=dashed
+UndoableCommand;AbstractCommand;label="1497:isExecutable"
+AbstractCommand;AbstractCommand;label="1498:isViewRequired"
+AbstractCommand;AbstractCommand;label="1499", style=dashed
+AbstractCommand;AbstractCommand;label="1500:view"
+AbstractCommand;AbstractCommand;label="1501:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1502", style=dashed
+AbstractCommand;DrawApplication;label="1503:view"
+DrawApplication;AbstractCommand;label="1504", style=dashed
+AbstractCommand;AbstractCommand;label="1505", style=dashed
+AbstractCommand;AbstractCommand;label="1506:view"
+AbstractCommand;AbstractCommand;label="1507:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1508", style=dashed
+AbstractCommand;DrawApplication;label="1509:view"
+DrawApplication;AbstractCommand;label="1510", style=dashed
+AbstractCommand;AbstractCommand;label="1511", style=dashed
+AbstractCommand;StandardDrawingView;label="1512:isInteractive"
+StandardDrawingView;AbstractCommand;label="1513", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1514:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1515:view"
+AbstractCommand;AbstractCommand;label="1516:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1517", style=dashed
+AbstractCommand;DrawApplication;label="1518:view"
+DrawApplication;AbstractCommand;label="1519", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1520", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1521:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1522", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1523", style=dashed
+AbstractCommand;UndoableCommand;label="1524", style=dashed
+UndoableCommand;CommandMenu;label="1525", style=dashed
+CommandMenu;UndoableCommand;label="1526:isExecutable"
+UndoableCommand;UndoableCommand;label="1527:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1528", style=dashed
+UndoableCommand;AbstractCommand;label="1529:isExecutable"
+AbstractCommand;AbstractCommand;label="1530:isViewRequired"
+AbstractCommand;AbstractCommand;label="1531", style=dashed
+AbstractCommand;AbstractCommand;label="1532:view"
+AbstractCommand;AbstractCommand;label="1533:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1534", style=dashed
+AbstractCommand;DrawApplication;label="1535:view"
+DrawApplication;AbstractCommand;label="1536", style=dashed
+AbstractCommand;AbstractCommand;label="1537", style=dashed
+AbstractCommand;AbstractCommand;label="1538:view"
+AbstractCommand;AbstractCommand;label="1539:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1540", style=dashed
+AbstractCommand;DrawApplication;label="1541:view"
+DrawApplication;AbstractCommand;label="1542", style=dashed
+AbstractCommand;AbstractCommand;label="1543", style=dashed
+AbstractCommand;StandardDrawingView;label="1544:isInteractive"
+StandardDrawingView;AbstractCommand;label="1545", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1546:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1547:view"
+AbstractCommand;AbstractCommand;label="1548:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1549", style=dashed
+AbstractCommand;DrawApplication;label="1550:view"
+DrawApplication;AbstractCommand;label="1551", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1552", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1553:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1554", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1555", style=dashed
+AbstractCommand;UndoableCommand;label="1556", style=dashed
+UndoableCommand;CommandMenu;label="1557", style=dashed
+CommandMenu;UndoableCommand;label="1558:isExecutable"
+UndoableCommand;UndoableCommand;label="1559:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1560", style=dashed
+UndoableCommand;AbstractCommand;label="1561:isExecutable"
+AbstractCommand;AbstractCommand;label="1562:isViewRequired"
+AbstractCommand;AbstractCommand;label="1563", style=dashed
+AbstractCommand;AbstractCommand;label="1564:view"
+AbstractCommand;AbstractCommand;label="1565:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1566", style=dashed
+AbstractCommand;DrawApplication;label="1567:view"
+DrawApplication;AbstractCommand;label="1568", style=dashed
+AbstractCommand;AbstractCommand;label="1569", style=dashed
+AbstractCommand;AbstractCommand;label="1570:view"
+AbstractCommand;AbstractCommand;label="1571:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1572", style=dashed
+AbstractCommand;DrawApplication;label="1573:view"
+DrawApplication;AbstractCommand;label="1574", style=dashed
+AbstractCommand;AbstractCommand;label="1575", style=dashed
+AbstractCommand;StandardDrawingView;label="1576:isInteractive"
+StandardDrawingView;AbstractCommand;label="1577", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1578:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1579:view"
+AbstractCommand;AbstractCommand;label="1580:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1581", style=dashed
+AbstractCommand;DrawApplication;label="1582:view"
+DrawApplication;AbstractCommand;label="1583", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1584", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1585:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1586", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1587", style=dashed
+AbstractCommand;UndoableCommand;label="1588", style=dashed
+UndoableCommand;CommandMenu;label="1589", style=dashed
+CommandMenu;UndoableCommand;label="1590:isExecutable"
+UndoableCommand;UndoableCommand;label="1591:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1592", style=dashed
+UndoableCommand;AbstractCommand;label="1593:isExecutable"
+AbstractCommand;AbstractCommand;label="1594:isViewRequired"
+AbstractCommand;AbstractCommand;label="1595", style=dashed
+AbstractCommand;AbstractCommand;label="1596:view"
+AbstractCommand;AbstractCommand;label="1597:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1598", style=dashed
+AbstractCommand;DrawApplication;label="1599:view"
+DrawApplication;AbstractCommand;label="1600", style=dashed
+AbstractCommand;AbstractCommand;label="1601", style=dashed
+AbstractCommand;AbstractCommand;label="1602:view"
+AbstractCommand;AbstractCommand;label="1603:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1604", style=dashed
+AbstractCommand;DrawApplication;label="1605:view"
+DrawApplication;AbstractCommand;label="1606", style=dashed
+AbstractCommand;AbstractCommand;label="1607", style=dashed
+AbstractCommand;StandardDrawingView;label="1608:isInteractive"
+StandardDrawingView;AbstractCommand;label="1609", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1610:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1611:view"
+AbstractCommand;AbstractCommand;label="1612:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1613", style=dashed
+AbstractCommand;DrawApplication;label="1614:view"
+DrawApplication;AbstractCommand;label="1615", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1616", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1617:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1618", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1619", style=dashed
+AbstractCommand;UndoableCommand;label="1620", style=dashed
+UndoableCommand;CommandMenu;label="1621", style=dashed
+CommandMenu;UndoableCommand;label="1622:isExecutable"
+UndoableCommand;UndoableCommand;label="1623:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1624", style=dashed
+UndoableCommand;AbstractCommand;label="1625:isExecutable"
+AbstractCommand;AbstractCommand;label="1626:isViewRequired"
+AbstractCommand;AbstractCommand;label="1627", style=dashed
+AbstractCommand;AbstractCommand;label="1628:view"
+AbstractCommand;AbstractCommand;label="1629:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1630", style=dashed
+AbstractCommand;DrawApplication;label="1631:view"
+DrawApplication;AbstractCommand;label="1632", style=dashed
+AbstractCommand;AbstractCommand;label="1633", style=dashed
+AbstractCommand;AbstractCommand;label="1634:view"
+AbstractCommand;AbstractCommand;label="1635:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1636", style=dashed
+AbstractCommand;DrawApplication;label="1637:view"
+DrawApplication;AbstractCommand;label="1638", style=dashed
+AbstractCommand;AbstractCommand;label="1639", style=dashed
+AbstractCommand;StandardDrawingView;label="1640:isInteractive"
+StandardDrawingView;AbstractCommand;label="1641", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1642:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1643:view"
+AbstractCommand;AbstractCommand;label="1644:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1645", style=dashed
+AbstractCommand;DrawApplication;label="1646:view"
+DrawApplication;AbstractCommand;label="1647", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1648", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1649:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1650", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1651", style=dashed
+AbstractCommand;UndoableCommand;label="1652", style=dashed
+UndoableCommand;CommandMenu;label="1653", style=dashed
+CommandMenu;UndoableCommand;label="1654:isExecutable"
+UndoableCommand;UndoableCommand;label="1655:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1656", style=dashed
+UndoableCommand;AbstractCommand;label="1657:isExecutable"
+AbstractCommand;AbstractCommand;label="1658:isViewRequired"
+AbstractCommand;AbstractCommand;label="1659", style=dashed
+AbstractCommand;AbstractCommand;label="1660:view"
+AbstractCommand;AbstractCommand;label="1661:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1662", style=dashed
+AbstractCommand;DrawApplication;label="1663:view"
+DrawApplication;AbstractCommand;label="1664", style=dashed
+AbstractCommand;AbstractCommand;label="1665", style=dashed
+AbstractCommand;AbstractCommand;label="1666:view"
+AbstractCommand;AbstractCommand;label="1667:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1668", style=dashed
+AbstractCommand;DrawApplication;label="1669:view"
+DrawApplication;AbstractCommand;label="1670", style=dashed
+AbstractCommand;AbstractCommand;label="1671", style=dashed
+AbstractCommand;StandardDrawingView;label="1672:isInteractive"
+StandardDrawingView;AbstractCommand;label="1673", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1674:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1675:view"
+AbstractCommand;AbstractCommand;label="1676:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1677", style=dashed
+AbstractCommand;DrawApplication;label="1678:view"
+DrawApplication;AbstractCommand;label="1679", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1680", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1681:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1682", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1683", style=dashed
+AbstractCommand;UndoableCommand;label="1684", style=dashed
+UndoableCommand;CommandMenu;label="1685", style=dashed
+CommandMenu;DrawApplication;label="1686", style=dashed
+DrawApplication;CommandMenu;label="1687:checkEnabled"
+CommandMenu;UndoableCommand;label="1688:isExecutable"
+UndoableCommand;UndoableCommand;label="1689:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1690", style=dashed
+UndoableCommand;AbstractCommand;label="1691:isExecutable"
+AbstractCommand;AbstractCommand;label="1692:isViewRequired"
+AbstractCommand;AbstractCommand;label="1693", style=dashed
+AbstractCommand;AbstractCommand;label="1694:view"
+AbstractCommand;AbstractCommand;label="1695:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1696", style=dashed
+AbstractCommand;DrawApplication;label="1697:view"
+DrawApplication;AbstractCommand;label="1698", style=dashed
+AbstractCommand;AbstractCommand;label="1699", style=dashed
+AbstractCommand;AbstractCommand;label="1700:view"
+AbstractCommand;AbstractCommand;label="1701:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1702", style=dashed
+AbstractCommand;DrawApplication;label="1703:view"
+DrawApplication;AbstractCommand;label="1704", style=dashed
+AbstractCommand;AbstractCommand;label="1705", style=dashed
+AbstractCommand;StandardDrawingView;label="1706:isInteractive"
+StandardDrawingView;AbstractCommand;label="1707", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1708:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1709:view"
+AbstractCommand;AbstractCommand;label="1710:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1711", style=dashed
+AbstractCommand;DrawApplication;label="1712:view"
+DrawApplication;AbstractCommand;label="1713", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1714", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1715:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1716", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1717", style=dashed
+AbstractCommand;UndoableCommand;label="1718", style=dashed
+UndoableCommand;CommandMenu;label="1719", style=dashed
+CommandMenu;UndoableCommand;label="1720:isExecutable"
+UndoableCommand;UndoableCommand;label="1721:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1722", style=dashed
+UndoableCommand;AbstractCommand;label="1723:isExecutable"
+AbstractCommand;AbstractCommand;label="1724:isViewRequired"
+AbstractCommand;AbstractCommand;label="1725", style=dashed
+AbstractCommand;AbstractCommand;label="1726:view"
+AbstractCommand;AbstractCommand;label="1727:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1728", style=dashed
+AbstractCommand;DrawApplication;label="1729:view"
+DrawApplication;AbstractCommand;label="1730", style=dashed
+AbstractCommand;AbstractCommand;label="1731", style=dashed
+AbstractCommand;AbstractCommand;label="1732:view"
+AbstractCommand;AbstractCommand;label="1733:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1734", style=dashed
+AbstractCommand;DrawApplication;label="1735:view"
+DrawApplication;AbstractCommand;label="1736", style=dashed
+AbstractCommand;AbstractCommand;label="1737", style=dashed
+AbstractCommand;StandardDrawingView;label="1738:isInteractive"
+StandardDrawingView;AbstractCommand;label="1739", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1740:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1741:view"
+AbstractCommand;AbstractCommand;label="1742:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1743", style=dashed
+AbstractCommand;DrawApplication;label="1744:view"
+DrawApplication;AbstractCommand;label="1745", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1746", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1747:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1748", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1749", style=dashed
+AbstractCommand;UndoableCommand;label="1750", style=dashed
+UndoableCommand;CommandMenu;label="1751", style=dashed
+CommandMenu;UndoableCommand;label="1752:isExecutable"
+UndoableCommand;UndoableCommand;label="1753:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1754", style=dashed
+UndoableCommand;AbstractCommand;label="1755:isExecutable"
+AbstractCommand;AbstractCommand;label="1756:isViewRequired"
+AbstractCommand;AbstractCommand;label="1757", style=dashed
+AbstractCommand;AbstractCommand;label="1758:view"
+AbstractCommand;AbstractCommand;label="1759:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1760", style=dashed
+AbstractCommand;DrawApplication;label="1761:view"
+DrawApplication;AbstractCommand;label="1762", style=dashed
+AbstractCommand;AbstractCommand;label="1763", style=dashed
+AbstractCommand;AbstractCommand;label="1764:view"
+AbstractCommand;AbstractCommand;label="1765:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1766", style=dashed
+AbstractCommand;DrawApplication;label="1767:view"
+DrawApplication;AbstractCommand;label="1768", style=dashed
+AbstractCommand;AbstractCommand;label="1769", style=dashed
+AbstractCommand;StandardDrawingView;label="1770:isInteractive"
+StandardDrawingView;AbstractCommand;label="1771", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1772:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1773:view"
+AbstractCommand;AbstractCommand;label="1774:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1775", style=dashed
+AbstractCommand;DrawApplication;label="1776:view"
+DrawApplication;AbstractCommand;label="1777", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1778", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1779:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1780", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1781", style=dashed
+AbstractCommand;UndoableCommand;label="1782", style=dashed
+UndoableCommand;CommandMenu;label="1783", style=dashed
+CommandMenu;UndoableCommand;label="1784:isExecutable"
+UndoableCommand;UndoableCommand;label="1785:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1786", style=dashed
+UndoableCommand;AbstractCommand;label="1787:isExecutable"
+AbstractCommand;AbstractCommand;label="1788:isViewRequired"
+AbstractCommand;AbstractCommand;label="1789", style=dashed
+AbstractCommand;AbstractCommand;label="1790:view"
+AbstractCommand;AbstractCommand;label="1791:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1792", style=dashed
+AbstractCommand;DrawApplication;label="1793:view"
+DrawApplication;AbstractCommand;label="1794", style=dashed
+AbstractCommand;AbstractCommand;label="1795", style=dashed
+AbstractCommand;AbstractCommand;label="1796:view"
+AbstractCommand;AbstractCommand;label="1797:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1798", style=dashed
+AbstractCommand;DrawApplication;label="1799:view"
+DrawApplication;AbstractCommand;label="1800", style=dashed
+AbstractCommand;AbstractCommand;label="1801", style=dashed
+AbstractCommand;StandardDrawingView;label="1802:isInteractive"
+StandardDrawingView;AbstractCommand;label="1803", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1804:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1805:view"
+AbstractCommand;AbstractCommand;label="1806:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1807", style=dashed
+AbstractCommand;DrawApplication;label="1808:view"
+DrawApplication;AbstractCommand;label="1809", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1810", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1811:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1812", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1813", style=dashed
+AbstractCommand;UndoableCommand;label="1814", style=dashed
+UndoableCommand;CommandMenu;label="1815", style=dashed
+CommandMenu;DrawApplication;label="1816", style=dashed
+DrawApplication;CommandMenu;label="1817:checkEnabled"
+CommandMenu;UndoableCommand;label="1818:isExecutable"
+UndoableCommand;UndoableCommand;label="1819:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1820", style=dashed
+UndoableCommand;AbstractCommand;label="1821:isExecutable"
+AbstractCommand;AbstractCommand;label="1822:isViewRequired"
+AbstractCommand;AbstractCommand;label="1823", style=dashed
+AbstractCommand;AbstractCommand;label="1824:view"
+AbstractCommand;AbstractCommand;label="1825:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1826", style=dashed
+AbstractCommand;DrawApplication;label="1827:view"
+DrawApplication;AbstractCommand;label="1828", style=dashed
+AbstractCommand;AbstractCommand;label="1829", style=dashed
+AbstractCommand;AbstractCommand;label="1830:view"
+AbstractCommand;AbstractCommand;label="1831:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1832", style=dashed
+AbstractCommand;DrawApplication;label="1833:view"
+DrawApplication;AbstractCommand;label="1834", style=dashed
+AbstractCommand;AbstractCommand;label="1835", style=dashed
+AbstractCommand;StandardDrawingView;label="1836:isInteractive"
+StandardDrawingView;AbstractCommand;label="1837", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1838:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1839:view"
+AbstractCommand;AbstractCommand;label="1840:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1841", style=dashed
+AbstractCommand;DrawApplication;label="1842:view"
+DrawApplication;AbstractCommand;label="1843", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1844", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1845:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1846", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1847", style=dashed
+AbstractCommand;UndoableCommand;label="1848", style=dashed
+UndoableCommand;CommandMenu;label="1849", style=dashed
+CommandMenu;UndoableCommand;label="1850:isExecutable"
+UndoableCommand;UndoableCommand;label="1851:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1852", style=dashed
+UndoableCommand;AbstractCommand;label="1853:isExecutable"
+AbstractCommand;AbstractCommand;label="1854:isViewRequired"
+AbstractCommand;AbstractCommand;label="1855", style=dashed
+AbstractCommand;AbstractCommand;label="1856:view"
+AbstractCommand;AbstractCommand;label="1857:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1858", style=dashed
+AbstractCommand;DrawApplication;label="1859:view"
+DrawApplication;AbstractCommand;label="1860", style=dashed
+AbstractCommand;AbstractCommand;label="1861", style=dashed
+AbstractCommand;AbstractCommand;label="1862:view"
+AbstractCommand;AbstractCommand;label="1863:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1864", style=dashed
+AbstractCommand;DrawApplication;label="1865:view"
+DrawApplication;AbstractCommand;label="1866", style=dashed
+AbstractCommand;AbstractCommand;label="1867", style=dashed
+AbstractCommand;StandardDrawingView;label="1868:isInteractive"
+StandardDrawingView;AbstractCommand;label="1869", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1870:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1871:view"
+AbstractCommand;AbstractCommand;label="1872:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1873", style=dashed
+AbstractCommand;DrawApplication;label="1874:view"
+DrawApplication;AbstractCommand;label="1875", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1876", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1877:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1878", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1879", style=dashed
+AbstractCommand;UndoableCommand;label="1880", style=dashed
+UndoableCommand;CommandMenu;label="1881", style=dashed
+CommandMenu;UndoableCommand;label="1882:isExecutable"
+UndoableCommand;UndoableCommand;label="1883:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1884", style=dashed
+UndoableCommand;AbstractCommand;label="1885:isExecutable"
+AbstractCommand;AbstractCommand;label="1886:isViewRequired"
+AbstractCommand;AbstractCommand;label="1887", style=dashed
+AbstractCommand;AbstractCommand;label="1888:view"
+AbstractCommand;AbstractCommand;label="1889:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1890", style=dashed
+AbstractCommand;DrawApplication;label="1891:view"
+DrawApplication;AbstractCommand;label="1892", style=dashed
+AbstractCommand;AbstractCommand;label="1893", style=dashed
+AbstractCommand;AbstractCommand;label="1894:view"
+AbstractCommand;AbstractCommand;label="1895:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1896", style=dashed
+AbstractCommand;DrawApplication;label="1897:view"
+DrawApplication;AbstractCommand;label="1898", style=dashed
+AbstractCommand;AbstractCommand;label="1899", style=dashed
+AbstractCommand;StandardDrawingView;label="1900:isInteractive"
+StandardDrawingView;AbstractCommand;label="1901", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1902:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1903:view"
+AbstractCommand;AbstractCommand;label="1904:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1905", style=dashed
+AbstractCommand;DrawApplication;label="1906:view"
+DrawApplication;AbstractCommand;label="1907", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1908", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1909:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1910", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1911", style=dashed
+AbstractCommand;UndoableCommand;label="1912", style=dashed
+UndoableCommand;CommandMenu;label="1913", style=dashed
+CommandMenu;UndoableCommand;label="1914:isExecutable"
+UndoableCommand;UndoableCommand;label="1915:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1916", style=dashed
+UndoableCommand;AbstractCommand;label="1917:isExecutable"
+AbstractCommand;AbstractCommand;label="1918:isViewRequired"
+AbstractCommand;AbstractCommand;label="1919", style=dashed
+AbstractCommand;AbstractCommand;label="1920:view"
+AbstractCommand;AbstractCommand;label="1921:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1922", style=dashed
+AbstractCommand;DrawApplication;label="1923:view"
+DrawApplication;AbstractCommand;label="1924", style=dashed
+AbstractCommand;AbstractCommand;label="1925", style=dashed
+AbstractCommand;AbstractCommand;label="1926:view"
+AbstractCommand;AbstractCommand;label="1927:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1928", style=dashed
+AbstractCommand;DrawApplication;label="1929:view"
+DrawApplication;AbstractCommand;label="1930", style=dashed
+AbstractCommand;AbstractCommand;label="1931", style=dashed
+AbstractCommand;StandardDrawingView;label="1932:isInteractive"
+StandardDrawingView;AbstractCommand;label="1933", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1934:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1935:view"
+AbstractCommand;AbstractCommand;label="1936:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1937", style=dashed
+AbstractCommand;DrawApplication;label="1938:view"
+DrawApplication;AbstractCommand;label="1939", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1940", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1941:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1942", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1943", style=dashed
+AbstractCommand;UndoableCommand;label="1944", style=dashed
+UndoableCommand;CommandMenu;label="1945", style=dashed
+CommandMenu;UndoableCommand;label="1946:isExecutable"
+UndoableCommand;UndoableCommand;label="1947:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1948", style=dashed
+UndoableCommand;AbstractCommand;label="1949:isExecutable"
+AbstractCommand;AbstractCommand;label="1950:isViewRequired"
+AbstractCommand;AbstractCommand;label="1951", style=dashed
+AbstractCommand;AbstractCommand;label="1952:view"
+AbstractCommand;AbstractCommand;label="1953:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1954", style=dashed
+AbstractCommand;DrawApplication;label="1955:view"
+DrawApplication;AbstractCommand;label="1956", style=dashed
+AbstractCommand;AbstractCommand;label="1957", style=dashed
+AbstractCommand;AbstractCommand;label="1958:view"
+AbstractCommand;AbstractCommand;label="1959:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1960", style=dashed
+AbstractCommand;DrawApplication;label="1961:view"
+DrawApplication;AbstractCommand;label="1962", style=dashed
+AbstractCommand;AbstractCommand;label="1963", style=dashed
+AbstractCommand;StandardDrawingView;label="1964:isInteractive"
+StandardDrawingView;AbstractCommand;label="1965", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1966:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="1967:view"
+AbstractCommand;AbstractCommand;label="1968:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1969", style=dashed
+AbstractCommand;DrawApplication;label="1970:view"
+DrawApplication;AbstractCommand;label="1971", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="1972", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="1973:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="1974", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="1975", style=dashed
+AbstractCommand;UndoableCommand;label="1976", style=dashed
+UndoableCommand;CommandMenu;label="1977", style=dashed
+CommandMenu;DrawApplication;label="1978", style=dashed
+DrawApplication;CommandMenu;label="1979:checkEnabled"
+CommandMenu;UndoableCommand;label="1980:isExecutable"
+UndoableCommand;UndoableCommand;label="1981:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="1982", style=dashed
+UndoableCommand;AbstractCommand;label="1983:isExecutable"
+AbstractCommand;AbstractCommand;label="1984:isViewRequired"
+AbstractCommand;AbstractCommand;label="1985", style=dashed
+AbstractCommand;AbstractCommand;label="1986:view"
+AbstractCommand;AbstractCommand;label="1987:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1988", style=dashed
+AbstractCommand;DrawApplication;label="1989:view"
+DrawApplication;AbstractCommand;label="1990", style=dashed
+AbstractCommand;AbstractCommand;label="1991", style=dashed
+AbstractCommand;AbstractCommand;label="1992:view"
+AbstractCommand;AbstractCommand;label="1993:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="1994", style=dashed
+AbstractCommand;DrawApplication;label="1995:view"
+DrawApplication;AbstractCommand;label="1996", style=dashed
+AbstractCommand;AbstractCommand;label="1997", style=dashed
+AbstractCommand;StandardDrawingView;label="1998:isInteractive"
+StandardDrawingView;AbstractCommand;label="1999", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2000:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2001:view"
+AbstractCommand;AbstractCommand;label="2002:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2003", style=dashed
+AbstractCommand;DrawApplication;label="2004:view"
+DrawApplication;AbstractCommand;label="2005", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2006", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2007:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2008", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2009", style=dashed
+AbstractCommand;UndoableCommand;label="2010", style=dashed
+UndoableCommand;CommandMenu;label="2011", style=dashed
+CommandMenu;UndoableCommand;label="2012:isExecutable"
+UndoableCommand;UndoableCommand;label="2013:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2014", style=dashed
+UndoableCommand;AbstractCommand;label="2015:isExecutable"
+AbstractCommand;AbstractCommand;label="2016:isViewRequired"
+AbstractCommand;AbstractCommand;label="2017", style=dashed
+AbstractCommand;AbstractCommand;label="2018:view"
+AbstractCommand;AbstractCommand;label="2019:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2020", style=dashed
+AbstractCommand;DrawApplication;label="2021:view"
+DrawApplication;AbstractCommand;label="2022", style=dashed
+AbstractCommand;AbstractCommand;label="2023", style=dashed
+AbstractCommand;AbstractCommand;label="2024:view"
+AbstractCommand;AbstractCommand;label="2025:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2026", style=dashed
+AbstractCommand;DrawApplication;label="2027:view"
+DrawApplication;AbstractCommand;label="2028", style=dashed
+AbstractCommand;AbstractCommand;label="2029", style=dashed
+AbstractCommand;StandardDrawingView;label="2030:isInteractive"
+StandardDrawingView;AbstractCommand;label="2031", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2032:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2033:view"
+AbstractCommand;AbstractCommand;label="2034:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2035", style=dashed
+AbstractCommand;DrawApplication;label="2036:view"
+DrawApplication;AbstractCommand;label="2037", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2038", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2039:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2040", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2041", style=dashed
+AbstractCommand;UndoableCommand;label="2042", style=dashed
+UndoableCommand;CommandMenu;label="2043", style=dashed
+CommandMenu;UndoableCommand;label="2044:isExecutable"
+UndoableCommand;UndoableCommand;label="2045:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2046", style=dashed
+UndoableCommand;AbstractCommand;label="2047:isExecutable"
+AbstractCommand;AbstractCommand;label="2048:isViewRequired"
+AbstractCommand;AbstractCommand;label="2049", style=dashed
+AbstractCommand;AbstractCommand;label="2050:view"
+AbstractCommand;AbstractCommand;label="2051:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2052", style=dashed
+AbstractCommand;DrawApplication;label="2053:view"
+DrawApplication;AbstractCommand;label="2054", style=dashed
+AbstractCommand;AbstractCommand;label="2055", style=dashed
+AbstractCommand;AbstractCommand;label="2056:view"
+AbstractCommand;AbstractCommand;label="2057:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2058", style=dashed
+AbstractCommand;DrawApplication;label="2059:view"
+DrawApplication;AbstractCommand;label="2060", style=dashed
+AbstractCommand;AbstractCommand;label="2061", style=dashed
+AbstractCommand;StandardDrawingView;label="2062:isInteractive"
+StandardDrawingView;AbstractCommand;label="2063", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2064:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2065:view"
+AbstractCommand;AbstractCommand;label="2066:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2067", style=dashed
+AbstractCommand;DrawApplication;label="2068:view"
+DrawApplication;AbstractCommand;label="2069", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2070", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2071:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2072", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2073", style=dashed
+AbstractCommand;UndoableCommand;label="2074", style=dashed
+UndoableCommand;CommandMenu;label="2075", style=dashed
+CommandMenu;UndoableCommand;label="2076:isExecutable"
+UndoableCommand;UndoableCommand;label="2077:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2078", style=dashed
+UndoableCommand;AbstractCommand;label="2079:isExecutable"
+AbstractCommand;AbstractCommand;label="2080:isViewRequired"
+AbstractCommand;AbstractCommand;label="2081", style=dashed
+AbstractCommand;AbstractCommand;label="2082:view"
+AbstractCommand;AbstractCommand;label="2083:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2084", style=dashed
+AbstractCommand;DrawApplication;label="2085:view"
+DrawApplication;AbstractCommand;label="2086", style=dashed
+AbstractCommand;AbstractCommand;label="2087", style=dashed
+AbstractCommand;AbstractCommand;label="2088:view"
+AbstractCommand;AbstractCommand;label="2089:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2090", style=dashed
+AbstractCommand;DrawApplication;label="2091:view"
+DrawApplication;AbstractCommand;label="2092", style=dashed
+AbstractCommand;AbstractCommand;label="2093", style=dashed
+AbstractCommand;StandardDrawingView;label="2094:isInteractive"
+StandardDrawingView;AbstractCommand;label="2095", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2096:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2097:view"
+AbstractCommand;AbstractCommand;label="2098:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2099", style=dashed
+AbstractCommand;DrawApplication;label="2100:view"
+DrawApplication;AbstractCommand;label="2101", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2102", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2103:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2104", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2105", style=dashed
+AbstractCommand;UndoableCommand;label="2106", style=dashed
+UndoableCommand;CommandMenu;label="2107", style=dashed
+CommandMenu;UndoableCommand;label="2108:isExecutable"
+UndoableCommand;UndoableCommand;label="2109:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2110", style=dashed
+UndoableCommand;AbstractCommand;label="2111:isExecutable"
+AbstractCommand;AbstractCommand;label="2112:isViewRequired"
+AbstractCommand;AbstractCommand;label="2113", style=dashed
+AbstractCommand;AbstractCommand;label="2114:view"
+AbstractCommand;AbstractCommand;label="2115:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2116", style=dashed
+AbstractCommand;DrawApplication;label="2117:view"
+DrawApplication;AbstractCommand;label="2118", style=dashed
+AbstractCommand;AbstractCommand;label="2119", style=dashed
+AbstractCommand;AbstractCommand;label="2120:view"
+AbstractCommand;AbstractCommand;label="2121:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2122", style=dashed
+AbstractCommand;DrawApplication;label="2123:view"
+DrawApplication;AbstractCommand;label="2124", style=dashed
+AbstractCommand;AbstractCommand;label="2125", style=dashed
+AbstractCommand;StandardDrawingView;label="2126:isInteractive"
+StandardDrawingView;AbstractCommand;label="2127", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2128:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2129:view"
+AbstractCommand;AbstractCommand;label="2130:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2131", style=dashed
+AbstractCommand;DrawApplication;label="2132:view"
+DrawApplication;AbstractCommand;label="2133", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2134", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2135:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2136", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2137", style=dashed
+AbstractCommand;UndoableCommand;label="2138", style=dashed
+UndoableCommand;CommandMenu;label="2139", style=dashed
+CommandMenu;UndoableCommand;label="2140:isExecutable"
+UndoableCommand;UndoableCommand;label="2141:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2142", style=dashed
+UndoableCommand;AbstractCommand;label="2143:isExecutable"
+AbstractCommand;AbstractCommand;label="2144:isViewRequired"
+AbstractCommand;AbstractCommand;label="2145", style=dashed
+AbstractCommand;AbstractCommand;label="2146:view"
+AbstractCommand;AbstractCommand;label="2147:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2148", style=dashed
+AbstractCommand;DrawApplication;label="2149:view"
+DrawApplication;AbstractCommand;label="2150", style=dashed
+AbstractCommand;AbstractCommand;label="2151", style=dashed
+AbstractCommand;AbstractCommand;label="2152:view"
+AbstractCommand;AbstractCommand;label="2153:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2154", style=dashed
+AbstractCommand;DrawApplication;label="2155:view"
+DrawApplication;AbstractCommand;label="2156", style=dashed
+AbstractCommand;AbstractCommand;label="2157", style=dashed
+AbstractCommand;StandardDrawingView;label="2158:isInteractive"
+StandardDrawingView;AbstractCommand;label="2159", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2160:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2161:view"
+AbstractCommand;AbstractCommand;label="2162:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2163", style=dashed
+AbstractCommand;DrawApplication;label="2164:view"
+DrawApplication;AbstractCommand;label="2165", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2166", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2167:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2168", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2169", style=dashed
+AbstractCommand;UndoableCommand;label="2170", style=dashed
+UndoableCommand;CommandMenu;label="2171", style=dashed
+CommandMenu;UndoableCommand;label="2172:isExecutable"
+UndoableCommand;UndoableCommand;label="2173:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2174", style=dashed
+UndoableCommand;AbstractCommand;label="2175:isExecutable"
+AbstractCommand;AbstractCommand;label="2176:isViewRequired"
+AbstractCommand;AbstractCommand;label="2177", style=dashed
+AbstractCommand;AbstractCommand;label="2178:view"
+AbstractCommand;AbstractCommand;label="2179:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2180", style=dashed
+AbstractCommand;DrawApplication;label="2181:view"
+DrawApplication;AbstractCommand;label="2182", style=dashed
+AbstractCommand;AbstractCommand;label="2183", style=dashed
+AbstractCommand;AbstractCommand;label="2184:view"
+AbstractCommand;AbstractCommand;label="2185:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2186", style=dashed
+AbstractCommand;DrawApplication;label="2187:view"
+DrawApplication;AbstractCommand;label="2188", style=dashed
+AbstractCommand;AbstractCommand;label="2189", style=dashed
+AbstractCommand;StandardDrawingView;label="2190:isInteractive"
+StandardDrawingView;AbstractCommand;label="2191", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2192:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2193:view"
+AbstractCommand;AbstractCommand;label="2194:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2195", style=dashed
+AbstractCommand;DrawApplication;label="2196:view"
+DrawApplication;AbstractCommand;label="2197", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2198", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2199:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2200", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2201", style=dashed
+AbstractCommand;UndoableCommand;label="2202", style=dashed
+UndoableCommand;CommandMenu;label="2203", style=dashed
+CommandMenu;UndoableCommand;label="2204:isExecutable"
+UndoableCommand;UndoableCommand;label="2205:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2206", style=dashed
+UndoableCommand;AbstractCommand;label="2207:isExecutable"
+AbstractCommand;AbstractCommand;label="2208:isViewRequired"
+AbstractCommand;AbstractCommand;label="2209", style=dashed
+AbstractCommand;AbstractCommand;label="2210:view"
+AbstractCommand;AbstractCommand;label="2211:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2212", style=dashed
+AbstractCommand;DrawApplication;label="2213:view"
+DrawApplication;AbstractCommand;label="2214", style=dashed
+AbstractCommand;AbstractCommand;label="2215", style=dashed
+AbstractCommand;AbstractCommand;label="2216:view"
+AbstractCommand;AbstractCommand;label="2217:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2218", style=dashed
+AbstractCommand;DrawApplication;label="2219:view"
+DrawApplication;AbstractCommand;label="2220", style=dashed
+AbstractCommand;AbstractCommand;label="2221", style=dashed
+AbstractCommand;StandardDrawingView;label="2222:isInteractive"
+StandardDrawingView;AbstractCommand;label="2223", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2224:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2225:view"
+AbstractCommand;AbstractCommand;label="2226:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2227", style=dashed
+AbstractCommand;DrawApplication;label="2228:view"
+DrawApplication;AbstractCommand;label="2229", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2230", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2231:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2232", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2233", style=dashed
+AbstractCommand;UndoableCommand;label="2234", style=dashed
+UndoableCommand;CommandMenu;label="2235", style=dashed
+CommandMenu;UndoableCommand;label="2236:isExecutable"
+UndoableCommand;UndoableCommand;label="2237:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2238", style=dashed
+UndoableCommand;AbstractCommand;label="2239:isExecutable"
+AbstractCommand;AbstractCommand;label="2240:isViewRequired"
+AbstractCommand;AbstractCommand;label="2241", style=dashed
+AbstractCommand;AbstractCommand;label="2242:view"
+AbstractCommand;AbstractCommand;label="2243:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2244", style=dashed
+AbstractCommand;DrawApplication;label="2245:view"
+DrawApplication;AbstractCommand;label="2246", style=dashed
+AbstractCommand;AbstractCommand;label="2247", style=dashed
+AbstractCommand;AbstractCommand;label="2248:view"
+AbstractCommand;AbstractCommand;label="2249:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2250", style=dashed
+AbstractCommand;DrawApplication;label="2251:view"
+DrawApplication;AbstractCommand;label="2252", style=dashed
+AbstractCommand;AbstractCommand;label="2253", style=dashed
+AbstractCommand;StandardDrawingView;label="2254:isInteractive"
+StandardDrawingView;AbstractCommand;label="2255", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2256:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2257:view"
+AbstractCommand;AbstractCommand;label="2258:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2259", style=dashed
+AbstractCommand;DrawApplication;label="2260:view"
+DrawApplication;AbstractCommand;label="2261", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2262", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2263:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2264", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2265", style=dashed
+AbstractCommand;UndoableCommand;label="2266", style=dashed
+UndoableCommand;CommandMenu;label="2267", style=dashed
+CommandMenu;DrawApplication;label="2268", style=dashed
+DrawApplication;CommandMenu;label="2269:checkEnabled"
+CommandMenu;UndoableCommand;label="2270:isExecutable"
+UndoableCommand;UndoableCommand;label="2271:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2272", style=dashed
+UndoableCommand;AbstractCommand;label="2273:isExecutable"
+AbstractCommand;AbstractCommand;label="2274:isViewRequired"
+AbstractCommand;AbstractCommand;label="2275", style=dashed
+AbstractCommand;AbstractCommand;label="2276:view"
+AbstractCommand;AbstractCommand;label="2277:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2278", style=dashed
+AbstractCommand;DrawApplication;label="2279:view"
+DrawApplication;AbstractCommand;label="2280", style=dashed
+AbstractCommand;AbstractCommand;label="2281", style=dashed
+AbstractCommand;AbstractCommand;label="2282:view"
+AbstractCommand;AbstractCommand;label="2283:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2284", style=dashed
+AbstractCommand;DrawApplication;label="2285:view"
+DrawApplication;AbstractCommand;label="2286", style=dashed
+AbstractCommand;AbstractCommand;label="2287", style=dashed
+AbstractCommand;StandardDrawingView;label="2288:isInteractive"
+StandardDrawingView;AbstractCommand;label="2289", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2290:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2291:view"
+AbstractCommand;AbstractCommand;label="2292:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2293", style=dashed
+AbstractCommand;DrawApplication;label="2294:view"
+DrawApplication;AbstractCommand;label="2295", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2296", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2297:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2298", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2299", style=dashed
+AbstractCommand;UndoableCommand;label="2300", style=dashed
+UndoableCommand;CommandMenu;label="2301", style=dashed
+CommandMenu;UndoableCommand;label="2302:isExecutable"
+UndoableCommand;UndoableCommand;label="2303:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2304", style=dashed
+UndoableCommand;AbstractCommand;label="2305:isExecutable"
+AbstractCommand;AbstractCommand;label="2306:isViewRequired"
+AbstractCommand;AbstractCommand;label="2307", style=dashed
+AbstractCommand;AbstractCommand;label="2308:view"
+AbstractCommand;AbstractCommand;label="2309:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2310", style=dashed
+AbstractCommand;DrawApplication;label="2311:view"
+DrawApplication;AbstractCommand;label="2312", style=dashed
+AbstractCommand;AbstractCommand;label="2313", style=dashed
+AbstractCommand;AbstractCommand;label="2314:view"
+AbstractCommand;AbstractCommand;label="2315:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2316", style=dashed
+AbstractCommand;DrawApplication;label="2317:view"
+DrawApplication;AbstractCommand;label="2318", style=dashed
+AbstractCommand;AbstractCommand;label="2319", style=dashed
+AbstractCommand;StandardDrawingView;label="2320:isInteractive"
+StandardDrawingView;AbstractCommand;label="2321", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2322:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2323:view"
+AbstractCommand;AbstractCommand;label="2324:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2325", style=dashed
+AbstractCommand;DrawApplication;label="2326:view"
+DrawApplication;AbstractCommand;label="2327", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2328", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2329:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2330", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2331", style=dashed
+AbstractCommand;UndoableCommand;label="2332", style=dashed
+UndoableCommand;CommandMenu;label="2333", style=dashed
+CommandMenu;UndoableCommand;label="2334:isExecutable"
+UndoableCommand;UndoableCommand;label="2335:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2336", style=dashed
+UndoableCommand;AbstractCommand;label="2337:isExecutable"
+AbstractCommand;AbstractCommand;label="2338:isViewRequired"
+AbstractCommand;AbstractCommand;label="2339", style=dashed
+AbstractCommand;AbstractCommand;label="2340:view"
+AbstractCommand;AbstractCommand;label="2341:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2342", style=dashed
+AbstractCommand;DrawApplication;label="2343:view"
+DrawApplication;AbstractCommand;label="2344", style=dashed
+AbstractCommand;AbstractCommand;label="2345", style=dashed
+AbstractCommand;AbstractCommand;label="2346:view"
+AbstractCommand;AbstractCommand;label="2347:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2348", style=dashed
+AbstractCommand;DrawApplication;label="2349:view"
+DrawApplication;AbstractCommand;label="2350", style=dashed
+AbstractCommand;AbstractCommand;label="2351", style=dashed
+AbstractCommand;StandardDrawingView;label="2352:isInteractive"
+StandardDrawingView;AbstractCommand;label="2353", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2354:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2355:view"
+AbstractCommand;AbstractCommand;label="2356:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2357", style=dashed
+AbstractCommand;DrawApplication;label="2358:view"
+DrawApplication;AbstractCommand;label="2359", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2360", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2361:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2362", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2363", style=dashed
+AbstractCommand;UndoableCommand;label="2364", style=dashed
+UndoableCommand;CommandMenu;label="2365", style=dashed
+CommandMenu;DrawApplication;label="2366", style=dashed
+DrawApplication;CommandMenu;label="2367:checkEnabled"
+CommandMenu;UndoableCommand;label="2368:isExecutable"
+UndoableCommand;UndoableCommand;label="2369:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2370", style=dashed
+UndoableCommand;AbstractCommand;label="2371:isExecutable"
+AbstractCommand;AbstractCommand;label="2372:isViewRequired"
+AbstractCommand;AbstractCommand;label="2373", style=dashed
+AbstractCommand;AbstractCommand;label="2374:view"
+AbstractCommand;AbstractCommand;label="2375:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2376", style=dashed
+AbstractCommand;DrawApplication;label="2377:view"
+DrawApplication;AbstractCommand;label="2378", style=dashed
+AbstractCommand;AbstractCommand;label="2379", style=dashed
+AbstractCommand;AbstractCommand;label="2380:view"
+AbstractCommand;AbstractCommand;label="2381:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2382", style=dashed
+AbstractCommand;DrawApplication;label="2383:view"
+DrawApplication;AbstractCommand;label="2384", style=dashed
+AbstractCommand;AbstractCommand;label="2385", style=dashed
+AbstractCommand;StandardDrawingView;label="2386:isInteractive"
+StandardDrawingView;AbstractCommand;label="2387", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2388:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2389:view"
+AbstractCommand;AbstractCommand;label="2390:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2391", style=dashed
+AbstractCommand;DrawApplication;label="2392:view"
+DrawApplication;AbstractCommand;label="2393", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2394", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2395:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2396", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2397", style=dashed
+AbstractCommand;UndoableCommand;label="2398", style=dashed
+UndoableCommand;CommandMenu;label="2399", style=dashed
+CommandMenu;UndoableCommand;label="2400:isExecutable"
+UndoableCommand;UndoableCommand;label="2401:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2402", style=dashed
+UndoableCommand;AbstractCommand;label="2403:isExecutable"
+AbstractCommand;AbstractCommand;label="2404:isViewRequired"
+AbstractCommand;AbstractCommand;label="2405", style=dashed
+AbstractCommand;AbstractCommand;label="2406:view"
+AbstractCommand;AbstractCommand;label="2407:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2408", style=dashed
+AbstractCommand;DrawApplication;label="2409:view"
+DrawApplication;AbstractCommand;label="2410", style=dashed
+AbstractCommand;AbstractCommand;label="2411", style=dashed
+AbstractCommand;AbstractCommand;label="2412:view"
+AbstractCommand;AbstractCommand;label="2413:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2414", style=dashed
+AbstractCommand;DrawApplication;label="2415:view"
+DrawApplication;AbstractCommand;label="2416", style=dashed
+AbstractCommand;AbstractCommand;label="2417", style=dashed
+AbstractCommand;StandardDrawingView;label="2418:isInteractive"
+StandardDrawingView;AbstractCommand;label="2419", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2420:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2421:view"
+AbstractCommand;AbstractCommand;label="2422:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2423", style=dashed
+AbstractCommand;DrawApplication;label="2424:view"
+DrawApplication;AbstractCommand;label="2425", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2426", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2427:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2428", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2429", style=dashed
+AbstractCommand;UndoableCommand;label="2430", style=dashed
+UndoableCommand;CommandMenu;label="2431", style=dashed
+CommandMenu;UndoableCommand;label="2432:isExecutable"
+UndoableCommand;UndoableCommand;label="2433:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2434", style=dashed
+UndoableCommand;AbstractCommand;label="2435:isExecutable"
+AbstractCommand;AbstractCommand;label="2436:isViewRequired"
+AbstractCommand;AbstractCommand;label="2437", style=dashed
+AbstractCommand;AbstractCommand;label="2438:view"
+AbstractCommand;AbstractCommand;label="2439:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2440", style=dashed
+AbstractCommand;DrawApplication;label="2441:view"
+DrawApplication;AbstractCommand;label="2442", style=dashed
+AbstractCommand;AbstractCommand;label="2443", style=dashed
+AbstractCommand;AbstractCommand;label="2444:view"
+AbstractCommand;AbstractCommand;label="2445:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2446", style=dashed
+AbstractCommand;DrawApplication;label="2447:view"
+DrawApplication;AbstractCommand;label="2448", style=dashed
+AbstractCommand;AbstractCommand;label="2449", style=dashed
+AbstractCommand;StandardDrawingView;label="2450:isInteractive"
+StandardDrawingView;AbstractCommand;label="2451", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2452:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2453:view"
+AbstractCommand;AbstractCommand;label="2454:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2455", style=dashed
+AbstractCommand;DrawApplication;label="2456:view"
+DrawApplication;AbstractCommand;label="2457", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2458", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2459:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2460", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2461", style=dashed
+AbstractCommand;UndoableCommand;label="2462", style=dashed
+UndoableCommand;CommandMenu;label="2463", style=dashed
+CommandMenu;UndoableCommand;label="2464:isExecutable"
+UndoableCommand;UndoableCommand;label="2465:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2466", style=dashed
+UndoableCommand;AbstractCommand;label="2467:isExecutable"
+AbstractCommand;AbstractCommand;label="2468:isViewRequired"
+AbstractCommand;AbstractCommand;label="2469", style=dashed
+AbstractCommand;AbstractCommand;label="2470:view"
+AbstractCommand;AbstractCommand;label="2471:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2472", style=dashed
+AbstractCommand;DrawApplication;label="2473:view"
+DrawApplication;AbstractCommand;label="2474", style=dashed
+AbstractCommand;AbstractCommand;label="2475", style=dashed
+AbstractCommand;AbstractCommand;label="2476:view"
+AbstractCommand;AbstractCommand;label="2477:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2478", style=dashed
+AbstractCommand;DrawApplication;label="2479:view"
+DrawApplication;AbstractCommand;label="2480", style=dashed
+AbstractCommand;AbstractCommand;label="2481", style=dashed
+AbstractCommand;StandardDrawingView;label="2482:isInteractive"
+StandardDrawingView;AbstractCommand;label="2483", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2484:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2485:view"
+AbstractCommand;AbstractCommand;label="2486:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2487", style=dashed
+AbstractCommand;DrawApplication;label="2488:view"
+DrawApplication;AbstractCommand;label="2489", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2490", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2491:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2492", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2493", style=dashed
+AbstractCommand;UndoableCommand;label="2494", style=dashed
+UndoableCommand;CommandMenu;label="2495", style=dashed
+CommandMenu;UndoableCommand;label="2496:isExecutable"
+UndoableCommand;UndoableCommand;label="2497:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2498", style=dashed
+UndoableCommand;AbstractCommand;label="2499:isExecutable"
+AbstractCommand;AbstractCommand;label="2500:isViewRequired"
+AbstractCommand;AbstractCommand;label="2501", style=dashed
+AbstractCommand;AbstractCommand;label="2502:view"
+AbstractCommand;AbstractCommand;label="2503:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2504", style=dashed
+AbstractCommand;DrawApplication;label="2505:view"
+DrawApplication;AbstractCommand;label="2506", style=dashed
+AbstractCommand;AbstractCommand;label="2507", style=dashed
+AbstractCommand;AbstractCommand;label="2508:view"
+AbstractCommand;AbstractCommand;label="2509:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2510", style=dashed
+AbstractCommand;DrawApplication;label="2511:view"
+DrawApplication;AbstractCommand;label="2512", style=dashed
+AbstractCommand;AbstractCommand;label="2513", style=dashed
+AbstractCommand;StandardDrawingView;label="2514:isInteractive"
+StandardDrawingView;AbstractCommand;label="2515", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2516:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2517:view"
+AbstractCommand;AbstractCommand;label="2518:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2519", style=dashed
+AbstractCommand;DrawApplication;label="2520:view"
+DrawApplication;AbstractCommand;label="2521", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2522", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2523:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2524", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2525", style=dashed
+AbstractCommand;UndoableCommand;label="2526", style=dashed
+UndoableCommand;CommandMenu;label="2527", style=dashed
+CommandMenu;UndoableCommand;label="2528:isExecutable"
+UndoableCommand;UndoableCommand;label="2529:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2530", style=dashed
+UndoableCommand;AbstractCommand;label="2531:isExecutable"
+AbstractCommand;AbstractCommand;label="2532:isViewRequired"
+AbstractCommand;AbstractCommand;label="2533", style=dashed
+AbstractCommand;AbstractCommand;label="2534:view"
+AbstractCommand;AbstractCommand;label="2535:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2536", style=dashed
+AbstractCommand;DrawApplication;label="2537:view"
+DrawApplication;AbstractCommand;label="2538", style=dashed
+AbstractCommand;AbstractCommand;label="2539", style=dashed
+AbstractCommand;AbstractCommand;label="2540:view"
+AbstractCommand;AbstractCommand;label="2541:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2542", style=dashed
+AbstractCommand;DrawApplication;label="2543:view"
+DrawApplication;AbstractCommand;label="2544", style=dashed
+AbstractCommand;AbstractCommand;label="2545", style=dashed
+AbstractCommand;StandardDrawingView;label="2546:isInteractive"
+StandardDrawingView;AbstractCommand;label="2547", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2548:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2549:view"
+AbstractCommand;AbstractCommand;label="2550:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2551", style=dashed
+AbstractCommand;DrawApplication;label="2552:view"
+DrawApplication;AbstractCommand;label="2553", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2554", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2555:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2556", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2557", style=dashed
+AbstractCommand;UndoableCommand;label="2558", style=dashed
+UndoableCommand;CommandMenu;label="2559", style=dashed
+CommandMenu;UndoableCommand;label="2560:isExecutable"
+UndoableCommand;UndoableCommand;label="2561:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2562", style=dashed
+UndoableCommand;AbstractCommand;label="2563:isExecutable"
+AbstractCommand;AbstractCommand;label="2564:isViewRequired"
+AbstractCommand;AbstractCommand;label="2565", style=dashed
+AbstractCommand;AbstractCommand;label="2566:view"
+AbstractCommand;AbstractCommand;label="2567:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2568", style=dashed
+AbstractCommand;DrawApplication;label="2569:view"
+DrawApplication;AbstractCommand;label="2570", style=dashed
+AbstractCommand;AbstractCommand;label="2571", style=dashed
+AbstractCommand;AbstractCommand;label="2572:view"
+AbstractCommand;AbstractCommand;label="2573:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2574", style=dashed
+AbstractCommand;DrawApplication;label="2575:view"
+DrawApplication;AbstractCommand;label="2576", style=dashed
+AbstractCommand;AbstractCommand;label="2577", style=dashed
+AbstractCommand;StandardDrawingView;label="2578:isInteractive"
+StandardDrawingView;AbstractCommand;label="2579", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2580:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2581:view"
+AbstractCommand;AbstractCommand;label="2582:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2583", style=dashed
+AbstractCommand;DrawApplication;label="2584:view"
+DrawApplication;AbstractCommand;label="2585", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2586", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2587:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2588", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2589", style=dashed
+AbstractCommand;UndoableCommand;label="2590", style=dashed
+UndoableCommand;CommandMenu;label="2591", style=dashed
+CommandMenu;UndoableCommand;label="2592:isExecutable"
+UndoableCommand;UndoableCommand;label="2593:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2594", style=dashed
+UndoableCommand;AbstractCommand;label="2595:isExecutable"
+AbstractCommand;AbstractCommand;label="2596:isViewRequired"
+AbstractCommand;AbstractCommand;label="2597", style=dashed
+AbstractCommand;AbstractCommand;label="2598:view"
+AbstractCommand;AbstractCommand;label="2599:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2600", style=dashed
+AbstractCommand;DrawApplication;label="2601:view"
+DrawApplication;AbstractCommand;label="2602", style=dashed
+AbstractCommand;AbstractCommand;label="2603", style=dashed
+AbstractCommand;AbstractCommand;label="2604:view"
+AbstractCommand;AbstractCommand;label="2605:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2606", style=dashed
+AbstractCommand;DrawApplication;label="2607:view"
+DrawApplication;AbstractCommand;label="2608", style=dashed
+AbstractCommand;AbstractCommand;label="2609", style=dashed
+AbstractCommand;StandardDrawingView;label="2610:isInteractive"
+StandardDrawingView;AbstractCommand;label="2611", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2612:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2613:view"
+AbstractCommand;AbstractCommand;label="2614:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2615", style=dashed
+AbstractCommand;DrawApplication;label="2616:view"
+DrawApplication;AbstractCommand;label="2617", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2618", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2619:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2620", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2621", style=dashed
+AbstractCommand;UndoableCommand;label="2622", style=dashed
+UndoableCommand;CommandMenu;label="2623", style=dashed
+CommandMenu;UndoableCommand;label="2624:isExecutable"
+UndoableCommand;UndoableCommand;label="2625:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2626", style=dashed
+UndoableCommand;AbstractCommand;label="2627:isExecutable"
+AbstractCommand;AbstractCommand;label="2628:isViewRequired"
+AbstractCommand;AbstractCommand;label="2629", style=dashed
+AbstractCommand;AbstractCommand;label="2630:view"
+AbstractCommand;AbstractCommand;label="2631:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2632", style=dashed
+AbstractCommand;DrawApplication;label="2633:view"
+DrawApplication;AbstractCommand;label="2634", style=dashed
+AbstractCommand;AbstractCommand;label="2635", style=dashed
+AbstractCommand;AbstractCommand;label="2636:view"
+AbstractCommand;AbstractCommand;label="2637:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2638", style=dashed
+AbstractCommand;DrawApplication;label="2639:view"
+DrawApplication;AbstractCommand;label="2640", style=dashed
+AbstractCommand;AbstractCommand;label="2641", style=dashed
+AbstractCommand;StandardDrawingView;label="2642:isInteractive"
+StandardDrawingView;AbstractCommand;label="2643", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2644:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2645:view"
+AbstractCommand;AbstractCommand;label="2646:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2647", style=dashed
+AbstractCommand;DrawApplication;label="2648:view"
+DrawApplication;AbstractCommand;label="2649", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2650", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2651:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2652", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2653", style=dashed
+AbstractCommand;UndoableCommand;label="2654", style=dashed
+UndoableCommand;CommandMenu;label="2655", style=dashed
+CommandMenu;UndoableCommand;label="2656:isExecutable"
+UndoableCommand;UndoableCommand;label="2657:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2658", style=dashed
+UndoableCommand;AbstractCommand;label="2659:isExecutable"
+AbstractCommand;AbstractCommand;label="2660:isViewRequired"
+AbstractCommand;AbstractCommand;label="2661", style=dashed
+AbstractCommand;AbstractCommand;label="2662:view"
+AbstractCommand;AbstractCommand;label="2663:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2664", style=dashed
+AbstractCommand;DrawApplication;label="2665:view"
+DrawApplication;AbstractCommand;label="2666", style=dashed
+AbstractCommand;AbstractCommand;label="2667", style=dashed
+AbstractCommand;AbstractCommand;label="2668:view"
+AbstractCommand;AbstractCommand;label="2669:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2670", style=dashed
+AbstractCommand;DrawApplication;label="2671:view"
+DrawApplication;AbstractCommand;label="2672", style=dashed
+AbstractCommand;AbstractCommand;label="2673", style=dashed
+AbstractCommand;StandardDrawingView;label="2674:isInteractive"
+StandardDrawingView;AbstractCommand;label="2675", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2676:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2677:view"
+AbstractCommand;AbstractCommand;label="2678:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2679", style=dashed
+AbstractCommand;DrawApplication;label="2680:view"
+DrawApplication;AbstractCommand;label="2681", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2682", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2683:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2684", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2685", style=dashed
+AbstractCommand;UndoableCommand;label="2686", style=dashed
+UndoableCommand;CommandMenu;label="2687", style=dashed
+CommandMenu;UndoableCommand;label="2688:isExecutable"
+UndoableCommand;UndoableCommand;label="2689:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2690", style=dashed
+UndoableCommand;AbstractCommand;label="2691:isExecutable"
+AbstractCommand;AbstractCommand;label="2692:isViewRequired"
+AbstractCommand;AbstractCommand;label="2693", style=dashed
+AbstractCommand;AbstractCommand;label="2694:view"
+AbstractCommand;AbstractCommand;label="2695:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2696", style=dashed
+AbstractCommand;DrawApplication;label="2697:view"
+DrawApplication;AbstractCommand;label="2698", style=dashed
+AbstractCommand;AbstractCommand;label="2699", style=dashed
+AbstractCommand;AbstractCommand;label="2700:view"
+AbstractCommand;AbstractCommand;label="2701:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2702", style=dashed
+AbstractCommand;DrawApplication;label="2703:view"
+DrawApplication;AbstractCommand;label="2704", style=dashed
+AbstractCommand;AbstractCommand;label="2705", style=dashed
+AbstractCommand;StandardDrawingView;label="2706:isInteractive"
+StandardDrawingView;AbstractCommand;label="2707", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2708:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2709:view"
+AbstractCommand;AbstractCommand;label="2710:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2711", style=dashed
+AbstractCommand;DrawApplication;label="2712:view"
+DrawApplication;AbstractCommand;label="2713", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2714", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2715:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2716", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2717", style=dashed
+AbstractCommand;UndoableCommand;label="2718", style=dashed
+UndoableCommand;CommandMenu;label="2719", style=dashed
+CommandMenu;UndoableCommand;label="2720:isExecutable"
+UndoableCommand;UndoableCommand;label="2721:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2722", style=dashed
+UndoableCommand;AbstractCommand;label="2723:isExecutable"
+AbstractCommand;AbstractCommand;label="2724:isViewRequired"
+AbstractCommand;AbstractCommand;label="2725", style=dashed
+AbstractCommand;AbstractCommand;label="2726:view"
+AbstractCommand;AbstractCommand;label="2727:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2728", style=dashed
+AbstractCommand;DrawApplication;label="2729:view"
+DrawApplication;AbstractCommand;label="2730", style=dashed
+AbstractCommand;AbstractCommand;label="2731", style=dashed
+AbstractCommand;AbstractCommand;label="2732:view"
+AbstractCommand;AbstractCommand;label="2733:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2734", style=dashed
+AbstractCommand;DrawApplication;label="2735:view"
+DrawApplication;AbstractCommand;label="2736", style=dashed
+AbstractCommand;AbstractCommand;label="2737", style=dashed
+AbstractCommand;StandardDrawingView;label="2738:isInteractive"
+StandardDrawingView;AbstractCommand;label="2739", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2740:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2741:view"
+AbstractCommand;AbstractCommand;label="2742:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2743", style=dashed
+AbstractCommand;DrawApplication;label="2744:view"
+DrawApplication;AbstractCommand;label="2745", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2746", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2747:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2748", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2749", style=dashed
+AbstractCommand;UndoableCommand;label="2750", style=dashed
+UndoableCommand;CommandMenu;label="2751", style=dashed
+CommandMenu;UndoableCommand;label="2752:isExecutable"
+UndoableCommand;UndoableCommand;label="2753:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2754", style=dashed
+UndoableCommand;AbstractCommand;label="2755:isExecutable"
+AbstractCommand;AbstractCommand;label="2756:isViewRequired"
+AbstractCommand;AbstractCommand;label="2757", style=dashed
+AbstractCommand;AbstractCommand;label="2758:view"
+AbstractCommand;AbstractCommand;label="2759:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2760", style=dashed
+AbstractCommand;DrawApplication;label="2761:view"
+DrawApplication;AbstractCommand;label="2762", style=dashed
+AbstractCommand;AbstractCommand;label="2763", style=dashed
+AbstractCommand;AbstractCommand;label="2764:view"
+AbstractCommand;AbstractCommand;label="2765:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2766", style=dashed
+AbstractCommand;DrawApplication;label="2767:view"
+DrawApplication;AbstractCommand;label="2768", style=dashed
+AbstractCommand;AbstractCommand;label="2769", style=dashed
+AbstractCommand;StandardDrawingView;label="2770:isInteractive"
+StandardDrawingView;AbstractCommand;label="2771", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2772:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2773:view"
+AbstractCommand;AbstractCommand;label="2774:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2775", style=dashed
+AbstractCommand;DrawApplication;label="2776:view"
+DrawApplication;AbstractCommand;label="2777", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2778", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2779:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2780", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2781", style=dashed
+AbstractCommand;UndoableCommand;label="2782", style=dashed
+UndoableCommand;CommandMenu;label="2783", style=dashed
+CommandMenu;UndoableCommand;label="2784:isExecutable"
+UndoableCommand;UndoableCommand;label="2785:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2786", style=dashed
+UndoableCommand;AbstractCommand;label="2787:isExecutable"
+AbstractCommand;AbstractCommand;label="2788:isViewRequired"
+AbstractCommand;AbstractCommand;label="2789", style=dashed
+AbstractCommand;AbstractCommand;label="2790:view"
+AbstractCommand;AbstractCommand;label="2791:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2792", style=dashed
+AbstractCommand;DrawApplication;label="2793:view"
+DrawApplication;AbstractCommand;label="2794", style=dashed
+AbstractCommand;AbstractCommand;label="2795", style=dashed
+AbstractCommand;AbstractCommand;label="2796:view"
+AbstractCommand;AbstractCommand;label="2797:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2798", style=dashed
+AbstractCommand;DrawApplication;label="2799:view"
+DrawApplication;AbstractCommand;label="2800", style=dashed
+AbstractCommand;AbstractCommand;label="2801", style=dashed
+AbstractCommand;StandardDrawingView;label="2802:isInteractive"
+StandardDrawingView;AbstractCommand;label="2803", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2804:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2805:view"
+AbstractCommand;AbstractCommand;label="2806:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2807", style=dashed
+AbstractCommand;DrawApplication;label="2808:view"
+DrawApplication;AbstractCommand;label="2809", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2810", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2811:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2812", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2813", style=dashed
+AbstractCommand;UndoableCommand;label="2814", style=dashed
+UndoableCommand;CommandMenu;label="2815", style=dashed
+CommandMenu;UndoableCommand;label="2816:isExecutable"
+UndoableCommand;UndoableCommand;label="2817:getWrappedCommand"
+UndoableCommand;UndoableCommand;label="2818", style=dashed
+UndoableCommand;AbstractCommand;label="2819:isExecutable"
+AbstractCommand;AbstractCommand;label="2820:isViewRequired"
+AbstractCommand;AbstractCommand;label="2821", style=dashed
+AbstractCommand;AbstractCommand;label="2822:view"
+AbstractCommand;AbstractCommand;label="2823:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2824", style=dashed
+AbstractCommand;DrawApplication;label="2825:view"
+DrawApplication;AbstractCommand;label="2826", style=dashed
+AbstractCommand;AbstractCommand;label="2827", style=dashed
+AbstractCommand;AbstractCommand;label="2828:view"
+AbstractCommand;AbstractCommand;label="2829:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2830", style=dashed
+AbstractCommand;DrawApplication;label="2831:view"
+DrawApplication;AbstractCommand;label="2832", style=dashed
+AbstractCommand;AbstractCommand;label="2833", style=dashed
+AbstractCommand;StandardDrawingView;label="2834:isInteractive"
+StandardDrawingView;AbstractCommand;label="2835", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2836:isExecutableWithView"
+ChangeAttributeCommand;AbstractCommand;label="2837:view"
+AbstractCommand;AbstractCommand;label="2838:getDrawingEditor"
+AbstractCommand;AbstractCommand;label="2839", style=dashed
+AbstractCommand;DrawApplication;label="2840:view"
+DrawApplication;AbstractCommand;label="2841", style=dashed
+AbstractCommand;ChangeAttributeCommand;label="2842", style=dashed
+ChangeAttributeCommand;StandardDrawingView;label="2843:selectionCount"
+StandardDrawingView;ChangeAttributeCommand;label="2844", style=dashed
+ChangeAttributeCommand;AbstractCommand;label="2845", style=dashed
+AbstractCommand;UndoableCommand;label="2846", style=dashed
+UndoableCommand;CommandMenu;label="2847", style=dashed
+CommandMenu;DrawApplication;label="2848", style=dashed
+DrawApplication;UndoCommand;label="2849", style=dashed
+UndoCommand;_START_;label="2850", style=dashed

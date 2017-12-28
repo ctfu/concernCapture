@@ -1,0 +1,8 @@
+_START_;UndoCommand;label="1:isExecutableWithView"
+UndoCommand;AbstractCommand;label="2:getDrawingEditor"
+AbstractCommand;UndoCommand;label="3", style=dashed
+UndoCommand;DrawApplication;label="4:getUndoManager"
+DrawApplication;UndoCommand;label="5", style=dashed
+UndoCommand;UndoManager;label="6:getUndoSize"
+UndoManager;UndoCommand;label="7", style=dashed
+UndoCommand;_START_;label="8", style=dashed
